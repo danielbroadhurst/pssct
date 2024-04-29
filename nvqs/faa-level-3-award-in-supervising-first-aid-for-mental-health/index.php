@@ -18,6 +18,7 @@ require(TEMPLATES_PATH . "/header.php");
 <section class="container">
   <div class="flex-container">
     <h2>About this Level 3 Award</h2>
+  </div>
 </section>
 <section class="container">
   <div class="flex-container">
