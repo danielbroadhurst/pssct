@@ -15,7 +15,7 @@ require(TEMPLATES_PATH . "/header.php");
   <p>This is a starter page. You can use this as a template for new pages.</p>
 </div>
 
-<?php require(TEMPLATES_PATH . "/footer.php"); ?>
+<?php require(TEMPLATES_PATH . "/footer.php");?>
 </div>
 </body>
 

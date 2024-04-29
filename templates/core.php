@@ -4,7 +4,6 @@ if (!defined('SAFETORUN')) {
 }
 $myTitle = 'Home Page';
 $mycss = "assets/css/styles.css";
-require "header.php";
 // Body
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);

@@ -13,4 +13,5 @@
 </head>
 
 <body>
+    <div class="<?php echo $pageClass ?>">
     <?php require "menu.php" ?>
