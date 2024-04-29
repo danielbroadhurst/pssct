@@ -6,12 +6,12 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo $mytitle ?></title>
-    <meta name="Description" content="<?php echo $myMetaDescription ?>" />
+    <title><?= $mytitle ?></title>
+    <meta name="Description" content="<?= $myMetaDescription ?>" />
 
-    <link rel="stylesheet" href="<?php echo BASE_URL, $mycss ?>?v=1.23">
+    <link rel="stylesheet" href="<?= BASE_URL, '/' , $mycss ?>?v=1.23">
 </head>
 
 <body>
-    <div class="<?php echo $pageClass ?>">
-    <?php require "menu.php" ?>
+    <div class="<?= $pageClass ?>">
+        <?php require "menu.php" ?>

@@ -104,7 +104,7 @@ body {
 .menu-header {
   position: relative;
   background-color: #23B7FF;
-  background-image: url('https://pssct.co.uk/wp-content/uploads/2021/06/Homepage-Header-Image.jpg');
+  background-image: url('<?= BASE_URL ?>/wp-content/uploads/2021/06/Homepage-Header-Image.jpg');
   background-position: -2px -198px;
   background-repeat: no-repeat;
   background-size: cover;

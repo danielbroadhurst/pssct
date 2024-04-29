@@ -10,10 +10,11 @@ require(TEMPLATES_PATH . "/header.php");
 // Header & Menu
 ?>
 
-<div class="container">
-  <h1>Starter Page</h1>
-  <p>This is a starter page. You can use this as a template for new pages.</p>
-</div>
+<section class="container title">
+  <div class="flex-container justify-center">
+    <h1 class="text-blue">News</h1>
+  </div>
+</section>
 
 <?php require(TEMPLATES_PATH . "/footer.php"); ?>
 </div>

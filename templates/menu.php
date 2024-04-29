@@ -2,7 +2,7 @@
   <div class="header-overlay"></div>
   <div class="header-wrapper flex-container">
     <div class="header-content">
-      <img fetchpriority="high" decoding="async" width="866" height="227" src="https://pssct.co.uk/wp-content/uploads/2021/07/pss-home-logo-8.svg" class="logo" alt="">
+      <img fetchpriority="high" decoding="async" width="866" height="227" src="<?= BASE_URL ?>/wp-content/uploads/2021/07/pss-home-logo-8.svg" class="logo" alt="">
       <div class="nav-wrapper">
         <!-- <div role="button" class="mobile-menu">
           <span class="screen-reader-text">Menu</span>
@@ -14,11 +14,11 @@
         </div> -->
         <nav class="nav-menu">
           <ul>
-            <li><a href="https://pssct.co.uk/" class="menu-item">Home</a></li>
-            <li><a href="https://pssct.co.uk/consultancy/" class="menu-item">Consultancy</a></li>
-            <li><a href="https://pssct.co.uk/nvqs/" class="menu-item">NVQs &amp; Training</a></li>
-            <li><a href="https://pssct.co.uk/contact/" class="menu-item">Contact</a></li>
-            <li><a href="https://pssct.co.uk/about-us/" class="menu-item">About Us</a></li>
+            <li><a href="<?= BASE_URL ?>/" class="menu-item">Home</a></li>
+            <li><a href="<?= BASE_URL ?>/consultancy/" class="menu-item">Consultancy</a></li>
+            <li><a href="<?= BASE_URL ?>/nvqs/" class="menu-item">NVQs &amp; Training</a></li>
+            <li><a href="<?= BASE_URL ?>/contact/" class="menu-item">Contact</a></li>
+            <li><a href="<?= BASE_URL ?>/about-us/" class="menu-item">About Us</a></li>
           </ul>
         </nav>
       </div>

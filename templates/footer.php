@@ -4,16 +4,16 @@
       <div class="widget widget-one">
         <nav>
           <ul>
-            <li><a href="https://pssct.co.uk/">Home</a></li>
-            <li><a href="https://pssct.co.uk/consultancy/">Consultancy</a></li>
-            <li><a href="https://pssct.co.uk/nvqs/">NVQs &amp; Training</a></li>
-            <li><a href="https://pssct.co.uk/about-us/">About Us</a></li>
-            <li><a href="https://pssct.co.uk/contact/">Contact</a></li>
+            <li><a href="<?= BASE_URL ?>/">Home</a></li>
+            <li><a href="<?= BASE_URL ?>/consultancy/">Consultancy</a></li>
+            <li><a href="<?= BASE_URL ?>/nvqs/">NVQs &amp; Training</a></li>
+            <li><a href="<?= BASE_URL ?>/about-us/">About Us</a></li>
+            <li><a href="<?= BASE_URL ?>/contact/">Contact</a></li>
           </ul>
         </nav>
         <div class="copyright">
           <p><i>© Positive Safety Solutions 2021</i></p>
-          <p><a href="https://pssct.co.uk/wp-content/uploads/2023/06/TC-01-Learner-Rev-08.pdf" target="_blank"><i>Terms &amp; Conditions</i></a></p>
+          <p><a href="<?= BASE_URL ?>/wp-content/uploads/2023/06/TC-01-Learner-Rev-08.pdf" target="_blank"><i>Terms &amp; Conditions</i></a></p>
         </div>
         <div class="linked-in">
           <ul>
@@ -83,7 +83,7 @@
       <div class="widget widget-three">
         <ul class="contact">
           <li>
-            <a href="https://pssct.co.uk/contact/" target="_blank">
+            <a href="<?= BASE_URL ?>/contact/" target="_blank">
 
               <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
                   <path d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z" />
@@ -92,7 +92,7 @@
             </a>
           </li>
           <li>
-            <a href="https://pssct.co.uk/contact/">
+            <a href="<?= BASE_URL ?>/contact/">
 
               <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
                   <path d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z" />
@@ -118,7 +118,7 @@
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
               <path d="M459.4 151.7c.3 4.5 .3 9.1 .3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53 51.7 63.7 129.3 105.3 216.4 109.8-1.6-7.8-2.6-15.9-2.6-24 0-57.8 46.8-104.9 104.9-104.9 30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3z" />
             </svg> </a>
-          <a href="https://pssct.co.uk/contact/" target="_blank" class="email">
+          <a href="<?= BASE_URL ?>/contact/" target="_blank" class="email">
             <span>Envelope</span>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
               <path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z" />

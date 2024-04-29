@@ -36,17 +36,17 @@ require(TEMPLATES_PATH . "/header.php");
 <section class="container">
   <div class="flex-container">
     <div class="card">
-      <h3 class="card-title"><a href="https://pssct.co.uk/consultancy/">Consultancy</a></h3>
+      <h3 class="card-title"><a href="<?= BASE_URL ?>/consultancy/">Consultancy</a></h3>
       <ul class="card-list">
         <li>
-          <a href="http://pssct.co.uk/cdm-consultancy/" target="_blank">
+          <a href="<?= BASE_URL ?>/cdm-consultancy/" target="_blank">
             <span class="icon">
               <i aria-hidden="true" class="far fa-building"></i> </span>
             <span class="text">CDM Consultancy</span>
           </a>
         </li>
         <li>
-          <a href="http://pssct.co.uk/fire-safety-consultancy/" target="_blank">
+          <a href="<?= BASE_URL ?>/fire-safety-consultancy/" target="_blank">
 
             <span class="icon">
               <i aria-hidden="true" class="fas fa-fire-alt"></i> </span>
@@ -54,7 +54,7 @@ require(TEMPLATES_PATH . "/header.php");
           </a>
         </li>
         <li>
-          <a href="http://pssct.co.uk/health-safety-consultancy/" target="_blank">
+          <a href="<?= BASE_URL ?>/health-safety-consultancy/" target="_blank">
 
             <span class="icon">
               <i aria-hidden="true" class="far fa-clipboard"></i> </span>
@@ -62,7 +62,7 @@ require(TEMPLATES_PATH . "/header.php");
           </a>
         </li>
         <li>
-          <a href="https://pssct.co.uk/simple-safety-support/" target="_blank">
+          <a href="<?= BASE_URL ?>/simple-safety-support/" target="_blank">
 
             <span class="icon">
               <i aria-hidden="true" class="fas fa-handshake"></i> </span>
@@ -72,37 +72,38 @@ require(TEMPLATES_PATH . "/header.php");
       </ul>
     </div>
     <div class="card">
-      <h3 class="card-title"><a href="https://pssct.co.uk/consultancy/">Consultancy</a></h3>
+    <h3 class="card-title"><a href="<?= BASE_URL ?>/nvqs/">NVQs &amp; Training</a></h3>
       <ul class="card-list">
-        <li>
-          <a href="http://pssct.co.uk/cdm-consultancy/" target="_blank">
-            <span class="icon">
-              <i aria-hidden="true" class="far fa-building"></i> </span>
-            <span class="text">CDM Consultancy</span>
+        <li class="list-item">
+          <a href="<?= BASE_URL ?>/nvqs/#nvq-options">
+
+            <span class="list-icon">
+              <i aria-hidden="true" class="fas fa-hard-hat"></i> </span>
+            <span class="list-text">Construction NVQs</span>
           </a>
         </li>
-        <li>
-          <a href="http://pssct.co.uk/fire-safety-consultancy/" target="_blank">
+        <li class="list-item">
+          <a href="<?= BASE_URL ?>/nvqs/#nvq-options">
 
-            <span class="icon">
-              <i aria-hidden="true" class="fas fa-fire-alt"></i> </span>
-            <span class="text">Fire Safety Consultancy</span>
-          </a>
-        </li>
-        <li>
-          <a href="http://pssct.co.uk/health-safety-consultancy/" target="_blank">
-
-            <span class="icon">
+            <span class="list-icon">
               <i aria-hidden="true" class="far fa-clipboard"></i> </span>
-            <span class="text">Health &amp; Safety</span>
+            <span class="list-text">Health &amp; Safety NVQs</span>
           </a>
         </li>
-        <li>
-          <a href="https://pssct.co.uk/simple-safety-support/" target="_blank">
+        <li class="list-item">
+          <a href="<?= BASE_URL ?>/nvqs/#nvq-options">
 
-            <span class="icon">
-              <i aria-hidden="true" class="fas fa-handshake"></i> </span>
-            <span class="text">Simple Safety Support</span>
+            <span class="list-icon">
+              <i aria-hidden="true" class="fas fa-head-side-virus"></i> </span>
+            <span class="list-text">Mental Health First Aid</span>
+          </a>
+        </li>
+        <li class="list-item">
+          <a href="https://pssct.co.uk/staff-training/">
+
+            <span class="list-icon">
+              <i aria-hidden="true" class="fas fa-chalkboard-teacher"></i> </span>
+            <span class="list-text">Staff Training</span>
           </a>
         </li>
       </ul>
