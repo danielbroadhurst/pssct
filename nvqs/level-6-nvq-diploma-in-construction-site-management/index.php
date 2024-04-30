@@ -35,17 +35,17 @@ require(TEMPLATES_PATH . "/header.php");
         <div>
           <ul>
             <li>The Level 6 NVQ in Construction Site Management provides a nationally recognised qualification appropriate for those working as construction site managers in building and civil engineering</li>
-            <li>Is the academic equivalent to a Bachelor’s Degree. See our <a href="https://pssct.co.uk/nvqs/#faqs" target="_blank">FAQs</a> for more information about NVQ levels and their equivalents</li>
+            <li>Is the academic equivalent to a Bachelor’s Degree. See our <a href="<?= BASE_URL ?>/nvqs/#faqs" target="_blank">FAQs</a> for more information about NVQ levels and their equivalents</li>
             <li>Provides a nationally recognised qualification appropriate for those working as construction site managers in building and civil engineering.</li>
             <li>Recognised by the Chartered Institute of Building (CIOB) towards Member status (MCIOB)</li>
             <li>Follows the “Building and Civils” pathway</li>
-            <li><a href="https://pssct.co.uk/download/4192/">Click here to download unit overview</a></li>
+            <li><a href="<?= BASE_URL ?>/download/4192/">Click here to download unit overview</a></li>
           </ul>
         </div>
       </div>
       <div>
         <div>
-          <img src="https://pssct.co.uk/wp-content/uploads/2021/07/cscs-black-300x194.png" title="cscs-black" alt="cscs-black" loading="lazy">
+          <img src="<?= BASE_URL ?>/wp-content/uploads/2021/07/cscs-black-300x194.png" title="cscs-black" alt="cscs-black" loading="lazy">
         </div>
         <ul>
           <li>Successful completion of this qualification permits the learner to apply for the CSCS Black Construction Site Managers Card*</li>
@@ -97,9 +97,9 @@ require(TEMPLATES_PATH . "/header.php");
     <h2>Benefits of Obtaining the NVQ Level 6 Diploma</h2>
     <div>
       <p>The NVQ Level 6 is designed to elevate the competencies of professionals, enabling them to navigate complex challenges in construction, ensure compliance with industry regulations, and drive sustainable and efficient construction practices. This qualification serves as a valuable asset for those aiming to advance their careers and make substantial contributions to the field of construction site management.</p>
-      <p>Upon successfully finishing this NVQ, you may continue to pursue an advanced qualification, such as the <a title="Level 7 Diploma in Construction Senior Management" href="https://pssct.co.uk/nvqs/level-7-nvq-diploma-in-construction-senior-management/">Level 7 NVQ in Construction Senior Management</a>.</p>
+      <p>Upon successfully finishing this NVQ, you may continue to pursue an advanced qualification, such as the <a title="Level 7 Diploma in Construction Senior Management" href="<?= BASE_URL ?>/nvqs/level-7-nvq-diploma-in-construction-senior-management/">Level 7 NVQ in Construction Senior Management</a>.</p>
       <p>&nbsp;</p>
-      <p>Our Level 6 Diploma in Construction Site Management, perfect for those seeking to further their career in the construction industry. Improve your knowledge and gain valuable qualifications today! Learn the skills to manage complex construction sites safely and efficiently. Send us a <a href="https://pssct.co.uk/contact/">message</a> or call us to learn more! –<strong> 0800 448 0503</strong></p>
+      <p>Our Level 6 Diploma in Construction Site Management, perfect for those seeking to further their career in the construction industry. Improve your knowledge and gain valuable qualifications today! Learn the skills to manage complex construction sites safely and efficiently. Send us a <a href="<?= BASE_URL ?>/contact/">message</a> or call us to learn more! –<strong> 0800 448 0503</strong></p>
     </div>
   </div>
   </div>

@@ -107,7 +107,7 @@ require(TEMPLATES_PATH . "/header.php");
           </a>
         </li>
         <li class="list-item">
-          <a href="https://pssct.co.uk/staff-training/">
+          <a href="<?= BASE_URL ?>/staff-training/">
 
             <span class="icon blue">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->

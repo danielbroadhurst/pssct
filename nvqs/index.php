@@ -230,7 +230,7 @@ require(TEMPLATES_PATH . "/header.php");
       <div class="mr-50">
         <h6 class="mb-20">Have Any Questions?</h6>
         <h2 class="mb-20">FAQs</h2>
-        <p>If our FAQs haven’t answered your questions, you can contact us via the form on our&nbsp;<a href="https://pssct.co.uk/contact/" target="_blank" rel="noopener">Contact&nbsp;</a>page</p>
+        <p>If our FAQs haven’t answered your questions, you can contact us via the form on our&nbsp;<a href="<?= BASE_URL ?>/contact/" target="_blank" rel="noopener">Contact&nbsp;</a>page</p>
       </div>
     </div>
     <div class="width-66">

@@ -36,9 +36,9 @@ require(TEMPLATES_PATH . "/header.php");
           <div>
             <ul>
               <li>The NVQ Level 7 Diploma in Construction Senior Management is aimed at senior managers in the construction industry working in a wide range of job roles</li>
-              <li>Is the academic equivalent to a Master’s Degree. See our <a href="http://pssct.co.uk/nvqs/#faqs" target="_blank">FAQs</a> for more information about NVQ levels and their equivalents</li>
+              <li>Is the academic equivalent to a Master’s Degree. See our <a href="<?= BASE_URL ?>/nvqs/#faqs" target="_blank">FAQs</a> for more information about NVQ levels and their equivalents</li>
               <li>Provides a qualification recognised by the Construction Skills Certification Scheme (CSCS)</li>
-              <li><a href="https://pssct.co.uk/download/4202/">Click here to download unit overview</a></li>
+              <li><a href="<?= BASE_URL ?>/download/4202/">Click here to download unit overview</a></li>
             </ul>
           </div>
           <div>
@@ -53,7 +53,7 @@ require(TEMPLATES_PATH . "/header.php");
       </div>
       <div>
         <div>
-          <img src="https://pssct.co.uk/wp-content/uploads/2021/07/cscs-black-300x194.png" title="cscs-black" alt="cscs-black" loading="lazy">
+          <img src="<?= BASE_URL ?>/wp-content/uploads/2021/07/cscs-black-300x194.png" title="cscs-black" alt="cscs-black" loading="lazy">
         </div>
         <ul>
           <li>Successful completion of this qualification permits the learner to apply for the CSCS Black Construction Site Managers Card**</li>
@@ -93,14 +93,14 @@ require(TEMPLATES_PATH . "/header.php");
 <section class="container">
   <div class="flex-container">
     <div>
-      <p>Know the essential skills and knowledge you need to advance your career or become a senior manager in the construction industry with a Level 7 NVQ Diploma in Construction Senior Management. Speak with us today! Call us on <strong>0800 448 0503</strong> or send us a message on this <a href="https://pssct.co.uk/contact/">link</a>.</p>
+      <p>Know the essential skills and knowledge you need to advance your career or become a senior manager in the construction industry with a Level 7 NVQ Diploma in Construction Senior Management. Speak with us today! Call us on <strong>0800 448 0503</strong> or send us a message on this <a href="<?= BASE_URL ?>/contact/">link</a>.</p>
     </div>
   </div>
 </section>
 <section class="container">
   <div class="flex-container">
     <div>
-      <p><strong>Positive Safety Solutions</strong> is the home of affordable and achievable <a title="construction nvqs" href="https://pssct.co.uk/nvqs/">Construction NVQs</a>. We offer NVQs ranging from <a title="level 3 diploma in occupational work supervision" href="https://pssct.co.uk/nvqs/level-3-nvq-diploma-in-occupational-work-supervision/">Level 3 Diploma in Occupational Work Supervision</a> to Level 7 Diploma in Construction Senior Management. Elevate your Construction career by obtaining an NVQ. Get expert advice and discover the perfect course for your needs. Contact us at 0800 448 0503 to get started today!</p>
+      <p><strong>Positive Safety Solutions</strong> is the home of affordable and achievable <a title="construction nvqs" href="<?= BASE_URL ?>/nvqs/">Construction NVQs</a>. We offer NVQs ranging from <a title="level 3 diploma in occupational work supervision" href="<?= BASE_URL ?>/nvqs/level-3-nvq-diploma-in-occupational-work-supervision/">Level 3 Diploma in Occupational Work Supervision</a> to Level 7 Diploma in Construction Senior Management. Elevate your Construction career by obtaining an NVQ. Get expert advice and discover the perfect course for your needs. Contact us at 0800 448 0503 to get started today!</p>
     </div>
   </div>
 </section>

@@ -19,7 +19,7 @@ require(TEMPLATES_PATH . "/header.php");
   <div class="flex-container">
     <div>
       <p style="text-align: center;">Earning an NVQ Level 6 Diploma in Occupational Health and Safety Practice signifies mastery in the field, akin to a bachelor’s degree. It’s a work-based qualification in the UK that assesses competency in performing specific roles in Occupational Health and Safety.</p>
-      <p style="text-align: center;"><a href="https://pssct.co.uk/">Positive Safety Solutions Consultancy &amp; Training</a> offers Level 6 Health and Safety NVQ designed to validate practical skills and knowledge relevant to the industry. This course provides comprehensive training and assessment to enable professionals to effectively manage occupational health and safety practices at a senior level within their organisation. It is suitable for anyone who wants to demonstrate their competence in promoting a safe and healthy work environment and understands the importance of this qualification as a pathway for career development and progression.</p>
+      <p style="text-align: center;"><a href="<?= BASE_URL ?>/">Positive Safety Solutions Consultancy &amp; Training</a> offers Level 6 Health and Safety NVQ designed to validate practical skills and knowledge relevant to the industry. This course provides comprehensive training and assessment to enable professionals to effectively manage occupational health and safety practices at a senior level within their organisation. It is suitable for anyone who wants to demonstrate their competence in promoting a safe and healthy work environment and understands the importance of this qualification as a pathway for career development and progression.</p>
     </div>
 </section>
 <section class="container">
@@ -37,9 +37,9 @@ require(TEMPLATES_PATH . "/header.php");
         <div>
           <ul >
             <li>The Level 6 Diploma in Occupational Health and Safety Practice is aimed at candidates who are responsible for developing and applying health and safety procedures day-to-day in their organisation. They may be a staff member, supervisor or manager looking to improve their knowledge and skills</li>
-            <li>Is the academic equivalent to a Bachelor’s Degree. See our <a href="https://pssct.co.uk/nvqs/#faqs" target="_blank">FAQs</a> for more information about NVQ levels and their equivalents</li>
+            <li>Is the academic equivalent to a Bachelor’s Degree. See our <a href="<?= BASE_URL ?>/nvqs/#faqs" target="_blank">FAQs</a> for more information about NVQ levels and their equivalents</li>
             <li>Is accepted by the Institution of Occupational Health and Safety (IOSH) for <a href="https://iosh.com/health-and-safety-professionals/become-a-member/membership-categories/" target="_blank">Graduate Membership</a> (GradIOSH)*</li>
-            <li><a href="https://pssct.co.uk/download/4166/">Click here to download unit overview</a></li>
+            <li><a href="<?= BASE_URL ?>/download/4166/">Click here to download unit overview</a></li>
           </ul>
         </div>
       </div>

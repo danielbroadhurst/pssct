@@ -2,6 +2,7 @@
 define('SAFETORUN', TRUE);
 $mytitle = 'REPLACE';
 $myMetaDescription = 'REPLACE';
+$pageClass = 'about-us';
 require_once($_SERVER['DOCUMENT_ROOT'] . "/config.php");
 require_once(TEMPLATES_PATH . "/core.php");
 // HMTL Begins Here
@@ -89,7 +90,7 @@ require(TEMPLATES_PATH . "/header.php");
   <div class="flex-container employee">
     <div class="width-26 p-10">
       <div class="head-shot">
-        <img decoding="async" width="683" height="1024" src="https://pssct.co.uk/wp-content/uploads/2021/08/kath-new-683x1024.png" alt="">
+        <img decoding="async" width="683" height="1024" src="<?= BASE_URL ?>/wp-content/uploads/2021/08/kath-new-683x1024.png" alt="">
       </div>
     </div>
     <div class="width-73 p-10">

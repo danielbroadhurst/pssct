@@ -30,17 +30,17 @@ require(TEMPLATES_PATH . "/header.php");
         <div>
           <ul>
             <li>The Level 6 Diploma in Construction Contracting Operations Management provides a nationally recognised qualification for candidates working in a management role in the construction industry</li>
-            <li>Is the academic equivalent to a Bachelor’s Degree. See our <a href="http://pssct.co.uk/nvqs/#faqs" target="_blank">FAQs</a> for more information about NVQ levels and their equivalents</li>
+            <li>Is the academic equivalent to a Bachelor’s Degree. See our <a href="<?= BASE_URL ?>/nvqs/#faqs" target="_blank">FAQs</a> for more information about NVQ levels and their equivalents</li>
             <li>Designed for technical people working at senior level in a wide range of job roles</li>
             <li>Recognised by the Chartered Institute of Building (CIOB) towards Member status (MCIOB)</li>
             <li>Follows the “General” pathway – other pathways are available on request</li>
-            <li><a href="https://pssct.co.uk/download/4197/">Click here to download unit overview</a></li>
+            <li><a href="<?= BASE_URL ?>/download/4197/">Click here to download unit overview</a></li>
           </ul>
         </div>
       </div>
       <div>
         <div>
-          <img src="https://pssct.co.uk/wp-content/uploads/2021/07/cscs-black-300x194.png" title="cscs-black" alt="cscs-black" loading="lazy">
+          <img src="<?= BASE_URL ?>/wp-content/uploads/2021/07/cscs-black-300x194.png" title="cscs-black" alt="cscs-black" loading="lazy">
         </div>
         <ul>
           <li>Successful completion of this qualification permits the learner to apply for the CSCS Black Construction Site Managers Card*</li>

@@ -32,7 +32,7 @@ require(TEMPLATES_PATH . "/header.php");
             <li>The Level 3 Certificate in Occupational Health and safety is aimed at candidates working as a health and safety practitioner in a position of responsibility for the health, safety and welfare of a team or organisation</li>
             <li>Is the academic equivalent of the NEBOSH General Certificate</li>
             <li>Is accepted by the Institution of Occupational Health and Safety (IOSH) for <a href="https://iosh.com/health-and-safety-professionals/become-a-member/membership-categories#technical/" target="_blank">Technical Membership</a> (TechIOSH)*</li>
-            <li><a href="https://pssct.co.uk/wp-content/uploads/2023/06/Level-3-NVQ-Certificate-in-Occupational-Health-and-Safety-2023.pdf">Click here to download unit overview</a></li>
+            <li><a href="<?= BASE_URL ?>/wp-content/uploads/2023/06/Level-3-NVQ-Certificate-in-Occupational-Health-and-Safety-2023.pdf">Click here to download unit overview</a></li>
           </ul>
         </div>
       </div>

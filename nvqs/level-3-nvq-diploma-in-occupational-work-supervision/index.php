@@ -49,13 +49,13 @@ require(TEMPLATES_PATH . "/header.php");
                 <li>candidate provides evidence to demonstrate relevant verifiable experience and competence in their occupational area for example: qualification to N/SVQ Level 2 or SCQF Level 5 </li>
               </ul>
             </li>
-            <li><a href="https://pssct.co.uk/download/4546/">Click here to download unit overview</a></li>
+            <li><a href="<?= BASE_URL ?>/download/4546/">Click here to download unit overview</a></li>
           </ul>
         </div>
       </div>
       <div>
         <div>
-          <img src="https://pssct.co.uk/wp-content/uploads/2021/07/cscs-gold.png" title="cscs-gold" alt="cscs-gold" loading="lazy">
+          <img src="<?= BASE_URL ?>/wp-content/uploads/2021/07/cscs-gold.png" title="cscs-gold" alt="cscs-gold" loading="lazy">
         </div>
         <ul>
           <li>Successful completion of this qualification permits the learner to apply for the relevant CSCS Site supervisor’s gold card*</li>
@@ -107,7 +107,7 @@ require(TEMPLATES_PATH . "/header.php");
     <h2>Benefits of Obtaining this NVQ Level 3 Diploma</h2>
     <div>
       <p>Obtaining an NVQ Level 3 Diploma in Occupational Work Supervision is a strategic investment for individuals seeking to enhance their skills, credibility, and confidence needed to excel in occupational work supervision within the dynamic and demanding construction sector.</p>
-      <p>Securing an NVQ Level 3 opens doors to various career opportunities and serves as a foundation for pursuing higher-level qualifications. PSSCT offers various <strong><a title="construction nvqs" href="https://pssct.co.uk/nvqs/">Construction NVQs</a></strong> that can help you progress and further your career in the field of construction.</p>
+      <p>Securing an NVQ Level 3 opens doors to various career opportunities and serves as a foundation for pursuing higher-level qualifications. PSSCT offers various <strong><a title="construction nvqs" href="<?= BASE_URL ?>/nvqs/">Construction NVQs</a></strong> that can help you progress and further your career in the field of construction.</p>
       <p>&nbsp;</p>
       <p>Our Level 3 NVQ Diploma in Occupational Work Supervision is an accredited and comprehensive qualification designed to equip learners with essential skills and knowledge needed to become a successful supervisor. Call us now to learn more! <strong>0800 448 0503</strong></p>
     </div>

@@ -33,7 +33,7 @@ require(TEMPLATES_PATH . "/header.php");
             <li>Candidates will develop knowledge and skills in areas such as developing and maintaining working relationships; preparing and processing invitations to tender; preparing programmes and schedules of work; operating project information systems; and operating health, safety and welfare systems in construction</li>
             <li>This qualification is recognised by the Construction Skills Certification Scheme (CSCS)</li>
             <li>Designed to confirm the learner’s occupational competence in a range of jobs in the construction sector</li>
-            <li><a href="https://pssct.co.uk/download/4182/">Click here to download unit overview</a></li>
+            <li><a href="<?= BASE_URL ?>/download/4182/">Click here to download unit overview</a></li>
           </ul>
         </div>
       </div>
@@ -44,7 +44,7 @@ require(TEMPLATES_PATH . "/header.php");
         </ul>
       </div>
       <div>
-        <img src="https://pssct.co.uk/wp-content/uploads/2021/07/cscs-gold.png" title="cscs-gold" alt="cscs-gold" loading="lazy">
+        <img src="<?= BASE_URL ?>/wp-content/uploads/2021/07/cscs-gold.png" title="cscs-gold" alt="cscs-gold" loading="lazy">
       </div>
     </div>
     <div class="flex-container">

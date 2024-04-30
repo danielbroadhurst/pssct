@@ -2,6 +2,7 @@
 define('SAFETORUN', TRUE);
 $mytitle = 'REPLACE';
 $myMetaDescription = 'REPLACE';
+$pageClass = 'health-safety-consultancy';
 require_once($_SERVER['DOCUMENT_ROOT'] . "/config.php");
 require_once(TEMPLATES_PATH . "/core.php");
 // HMTL Begins Here

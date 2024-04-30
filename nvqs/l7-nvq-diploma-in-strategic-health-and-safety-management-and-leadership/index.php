@@ -31,7 +31,7 @@ require(TEMPLATES_PATH . "/header.php");
           <li>Level 7 Diploma in Strategic Health &amp; Safety Leadership and Management ( L7 NVQ ) is aimed at safety professionals who are responsible for developing and applying Health &amp; Safety procedures day-to-day in any organisation</li>
           <li>Suitable for senior managers with Health &amp; Safety responsibility at a strategic level and operating over multiple sites</li>
           <li>Is for Health and Safety Managers who want to improve their knowledge and skills</li>
-          <li><a href="https://pssct.co.uk/download/4171/">Click here to download unit overview</a></li>
+          <li><a href="<?= BASE_URL ?>/download/4171/">Click here to download unit overview</a></li>
         </ul>
       </div>
     </div>
@@ -69,7 +69,7 @@ require(TEMPLATES_PATH . "/header.php");
     <h2>NVQ Level 7 Diploma in Strategic Health & Safety Leadership and Management</h2>
     <div>
       <p>The NVQ Level 7 Diploma in Strategic Health &amp; Safety Leadership and Management is a comprehensive qualification that enables individuals to develop their skills and knowledge in the areas of safety management and leadership. This diploma will provide you with an understanding of the principles of risk assessment, as well as how best to implement them into a business or organisation. With this qualification, you can demonstrate that you have the skills necessary to effectively manage health and safety systems within an organisation.</p>
-      <p>Give us a call on <b>0800 448 0503</b> or send us a message through this&nbsp;<a href="https://pssct.co.uk/contact/" target="_blank" rel="noopener"><b>link</b></a>. You may also fill in this&nbsp;<a href="https://forms.office.com/r/MPtC7PK5PM" target="_blank" rel="noopener"><b>form</b></a>&nbsp;to check your eligibility. Get in touch with us today!</p>
+      <p>Give us a call on <b>0800 448 0503</b> or send us a message through this&nbsp;<a href="<?= BASE_URL ?>/contact/" target="_blank" rel="noopener"><b>link</b></a>. You may also fill in this&nbsp;<a href="https://forms.office.com/r/MPtC7PK5PM" target="_blank" rel="noopener"><b>form</b></a>&nbsp;to check your eligibility. Get in touch with us today!</p>
     </div>
   </div>
   </div>
@@ -89,7 +89,7 @@ require(TEMPLATES_PATH . "/header.php");
     <h2>Globally Recognised NVQ Level 7 Health & Safety Qualification</h2>
     <div>
       <p>Develop the skills needed to work in your chosen area of expertise. Learn industry leading knowledge in your profession. Improve your career prospects and take the next step in your professional development. Gain an accredited NVQ Level 7 Diploma in Strategic Health &amp; Safety Leadership and Management and become a leader in your field.</p>
-      <p>On completion of this course learners will be able to demonstrate a detailed knowledge in identifying existing or potential hazards in the workplace as well as implementing suitable control measures for each hazard identified. We offer NVQ Level 7 Health and Safety Qualification to learners anywhere in the world. <a href="https://pssct.co.uk/contact/">Enquire now</a>!</p>
+      <p>On completion of this course learners will be able to demonstrate a detailed knowledge in identifying existing or potential hazards in the workplace as well as implementing suitable control measures for each hazard identified. We offer NVQ Level 7 Health and Safety Qualification to learners anywhere in the world. <a href="<?= BASE_URL ?>/contact/">Enquire now</a>!</p>
     </div>
   </div>
   </div>
