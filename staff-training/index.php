@@ -11,17 +11,17 @@ require(TEMPLATES_PATH . "/header.php");
 // Header & Menu
 ?>
 
-<section class="container title">
-  <div class="flex-container justify-center">
+<section class="container title mt-30">
+  <div class="flex-container justify-center text-center">
     <h1 class="text-blue">Staff Training</h1>
   </div>
 </section>
-<section class="container">
+<section class="container mt-30 mb-40">
   <div class="flex-container">
-    <div>
+    <div class="width-33 flex align-center">
       <h3>Training your employees helps to keep your business compliant and your employees competent.</h3>
     </div>
-    <div>
+    <div class="width-66 container text pl-50">
       <p>Competence can be described as <strong>the combination of training, skills, experience and knowledge that a person has, and their ability to apply them to perform a task safely</strong>. Other factors, such as attitude and physical ability, can also affect someone’s competence.</p>
       <p>As an employer, you should take account of the competence of employees as this will help you decide what level of <a href="https://www.legislation.gov.uk/ukpga/1974/37/section/2" target="_blank" rel="noopener">information, instruction, training and supervision</a> you need to provide.</p>
       <p>At Positive Safety Solutions we pride ourselves on our service delivery and attention to detail, ensuring that our Clients achieve and maintain&nbsp;<a href="https://www.hse.gov.uk/workers/employers.htm" target="_blank" rel="noopener" class="broken_link">legal compliance</a>, so that their staff and others are kept safe in the workplace and throughout the life of their projects.</p>
@@ -31,8 +31,8 @@ require(TEMPLATES_PATH . "/header.php");
   </div>
 </section>
 <section class="container">
-  <div class="flex-container">
-    <h5>Positive Safety Solutions offer:<br>
+  <div class="flex-container p-10">
+    <h5 class="heading">Positive Safety Solutions offer:<br>
       <ul>
         <li>Regulated qualifications from a number of awarding bodies such as ProQualAB and QNUK </li>
         <li>Bespoke training courses in a variety of safety related topics</li>
@@ -43,113 +43,155 @@ require(TEMPLATES_PATH . "/header.php");
     </h5>
   </div>
 </section>
-<section class="container">
+<section class="container mt-20 more-info mb-50">
   <div class="flex-container">
-    <div class="card blue">
-      <h3 class="card-title">Fire Safety</h3>
-      <ul>
-        <li class="list-item">
-          <span class="list-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M173.9 439.4l-166.4-166.4c-10-10-10-26.2 0-36.2l36.2-36.2c10-10 26.2-10 36.2 0L192 312.7 432.1 72.6c10-10 26.2-10 36.2 0l36.2 36.2c10 10 10 26.2 0 36.2l-294.4 294.4c-10 10-26.2 10-36.2 0z"/></svg> </span>
-          <span class="list-text">L1 Award in Fire Awareness at Work</span>
-        </li>
-        <li class="list-item">
-          <span class="list-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M173.9 439.4l-166.4-166.4c-10-10-10-26.2 0-36.2l36.2-36.2c10-10 26.2-10 36.2 0L192 312.7 432.1 72.6c10-10 26.2-10 36.2 0l36.2 36.2c10 10 10 26.2 0 36.2l-294.4 294.4c-10 10-26.2 10-36.2 0z"/></svg> </span>
-          <span class="list-text">L2 Award in Fire Safety for Fire Marshals</span>
-        </li>
-        <li class="list-item">
-          <span class="list-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M173.9 439.4l-166.4-166.4c-10-10-10-26.2 0-36.2l36.2-36.2c10-10 26.2-10 36.2 0L192 312.7 432.1 72.6c10-10 26.2-10 36.2 0l36.2 36.2c10 10 10 26.2 0 36.2l-294.4 294.4c-10 10-26.2 10-36.2 0z"/></svg> </span>
-          <span class="list-text">Hot works management</span>
-        </li>
-      </ul>
-      <a class="button" href="<?= BASE_URL ?>/contact/">Contact us</a>
+    <div class="card blue-red text-white justify-between">
+      <div>
+        <h3 class="card-title text-center mt-4 mb-20">Fire Safety</h3>
+        <ul class="list-items mt-7 mb-10">
+          <li class="list-item mb-10">
+            <span class="icon white">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                <path d="M173.9 439.4l-166.4-166.4c-10-10-10-26.2 0-36.2l36.2-36.2c10-10 26.2-10 36.2 0L192 312.7 432.1 72.6c10-10 26.2-10 36.2 0l36.2 36.2c10 10 10 26.2 0 36.2l-294.4 294.4c-10 10-26.2 10-36.2 0z" />
+              </svg> </span>
+            <span class="list-text">L1 Award in Fire Awareness at Work</span>
+          </li>
+          <li class="list-item mb-10">
+            <span class="icon white">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                <path d="M173.9 439.4l-166.4-166.4c-10-10-10-26.2 0-36.2l36.2-36.2c10-10 26.2-10 36.2 0L192 312.7 432.1 72.6c10-10 26.2-10 36.2 0l36.2 36.2c10 10 10 26.2 0 36.2l-294.4 294.4c-10 10-26.2 10-36.2 0z" />
+              </svg> </span>
+            <span class="list-text">L2 Award in Fire Safety for Fire Marshals</span>
+          </li>
+          <li class="list-item mb-10">
+            <span class="icon white">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                <path d="M173.9 439.4l-166.4-166.4c-10-10-10-26.2 0-36.2l36.2-36.2c10-10 26.2-10 36.2 0L192 312.7 432.1 72.6c10-10 26.2-10 36.2 0l36.2 36.2c10 10 10 26.2 0 36.2l-294.4 294.4c-10 10-26.2 10-36.2 0z" />
+              </svg> </span>
+            <span class="list-text">Hot works management</span>
+          </li>
+        </ul>
+      </div>
+      <div class="flex justify-center mt-7">
+        <a class="button more-info" href="<?= BASE_URL ?>/contact/">Contact us</a>
+      </div>
     </div>
-    <div class="card">
-      <h3 class="card-title">Health & Safety</h3>
-      <ul>
-        <li class="list-item">
-          <span class="list-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M173.9 439.4l-166.4-166.4c-10-10-10-26.2 0-36.2l36.2-36.2c10-10 26.2-10 36.2 0L192 312.7 432.1 72.6c10-10 26.2-10 36.2 0l36.2 36.2c10 10 10 26.2 0 36.2l-294.4 294.4c-10 10-26.2 10-36.2 0z"/></svg> </span>
-          <span class="list-text">L1 Award in H&amp;S in the Workplace</span>
-        </li>
-        <li class="list-item">
-          <span class="list-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M173.9 439.4l-166.4-166.4c-10-10-10-26.2 0-36.2l36.2-36.2c10-10 26.2-10 36.2 0L192 312.7 432.1 72.6c10-10 26.2-10 36.2 0l36.2 36.2c10 10 10 26.2 0 36.2l-294.4 294.4c-10 10-26.2 10-36.2 0z"/></svg> </span>
-          <span class="list-text">L2 Award in H&amp;S in the workplace</span>
-        </li>
-        <li class="list-item">
-          <span class="list-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M173.9 439.4l-166.4-166.4c-10-10-10-26.2 0-36.2l36.2-36.2c10-10 26.2-10 36.2 0L192 312.7 432.1 72.6c10-10 26.2-10 36.2 0l36.2 36.2c10 10 10 26.2 0 36.2l-294.4 294.4c-10 10-26.2 10-36.2 0z"/></svg> </span>
-          <span class="list-text">L2 Award in Principles of Workplace Risk Assessment</span>
-        </li>
-        <li class="list-item">
-          <span class="list-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M173.9 439.4l-166.4-166.4c-10-10-10-26.2 0-36.2l36.2-36.2c10-10 26.2-10 36.2 0L192 312.7 432.1 72.6c10-10 26.2-10 36.2 0l36.2 36.2c10 10 10 26.2 0 36.2l-294.4 294.4c-10 10-26.2 10-36.2 0z"/></svg> </span>
-          <span class="list-text">L2 Award in Principles of Manual Handling</span>
-        </li>
-        <li class="list-item">
-          <span class="list-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M173.9 439.4l-166.4-166.4c-10-10-10-26.2 0-36.2l36.2-36.2c10-10 26.2-10 36.2 0L192 312.7 432.1 72.6c10-10 26.2-10 36.2 0l36.2 36.2c10 10 10 26.2 0 36.2l-294.4 294.4c-10 10-26.2 10-36.2 0z"/></svg> </span>
-          <span class="list-text">L2 Award in Principles of COSHH</span>
-        </li>
-        <li class="list-item">
-          <span class="list-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M173.9 439.4l-166.4-166.4c-10-10-10-26.2 0-36.2l36.2-36.2c10-10 26.2-10 36.2 0L192 312.7 432.1 72.6c10-10 26.2-10 36.2 0l36.2 36.2c10 10 10 26.2 0 36.2l-294.4 294.4c-10 10-26.2 10-36.2 0z"/></svg> </span>
-          <span class="list-text">L2 Award in Manual Handling of Loads at Work</span>
-        </li>
-      </ul>
-      <a class="button" href="<?= BASE_URL ?>/contact/">Contact us</a>
+    <div class="card shadow justify-between">
+      <div>
+        <h3 class="card-title text-center mb-20">Health & Safety</h3>
+        <ul class="list-items mt-10 mb-10">
+          <li class="list-item mb-10">
+            <span class="icon blue">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                <path d="M173.9 439.4l-166.4-166.4c-10-10-10-26.2 0-36.2l36.2-36.2c10-10 26.2-10 36.2 0L192 312.7 432.1 72.6c10-10 26.2-10 36.2 0l36.2 36.2c10 10 10 26.2 0 36.2l-294.4 294.4c-10 10-26.2 10-36.2 0z" />
+              </svg> </span>
+            <span class="list-text text-green">L1 Award in H&amp;S in the Workplace</span>
+          </li>
+          <li class="list-item mb-10">
+            <span class="icon blue">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                <path d="M173.9 439.4l-166.4-166.4c-10-10-10-26.2 0-36.2l36.2-36.2c10-10 26.2-10 36.2 0L192 312.7 432.1 72.6c10-10 26.2-10 36.2 0l36.2 36.2c10 10 10 26.2 0 36.2l-294.4 294.4c-10 10-26.2 10-36.2 0z" />
+              </svg> </span>
+            <span class="list-text text-green">L2 Award in H&amp;S in the workplace</span>
+          </li>
+          <li class="list-item mb-10">
+            <span class="icon blue">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                <path d="M173.9 439.4l-166.4-166.4c-10-10-10-26.2 0-36.2l36.2-36.2c10-10 26.2-10 36.2 0L192 312.7 432.1 72.6c10-10 26.2-10 36.2 0l36.2 36.2c10 10 10 26.2 0 36.2l-294.4 294.4c-10 10-26.2 10-36.2 0z" />
+              </svg> </span>
+            <span class="list-text text-green">L2 Award in Principles of Workplace Risk Assessment</span>
+          </li>
+          <li class="list-item mb-10">
+            <span class="icon blue">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                <path d="M173.9 439.4l-166.4-166.4c-10-10-10-26.2 0-36.2l36.2-36.2c10-10 26.2-10 36.2 0L192 312.7 432.1 72.6c10-10 26.2-10 36.2 0l36.2 36.2c10 10 10 26.2 0 36.2l-294.4 294.4c-10 10-26.2 10-36.2 0z" />
+              </svg> </span>
+            <span class="list-text text-green">L2 Award in Principles of Manual Handling</span>
+          </li>
+          <li class="list-item mb-10">
+            <span class="icon blue">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                <path d="M173.9 439.4l-166.4-166.4c-10-10-10-26.2 0-36.2l36.2-36.2c10-10 26.2-10 36.2 0L192 312.7 432.1 72.6c10-10 26.2-10 36.2 0l36.2 36.2c10 10 10 26.2 0 36.2l-294.4 294.4c-10 10-26.2 10-36.2 0z" />
+              </svg> </span>
+            <span class="list-text text-green">L2 Award in Principles of COSHH</span>
+          </li>
+          <li class="list-item mb-10">
+            <span class="icon blue">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                <path d="M173.9 439.4l-166.4-166.4c-10-10-10-26.2 0-36.2l36.2-36.2c10-10 26.2-10 36.2 0L192 312.7 432.1 72.6c10-10 26.2-10 36.2 0l36.2 36.2c10 10 10 26.2 0 36.2l-294.4 294.4c-10 10-26.2 10-36.2 0z" />
+              </svg> </span>
+            <span class="list-text text-green">L2 Award in Manual Handling of Loads at Work</span>
+          </li>
+        </ul>
+      </div>
+      <div class="flex justify-center mt-30">
+        <a class="button more-info" href="<?= BASE_URL ?>/contact/">Contact us</a>
+      </div>
     </div>
-    <div class="card blue">
-      <h3 class="card-title">Construction Safety</h3>
-      <ul>
-        <li class="list-item">
-          <span class="list-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M173.9 439.4l-166.4-166.4c-10-10-10-26.2 0-36.2l36.2-36.2c10-10 26.2-10 36.2 0L192 312.7 432.1 72.6c10-10 26.2-10 36.2 0l36.2 36.2c10 10 10 26.2 0 36.2l-294.4 294.4c-10 10-26.2 10-36.2 0z"/></svg> </span>
-          <span class="list-text">L1 Award in H&amp;S in a construction environment</span>
-        </li>
-        <li class="list-item">
-          <span class="list-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M173.9 439.4l-166.4-166.4c-10-10-10-26.2 0-36.2l36.2-36.2c10-10 26.2-10 36.2 0L192 312.7 432.1 72.6c10-10 26.2-10 36.2 0l36.2 36.2c10 10 10 26.2 0 36.2l-294.4 294.4c-10 10-26.2 10-36.2 0z"/></svg> </span>
-          <span class="list-text">L2 Award in Asbestos Awareness</span>
-        </li>
-      </ul>
-      <a class="button" href="<?= BASE_URL ?>/contact/">Contact us</a>
+    <div class="card blue-red text-white justify-between">
+      <div>
+        <h3 class="card-title text-center mt-4 mb-20">Construction Safety</h3>
+        <ul class="list-items mt-7 mb-10">
+          <li class="list-item mb-10">
+            <span class="icon white">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                <path d="M173.9 439.4l-166.4-166.4c-10-10-10-26.2 0-36.2l36.2-36.2c10-10 26.2-10 36.2 0L192 312.7 432.1 72.6c10-10 26.2-10 36.2 0l36.2 36.2c10 10 10 26.2 0 36.2l-294.4 294.4c-10 10-26.2 10-36.2 0z" />
+              </svg> </span>
+            <span class="list-text">L1 Award in H&amp;S in a construction environment</span>
+          </li>
+          <li class="list-item mb-10">
+            <span class="icon white">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                <path d="M173.9 439.4l-166.4-166.4c-10-10-10-26.2 0-36.2l36.2-36.2c10-10 26.2-10 36.2 0L192 312.7 432.1 72.6c10-10 26.2-10 36.2 0l36.2 36.2c10 10 10 26.2 0 36.2l-294.4 294.4c-10 10-26.2 10-36.2 0z" />
+              </svg> </span>
+            <span class="list-text">L2 Award in Asbestos Awareness</span>
+          </li>
+        </ul>
+      </div>
+      <div class="flex justify-center mt-7">
+        <a class="button" href="<?= BASE_URL ?>/contact/">Contact us</a>
+      </div>
     </div>
   </div>
 </section>
-<section class="container">
-  <div>
-    <p>REPLACE ME icon</p>
-    <h5>COURSE DELIVERY</h5>
-    <div>
-      <p>Managing Health &amp; Safety is a necessity for your business’ moral, financial and legal reasons. However, having a robust and effective Health &amp; Safety training policy can help reduce staff turnover, insurance premiums, lost time, lost contracts and damage to your reputation; it can increase morale, reduce absences, result in greater productivity and ultimately, profitability.</p>
-      <p>If you know what training you require and we offer what you need, that’s great; however, if you’re not sure what training course(s) your employees should complete, we can help with that by assisting you to complete a training needs assessment.</p>
-      <p>We offer both regulated qualifications that are recognised nationally and which will require some form of formal assessment to be successfully completed by the participants, and bespoke courses that will cover similar content to the regulated qualifications, but which are not ‘recognised’ and are not usually assessed, unless this is requested by you to help determine your employee competence.</p>
-    </div>
-    <h4>Training course options:</h4>
-    <ul>
-      <li>Regulated qualifications (Levels 1-3)</li>
-      <li>Bespoke training courses to suit your specific business needs</li>
-      <li>Carried out at our training centre near Cardiff</li>
-      <li>Carried out in your chosen venue</li>
-      <li>Carried out online</li>
-      <li>Training date(s) to suit you</li>
-      <li>A range of open courses that you can book for individuals or groups</li>
-      <li>Open course dates are <a title="Positive Safety Solutions open courses" href="https://www.linkedin.com/company/positivesafetysolutions/" target="_blank" rel="noopener">here.</a></li>
-    </ul>
-    <div>
-      <p>If you are unsure as to what you require, book a consultation with one of our H&amp;S professionals for a quick review of your current training needs situation relevant to your industry.</p>
-      <p><a style="background-color: #ffffff;" href="<?= BASE_URL ?>/contact/" target="_blank" rel="noopener">Contact</a>&nbsp;us today to discuss how we can help ensure you are <b>‘Doing It Better’.</b></p>
+<section class="container pt-50 course-delivery">
+  <div class="flex-container">
+    <div class="card medium-shadow">
+      <div class="mb-20">
+        <p>REPLACE ME icon</p>
+        <h5 class="text-30 text-center">COURSE DELIVERY</h5>
+      </div>
+      <div class="text-16 mb-20">
+        <p>Managing Health &amp; Safety is a necessity for your business’ moral, financial and legal reasons. However, having a robust and effective Health &amp; Safety training policy can help reduce staff turnover, insurance premiums, lost time, lost contracts and damage to your reputation; it can increase morale, reduce absences, result in greater productivity and ultimately, profitability.</p>
+        <p>If you know what training you require and we offer what you need, that’s great; however, if you’re not sure what training course(s) your employees should complete, we can help with that by assisting you to complete a training needs assessment.</p>
+        <p>We offer both regulated qualifications that are recognised nationally and which will require some form of formal assessment to be successfully completed by the participants, and bespoke courses that will cover similar content to the regulated qualifications, but which are not ‘recognised’ and are not usually assessed, unless this is requested by you to help determine your employee competence.</p>
+      </div>
+      <h4 class="mb-20">Training course options:</h4>
+      <ul class="text-16">
+        <li>Regulated qualifications (Levels 1-3)</li>
+        <li>Bespoke training courses to suit your specific business needs</li>
+        <li>Carried out at our training centre near Cardiff</li>
+        <li>Carried out in your chosen venue</li>
+        <li>Carried out online</li>
+        <li>Training date(s) to suit you</li>
+        <li>A range of open courses that you can book for individuals or groups</li>
+        <li>Open course dates are <a title="Positive Safety Solutions open courses" href="https://www.linkedin.com/company/positivesafetysolutions/" target="_blank" rel="noopener">here.</a></li>
+      </ul>
+      <div>
+        <p>If you are unsure as to what you require, book a consultation with one of our H&amp;S professionals for a quick review of your current training needs situation relevant to your industry.</p>
+        <p><a style="background-color: #ffffff;" href="<?= BASE_URL ?>/contact/" target="_blank" rel="noopener">Contact</a>&nbsp;us today to discuss how we can help ensure you are <b>‘Doing It Better’.</b></p>
+      </div>
     </div>
   </div>
 </section>
 <!-- https://swiperjs.com/get-started -->
+<section class="container title mt-40">
+  <div class="flex-container justify-center text-center p-10">
+    <h4 class="text-55">Course overviews</h4>
+  </div>
+</section>
 <section class="container">
   <div class="flex-container">
-    <h4>Course overviews</h4>
     <div class="swiper-wrapper">
       <div class="swiper-slide">
         <img class="swiper-slide-image" src="<?= BASE_URL ?>/wp-content/uploads/2023/06/L2-Mental-health-first-aid.svg" alt="L2 First Aid for Mental Health">

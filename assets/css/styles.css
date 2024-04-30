@@ -165,8 +165,19 @@ p {
   font-weight: 400;
 }
 
+.text-16,
 .text-16 > p {
   font-size: 16px;
+}
+
+h4.text-55 {
+  color: #000000;
+  font-size: 55px;
+  font-weight: 600;
+}
+
+h5.text-30 {
+  font-size: 30px;
 }
 
 a {
@@ -547,6 +558,10 @@ footer .widget-three .socials .email {
   box-shadow: 0px 30px 50px -20px rgba(0, 0, 0, 0.73);
 }
 
+.card.medium-shadow {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
 .card.light-shadow {
   box-shadow: 0px 20px 50px -10px rgba(0, 0, 0, 0.25);
 }
@@ -725,8 +740,20 @@ footer .widget-three .socials .email {
   margin: 0px 0px 10px 0px;
 }
 
+.course-delivery .card,
 .contact .card {
   margin: 0px;
+}
+
+.course-delivery .text-16 {
+  text-align: left;
+  color: #000000;
+  font-weight: 300;
+  line-height: 1.7em;
+}
+
+.course-delivery .flex-container .card {
+  padding: 0% 12% 0% 12%;
 }
 
 .contact .list-item a {
@@ -868,6 +895,10 @@ a:hover {
   padding-top: 20px;
 }
 
+.pt-50 {
+  padding-top: 50px;
+}
+
 .pt-100 {
   padding-top: 100px;
 }
@@ -943,6 +974,10 @@ a:hover {
 
 .mb-40 {
   margin-bottom: 40px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
 }
 
 .mt-4 {
