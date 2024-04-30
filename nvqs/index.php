@@ -238,13 +238,13 @@ require(TEMPLATES_PATH . "/header.php");
         <div class="toggle-item">
           <h5 class="tab-title" data-tab="1" role="button" aria-controls="tab-content-2791" aria-expanded="false">
             <a class="toggle-title" tabindex="0">What is an NVQ qualification?</a>
-            <div>
+            <div class="tab-icon">
               <span class="icon-closed">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
                   <path d="M0 384.7V127.3c0-17.8 21.5-26.7 34.1-14.1l128.7 128.7c7.8 7.8 7.8 20.5 0 28.3L34.1 398.8C21.5 411.4 0 402.5 0 384.7z" />
                 </svg>
               </span>
-              <span class="icon-opened">
+              <span class="icon-opened hidden">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
                   <path d="M288.7 352H31.3c-17.8 0-26.7-21.5-14.1-34.1l128.7-128.7c7.8-7.8 20.5-7.8 28.3 0l128.7 128.7c12.6 12.6 3.7 34.1-14.1 34.1z" />
                 </svg>
@@ -263,6 +263,18 @@ require(TEMPLATES_PATH . "/header.php");
         <div class="toggle-item">
           <h5 class="tab-title" data-tab="2" role="button" aria-controls="tab-content-2792" aria-expanded="false">
             <a class="toggle-title" tabindex="0">Are NVQ levels similar to other qualifications?</a>
+            <div class="tab-icon">
+              <span class="icon-closed">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path d="M0 384.7V127.3c0-17.8 21.5-26.7 34.1-14.1l128.7 128.7c7.8 7.8 7.8 20.5 0 28.3L34.1 398.8C21.5 411.4 0 402.5 0 384.7z" />
+                </svg>
+              </span>
+              <span class="icon-opened hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path d="M288.7 352H31.3c-17.8 0-26.7-21.5-14.1-34.1l128.7-128.7c7.8-7.8 20.5-7.8 28.3 0l128.7 128.7c12.6 12.6 3.7 34.1-14.1 34.1z" />
+                </svg>
+              </span>
+            </div>
           </h5>
 
           <div class="tab-content clearfix" data-tab="2" role="region" aria-labelledby="tab-title-2792">
@@ -290,6 +302,18 @@ require(TEMPLATES_PATH . "/header.php");
         <div class="toggle-item">
           <h5 class="tab-title" data-tab="3" role="button" aria-controls="tab-content-2793" aria-expanded="false">
             <a class="toggle-title" tabindex="0">Can anyone sign up for any qualification?</a>
+            <div class="tab-icon">
+              <span class="icon-closed">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path d="M0 384.7V127.3c0-17.8 21.5-26.7 34.1-14.1l128.7 128.7c7.8 7.8 7.8 20.5 0 28.3L34.1 398.8C21.5 411.4 0 402.5 0 384.7z" />
+                </svg>
+              </span>
+              <span class="icon-opened hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path d="M288.7 352H31.3c-17.8 0-26.7-21.5-14.1-34.1l128.7-128.7c7.8-7.8 20.5-7.8 28.3 0l128.7 128.7c12.6 12.6 3.7 34.1-14.1 34.1z" />
+                </svg>
+              </span>
+            </div>
           </h5>
 
           <div class="tab-content clearfix" data-tab="3" role="region" aria-labelledby="tab-title-2793">
@@ -305,6 +329,18 @@ require(TEMPLATES_PATH . "/header.php");
         <div class="toggle-item">
           <h5 class="tab-title" data-tab="4" role="button" aria-controls="tab-content-2794" aria-expanded="false">
             <a class="toggle-title" tabindex="0">I am in a role related to the qualification I want to do; how do I apply?</a>
+            <div class="tab-icon">
+              <span class="icon-closed">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path d="M0 384.7V127.3c0-17.8 21.5-26.7 34.1-14.1l128.7 128.7c7.8 7.8 7.8 20.5 0 28.3L34.1 398.8C21.5 411.4 0 402.5 0 384.7z" />
+                </svg>
+              </span>
+              <span class="icon-opened hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path d="M288.7 352H31.3c-17.8 0-26.7-21.5-14.1-34.1l128.7-128.7c7.8-7.8 20.5-7.8 28.3 0l128.7 128.7c12.6 12.6 3.7 34.1-14.1 34.1z" />
+                </svg>
+              </span>
+            </div>
           </h5>
 
           <div class="tab-content clearfix" data-tab="4" role="region" aria-labelledby="tab-title-2794">
@@ -317,6 +353,18 @@ require(TEMPLATES_PATH . "/header.php");
         <div class="toggle-item">
           <h5 class="tab-title" data-tab="5" role="button" aria-controls="tab-content-2795" aria-expanded="false">
             <a class="toggle-title" tabindex="0">‘Learner led’; what does that mean?</a>
+            <div class="tab-icon">
+              <span class="icon-closed">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path d="M0 384.7V127.3c0-17.8 21.5-26.7 34.1-14.1l128.7 128.7c7.8 7.8 7.8 20.5 0 28.3L34.1 398.8C21.5 411.4 0 402.5 0 384.7z" />
+                </svg>
+              </span>
+              <span class="icon-opened hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path d="M288.7 352H31.3c-17.8 0-26.7-21.5-14.1-34.1l128.7-128.7c7.8-7.8 20.5-7.8 28.3 0l128.7 128.7c12.6 12.6 3.7 34.1-14.1 34.1z" />
+                </svg>
+              </span>
+            </div>
           </h5>
 
           <div class="tab-content clearfix" data-tab="5" role="region" aria-labelledby="tab-title-2795">
@@ -329,6 +377,18 @@ require(TEMPLATES_PATH . "/header.php");
         <div class="toggle-item">
           <h5 class="tab-title" data-tab="6" role="button" aria-controls="tab-content-2796" aria-expanded="false">
             <a class="toggle-title" tabindex="0">What are the next steps after I complete the eligibility form?</a>
+            <div class="tab-icon">
+              <span class="icon-closed">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path d="M0 384.7V127.3c0-17.8 21.5-26.7 34.1-14.1l128.7 128.7c7.8 7.8 7.8 20.5 0 28.3L34.1 398.8C21.5 411.4 0 402.5 0 384.7z" />
+                </svg>
+              </span>
+              <span class="icon-opened hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path d="M288.7 352H31.3c-17.8 0-26.7-21.5-14.1-34.1l128.7-128.7c7.8-7.8 20.5-7.8 28.3 0l128.7 128.7c12.6 12.6 3.7 34.1-14.1 34.1z" />
+                </svg>
+              </span>
+            </div>
           </h5>
 
           <div class="tab-content clearfix" data-tab="6" role="region" aria-labelledby="tab-title-2796">
@@ -341,6 +401,18 @@ require(TEMPLATES_PATH . "/header.php");
         <div class="toggle-item">
           <h5 class="tab-title" data-tab="7" role="button" aria-controls="tab-content-2797" aria-expanded="false">
             <a class="toggle-title" tabindex="0">How long does an NVQ take?</a>
+            <div class="tab-icon">
+              <span class="icon-closed">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path d="M0 384.7V127.3c0-17.8 21.5-26.7 34.1-14.1l128.7 128.7c7.8 7.8 7.8 20.5 0 28.3L34.1 398.8C21.5 411.4 0 402.5 0 384.7z" />
+                </svg>
+              </span>
+              <span class="icon-opened hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path d="M288.7 352H31.3c-17.8 0-26.7-21.5-14.1-34.1l128.7-128.7c7.8-7.8 20.5-7.8 28.3 0l128.7 128.7c12.6 12.6 3.7 34.1-14.1 34.1z" />
+                </svg>
+              </span>
+            </div>
           </h5>
 
           <div class="tab-content clearfix" data-tab="7" role="region" aria-labelledby="tab-title-2797">
@@ -360,6 +432,18 @@ require(TEMPLATES_PATH . "/header.php");
         <div class="toggle-item">
           <h5 class="tab-title" data-tab="8" role="button" aria-controls="tab-content-2798" aria-expanded="false">
             <a class="toggle-title" tabindex="0">How are the qualifications assessed?</a>
+            <div class="tab-icon">
+              <span class="icon-closed">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path d="M0 384.7V127.3c0-17.8 21.5-26.7 34.1-14.1l128.7 128.7c7.8 7.8 7.8 20.5 0 28.3L34.1 398.8C21.5 411.4 0 402.5 0 384.7z" />
+                </svg>
+              </span>
+              <span class="icon-opened hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path d="M288.7 352H31.3c-17.8 0-26.7-21.5-14.1-34.1l128.7-128.7c7.8-7.8 20.5-7.8 28.3 0l128.7 128.7c12.6 12.6 3.7 34.1-14.1 34.1z" />
+                </svg>
+              </span>
+            </div>
           </h5>
 
           <div class="tab-content clearfix" data-tab="8" role="region" aria-labelledby="tab-title-2798">
@@ -373,6 +457,18 @@ require(TEMPLATES_PATH . "/header.php");
         <div class="toggle-item">
           <h5 class="tab-title" data-tab="9" role="button" aria-controls="tab-content-2799" aria-expanded="false">
             <a class="toggle-title" tabindex="0">How soon can I get my certificate?</a>
+            <div class="tab-icon">
+              <span class="icon-closed">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path d="M0 384.7V127.3c0-17.8 21.5-26.7 34.1-14.1l128.7 128.7c7.8 7.8 7.8 20.5 0 28.3L34.1 398.8C21.5 411.4 0 402.5 0 384.7z" />
+                </svg>
+              </span>
+              <span class="icon-opened hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path d="M288.7 352H31.3c-17.8 0-26.7-21.5-14.1-34.1l128.7-128.7c7.8-7.8 20.5-7.8 28.3 0l128.7 128.7c12.6 12.6 3.7 34.1-14.1 34.1z" />
+                </svg>
+              </span>
+            </div>
           </h5>
 
           <div class="tab-content clearfix" data-tab="9" role="region" aria-labelledby="tab-title-2799">
@@ -387,6 +483,7 @@ require(TEMPLATES_PATH . "/header.php");
     </div>
   </div>
 </section>
+
 <?php require(TEMPLATES_PATH . "/footer.php"); ?>
 </div>
 

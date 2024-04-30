@@ -25,6 +25,9 @@ window.onload = document.onload = () => {
 
   function openTab(event, element) {
     event.preventDefault();
+    console.log(element);
+    const iconOpened = element.querySelector('.icon-opened');
+    const iconClosed = element.querySelector('.icon-closed');
 
     const id = element.id;
     const content = document.getElementById(
@@ -39,5 +42,7 @@ window.onload = document.onload = () => {
     } else {
       content.style.height = height + 'px';
     }
+    iconClosed.classList.toggle('hidden');
+    iconOpened.classList.toggle('hidden');
   }
 };

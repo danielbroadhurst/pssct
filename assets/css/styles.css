@@ -668,12 +668,23 @@ footer .widget-three .socials .email {
 
 .toggle .icon-closed {
   display: block;
+  position: absolute;
+  right: 1px;
   width: 7px;
 }
 
 .toggle .icon-opened {
-  display: none;
+  display: block;
   width: 12px;
+}
+
+.toggle .tab-icon {
+  position: relative;
+  transition: all 0.5s;
+}
+
+.hidden {
+  visibility: hidden;
 }
 
 .toggle .tab-content {
