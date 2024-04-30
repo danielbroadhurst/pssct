@@ -42,35 +42,35 @@ require(TEMPLATES_PATH . "/header.php");
         <li>
           <a href="<?= BASE_URL ?>/nvqs/level-3-nvq-diploma-in-occupational-work-supervision/" target="_blank">
             <span class="list-icon">
-              <i aria-hidden="true" class="fas fa-check"></i>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M173.9 439.4l-166.4-166.4c-10-10-10-26.2 0-36.2l36.2-36.2c10-10 26.2-10 36.2 0L192 312.7 432.1 72.6c10-10 26.2-10 36.2 0l36.2 36.2c10 10 10 26.2 0 36.2l-294.4 294.4c-10 10-26.2 10-36.2 0z"/></svg>
               <span class="list-text">Level 3 Diploma in Occupational Work Supervision
           </a>
         </li>
         <li>
           <a href="<?= BASE_URL ?>/nvqs/level-3-nvq-diploma-in-construction-contracting-operations/" target="_blank">
             <span class="list-icon">
-              <i aria-hidden="true" class="fas fa-check"></i>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M173.9 439.4l-166.4-166.4c-10-10-10-26.2 0-36.2l36.2-36.2c10-10 26.2-10 36.2 0L192 312.7 432.1 72.6c10-10 26.2-10 36.2 0l36.2 36.2c10 10 10 26.2 0 36.2l-294.4 294.4c-10 10-26.2 10-36.2 0z"/></svg>
               <span class="list-text">Level 3 Diploma in Construction Contracting Operations
           </a>
         </li>
         <li>
           <a href="<?= BASE_URL ?>/nvqs/level-6-nvq-diploma-in-construction-site-management/" target="_blank">
             <span class="list-icon">
-              <i aria-hidden="true" class="fas fa-check"></i>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M173.9 439.4l-166.4-166.4c-10-10-10-26.2 0-36.2l36.2-36.2c10-10 26.2-10 36.2 0L192 312.7 432.1 72.6c10-10 26.2-10 36.2 0l36.2 36.2c10 10 10 26.2 0 36.2l-294.4 294.4c-10 10-26.2 10-36.2 0z"/></svg>
               <span class="list-text"> Level 6 Diploma in Construction Site Management
           </a>
         </li>
         <li>
           <a href="<?= BASE_URL ?>/nvqs/level-6-nvq-diploma-in-construction-contracting-operations-management/" target="_blank">
             <span class="list-icon">
-              <i aria-hidden="true" class="fas fa-check"></i>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M173.9 439.4l-166.4-166.4c-10-10-10-26.2 0-36.2l36.2-36.2c10-10 26.2-10 36.2 0L192 312.7 432.1 72.6c10-10 26.2-10 36.2 0l36.2 36.2c10 10 10 26.2 0 36.2l-294.4 294.4c-10 10-26.2 10-36.2 0z"/></svg>
               <span class="list-text">Level 6 Diploma in Construction Contracting Operations Management
           </a>
         </li>
         <li>
           <a href="<?= BASE_URL ?>/nvqs/level-7-nvq-diploma-in-construction-senior-management/" target="_blank">
             <span class="list-icon">
-              <i aria-hidden="true" class="fas fa-check"></i>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M173.9 439.4l-166.4-166.4c-10-10-10-26.2 0-36.2l36.2-36.2c10-10 26.2-10 36.2 0L192 312.7 432.1 72.6c10-10 26.2-10 36.2 0l36.2 36.2c10 10 10 26.2 0 36.2l-294.4 294.4c-10 10-26.2 10-36.2 0z"/></svg>
               <span class="list-text">Level 7 Diploma in Construction Senior Management
           </a>
         </li>
@@ -82,21 +82,21 @@ require(TEMPLATES_PATH . "/header.php");
         <li class="list-item">
           <a href="<?= BASE_URL ?>/pricing-faq/l3-nvq-certificate-in-occupational-health-and-safety/" target="_blank">
             <span class="list-icon">
-              <i aria-hidden="true" class="fas fa-check"></i>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M173.9 439.4l-166.4-166.4c-10-10-10-26.2 0-36.2l36.2-36.2c10-10 26.2-10 36.2 0L192 312.7 432.1 72.6c10-10 26.2-10 36.2 0l36.2 36.2c10 10 10 26.2 0 36.2l-294.4 294.4c-10 10-26.2 10-36.2 0z"/></svg>
               <span class="list-text"> Level 3 Certificate in Occupational Health &amp; Safety
           </a>
         </li>
         <li class="list-item">
           <a href="<?= BASE_URL ?>/pricing-faq/l6-nvq-diploma-in-occupational-health-and-safety-practice/" target="_blank">
             <span class="list-icon">
-              <i aria-hidden="true" class="fas fa-check"></i>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M173.9 439.4l-166.4-166.4c-10-10-10-26.2 0-36.2l36.2-36.2c10-10 26.2-10 36.2 0L192 312.7 432.1 72.6c10-10 26.2-10 36.2 0l36.2 36.2c10 10 10 26.2 0 36.2l-294.4 294.4c-10 10-26.2 10-36.2 0z"/></svg>
               <span class="list-text">Level 6 Diploma in Occupational Health &amp; Safety
           </a>
         </li>
         <li class="list-item">
           <a href="<?= BASE_URL ?>/pricing-faq/l7-nvq-diploma-in-strategic-health-and-safety-management-and-leadership/" target="_blank">
             <span class="list-icon">
-              <i aria-hidden="true" class="fas fa-check"></i>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M173.9 439.4l-166.4-166.4c-10-10-10-26.2 0-36.2l36.2-36.2c10-10 26.2-10 36.2 0L192 312.7 432.1 72.6c10-10 26.2-10 36.2 0l36.2 36.2c10 10 10 26.2 0 36.2l-294.4 294.4c-10 10-26.2 10-36.2 0z"/></svg>
               <span class="list-text">Level 7 Diploma in Strategic Health &amp; Safety Leadership and Management
           </a>
         </li>
@@ -112,37 +112,37 @@ require(TEMPLATES_PATH . "/header.php");
       <ul>
         <li class="list-item">
           <span class="list-icon">
-            <i aria-hidden="true" class="fas fa-check"></i>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M173.9 439.4l-166.4-166.4c-10-10-10-26.2 0-36.2l36.2-36.2c10-10 26.2-10 36.2 0L192 312.7 432.1 72.6c10-10 26.2-10 36.2 0l36.2 36.2c10 10 10 26.2 0 36.2l-294.4 294.4c-10 10-26.2 10-36.2 0z"/></svg>
             <span class="list-text">Fire Safety
         </li>
         <li class="list-item">
           <span class="list-icon">
-            <i aria-hidden="true" class="fas fa-check"></i>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M173.9 439.4l-166.4-166.4c-10-10-10-26.2 0-36.2l36.2-36.2c10-10 26.2-10 36.2 0L192 312.7 432.1 72.6c10-10 26.2-10 36.2 0l36.2 36.2c10 10 10 26.2 0 36.2l-294.4 294.4c-10 10-26.2 10-36.2 0z"/></svg>
             <span class="list-text">Health &amp; Safety
         </li>
         <li class="list-item">
           <span class="list-icon">
-            <i aria-hidden="true" class="fas fa-check"></i>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M173.9 439.4l-166.4-166.4c-10-10-10-26.2 0-36.2l36.2-36.2c10-10 26.2-10 36.2 0L192 312.7 432.1 72.6c10-10 26.2-10 36.2 0l36.2 36.2c10 10 10 26.2 0 36.2l-294.4 294.4c-10 10-26.2 10-36.2 0z"/></svg>
             <span class="list-text">Construction Safety
         </li>
         <li class="list-item">
           <span class="list-icon">
-            <i aria-hidden="true" class="fas fa-check"></i>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M173.9 439.4l-166.4-166.4c-10-10-10-26.2 0-36.2l36.2-36.2c10-10 26.2-10 36.2 0L192 312.7 432.1 72.6c10-10 26.2-10 36.2 0l36.2 36.2c10 10 10 26.2 0 36.2l-294.4 294.4c-10 10-26.2 10-36.2 0z"/></svg>
             <span class="list-text">Manual Handling
         </li>
         <li class="list-item">
           <span class="list-icon">
-            <i aria-hidden="true" class="fas fa-check"></i>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M173.9 439.4l-166.4-166.4c-10-10-10-26.2 0-36.2l36.2-36.2c10-10 26.2-10 36.2 0L192 312.7 432.1 72.6c10-10 26.2-10 36.2 0l36.2 36.2c10 10 10 26.2 0 36.2l-294.4 294.4c-10 10-26.2 10-36.2 0z"/></svg>
             <span class="list-text">Asbestos Awarness
         </li>
         <li class="list-item">
           <span class="list-icon">
-            <i aria-hidden="true" class="fas fa-check"></i>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M173.9 439.4l-166.4-166.4c-10-10-10-26.2 0-36.2l36.2-36.2c10-10 26.2-10 36.2 0L192 312.7 432.1 72.6c10-10 26.2-10 36.2 0l36.2 36.2c10 10 10 26.2 0 36.2l-294.4 294.4c-10 10-26.2 10-36.2 0z"/></svg>
             <span class="list-text">COSHH Awareness
         </li>
         <li class="list-item">
           <span class="list-icon">
-            <i aria-hidden="true" class="fas fa-check"></i>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M173.9 439.4l-166.4-166.4c-10-10-10-26.2 0-36.2l36.2-36.2c10-10 26.2-10 36.2 0L192 312.7 432.1 72.6c10-10 26.2-10 36.2 0l36.2 36.2c10 10 10 26.2 0 36.2l-294.4 294.4c-10 10-26.2 10-36.2 0z"/></svg>
             <span class="list-text">Workplace risk assessment
         </li>
       </ul>
@@ -153,21 +153,21 @@ require(TEMPLATES_PATH . "/header.php");
         <li class="list-item">
           <a href="<?= BASE_URL ?>/nvqs/level-1-award-in-awareness-of-first-aid-mental-health/" target="_blank">
             <span class="list-icon">
-              <i aria-hidden="true" class="fas fa-check"></i>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M173.9 439.4l-166.4-166.4c-10-10-10-26.2 0-36.2l36.2-36.2c10-10 26.2-10 36.2 0L192 312.7 432.1 72.6c10-10 26.2-10 36.2 0l36.2 36.2c10 10 10 26.2 0 36.2l-294.4 294.4c-10 10-26.2 10-36.2 0z"/></svg>
               <span class="list-text">Level 1 Award in Awareness of First Aid Mental Health
           </a>
         </li>
         <li class="list-item">
           <a href="<?= BASE_URL ?>/nvqs/level-2-award-in-first-aid-for-mental-health-rqf/" target="_blank">
             <span class="list-icon">
-              <i aria-hidden="true" class="fas fa-check"></i>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M173.9 439.4l-166.4-166.4c-10-10-10-26.2 0-36.2l36.2-36.2c10-10 26.2-10 36.2 0L192 312.7 432.1 72.6c10-10 26.2-10 36.2 0l36.2 36.2c10 10 10 26.2 0 36.2l-294.4 294.4c-10 10-26.2 10-36.2 0z"/></svg>
               <span class="list-text">Level 2 Award in First Aid for Mental Health
           </a>
         </li>
         <li class="list-item">
           <a href="<?= BASE_URL ?>/nvqs/level-2-award-in-first-aid-for-youth-mental-health/" target="_blank">
             <span class="list-icon">
-              <i aria-hidden="true" class="fas fa-check"></i>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M173.9 439.4l-166.4-166.4c-10-10-10-26.2 0-36.2l36.2-36.2c10-10 26.2-10 36.2 0L192 312.7 432.1 72.6c10-10 26.2-10 36.2 0l36.2 36.2c10 10 10 26.2 0 36.2l-294.4 294.4c-10 10-26.2 10-36.2 0z"/></svg>
               <span class="list-text">Level 2 Award in First Aid for Youth Mental Health
           </a>
         </li>
@@ -175,7 +175,7 @@ require(TEMPLATES_PATH . "/header.php");
           <a href="<?= BASE_URL ?>/nvqs/faa-level-3-award-in-supervising-first-aid-for-mental-health/" target="_blank">
 
             <span class="list-icon">
-              <i aria-hidden="true" class="fas fa-check"></i>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M173.9 439.4l-166.4-166.4c-10-10-10-26.2 0-36.2l36.2-36.2c10-10 26.2-10 36.2 0L192 312.7 432.1 72.6c10-10 26.2-10 36.2 0l36.2 36.2c10 10 10 26.2 0 36.2l-294.4 294.4c-10 10-26.2 10-36.2 0z"/></svg>
               <span class="list-text">Level 3 Award in Supervising First Aid for Mental Health
           </a>
         </li>
