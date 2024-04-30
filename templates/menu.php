@@ -2,7 +2,7 @@
   <div class="header-overlay"></div>
   <div class="header-wrapper flex-container">
     <div class="header-content">
-      <img fetchpriority="high" decoding="async" width="866" height="227" src="<?= BASE_URL ?>/wp-content/uploads/2021/07/pss-home-logo-8.svg" class="logo" alt="">
+      <img fetchpriority="high" decoding="async" width="866" height="227" src="<?= BASE_URL ?>/assets/img/pss-home-logo-8.svg" class="logo" alt="">
       <div class="nav-wrapper">
         <!-- <div role="button" class="mobile-menu">
           <span class="screen-reader-text">Menu</span>
