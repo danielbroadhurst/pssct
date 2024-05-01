@@ -90,7 +90,7 @@ require(TEMPLATES_PATH . "/header.php");
   <div class="flex-container employee">
     <div class="width-26 p-10">
       <div class="head-shot">
-        <img decoding="async" width="683" height="1024" src="<?= BASE_URL ?>/wp-content/uploads/2021/08/kath-new-683x1024.png" alt="">
+        <img decoding="async" width="683" height="1024" src="<?= BASE_URL ?>/assets/img/kath-new.png" alt="">
       </div>
     </div>
     <div class="width-73 p-10">

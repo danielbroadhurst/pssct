@@ -37,8 +37,9 @@ require(TEMPLATES_PATH . "/header.php");
     </div>
   </div>
 </section>
-<section class="container pt-20">
-  <div class="flex-container">
+<section class="container pt-10">
+  <div class="menu-anchor" id="nvq-options"></div>
+  <div class="flex-container pt-10">
     <div class="card blue-red text-white">
       <h3 class="card-title text-center mt-4 mb-20">Construction NVQs</h3>
       <ul class="list-items mt-7 mb-10">
@@ -93,7 +94,7 @@ require(TEMPLATES_PATH . "/header.php");
       <h3 class="card-title text-center mb-20">Health & Safety NVQs</h3>
       <ul class="list-items mt-10 mb-10">
         <li class="list-item mb-10">
-          <a href="<?= BASE_URL ?>/pricing-faq/l3-nvq-certificate-in-occupational-health-and-safety/" target="_blank">
+          <a href="<?= BASE_URL ?>/nvqs/l3-nvq-certificate-in-occupational-health-and-safety/" target="_blank">
             <span class="icon blue">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
                 <path d="M173.9 439.4l-166.4-166.4c-10-10-10-26.2 0-36.2l36.2-36.2c10-10 26.2-10 36.2 0L192 312.7 432.1 72.6c10-10 26.2-10 36.2 0l36.2 36.2c10 10 10 26.2 0 36.2l-294.4 294.4c-10 10-26.2 10-36.2 0z" />
@@ -102,7 +103,7 @@ require(TEMPLATES_PATH . "/header.php");
           </a>
         </li>
         <li class="list-item mb-10">
-          <a href="<?= BASE_URL ?>/pricing-faq/l6-nvq-diploma-in-occupational-health-and-safety-practice/" target="_blank">
+          <a href="<?= BASE_URL ?>/nvqs/l6-nvq-diploma-in-occupational-health-and-safety-practice/" target="_blank">
             <span class="icon blue">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
                 <path d="M173.9 439.4l-166.4-166.4c-10-10-10-26.2 0-36.2l36.2-36.2c10-10 26.2-10 36.2 0L192 312.7 432.1 72.6c10-10 26.2-10 36.2 0l36.2 36.2c10 10 10 26.2 0 36.2l-294.4 294.4c-10 10-26.2 10-36.2 0z" />
@@ -111,7 +112,7 @@ require(TEMPLATES_PATH . "/header.php");
           </a>
         </li>
         <li class="list-item mb-10">
-          <a href="<?= BASE_URL ?>/pricing-faq/l7-nvq-diploma-in-strategic-health-and-safety-management-and-leadership/" target="_blank">
+          <a href="<?= BASE_URL ?>/nvqs/l7-nvq-diploma-in-strategic-health-and-safety-management-and-leadership/" target="_blank">
             <span class="icon blue">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
                 <path d="M173.9 439.4l-166.4-166.4c-10-10-10-26.2 0-36.2l36.2-36.2c10-10 26.2-10 36.2 0L192 312.7 432.1 72.6c10-10 26.2-10 36.2 0l36.2 36.2c10 10 10 26.2 0 36.2l-294.4 294.4c-10 10-26.2 10-36.2 0z" />

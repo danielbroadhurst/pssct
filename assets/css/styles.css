@@ -207,6 +207,7 @@ h3.text-22 a {
   font-size: 22px;
 }
 
+h2.text-25,
 h4.text-25 {
   color: #000000;
   font-size: 25px;
@@ -258,6 +259,14 @@ ul.nvqs li {
   position: relative;
 }
 
+ul.nvqs li ul li::before {
+  content: none;
+}
+
+ul.nvqs li.ul {
+  list-style: disc;
+}
+
 ul.nvqs li::before {
   content: '';
   display: inline-block;
@@ -270,6 +279,10 @@ ul.nvqs li::before {
   left: -22px;
   top: 6px;
   background-image: url('/assets/img/dot-circle.svg');
+}
+
+ul.nvqs li.download::before {
+  background-image: url('/assets/img/download.svg');
 }
 
 ul {
@@ -302,7 +315,7 @@ li > ul {
 }
 
 .text-grey {
-  color: #4C4C4C;
+  color: #4c4c4c;
 }
 
 .text-green {
@@ -350,6 +363,14 @@ body {
   font-size: 37px;
   font-weight: 600;
   font-family: 'Poppins', sans-serif;
+}
+
+.inline-flex {
+  display: inline-flex;
+}
+
+.inline-flex span {
+  padding-inline-end: 5px;
 }
 
 .container.text {
@@ -732,6 +753,19 @@ footer .widget-three .socials .email {
   border-color: #007991;
 }
 
+.container .flex-container .nvqs.icon.img {
+  border-radius: 0;
+  padding: 0px;
+  border: 0px;
+  width: 105px;
+  background-color: transparent;
+  border-color: #007991;
+}
+
+.container .flex-container .nvqs img {
+  width: 105px;
+}
+
 .container .flex-container .nvqs.icon svg {
   width: 49px;
   height: 49px;
@@ -1017,6 +1051,143 @@ textarea:focus {
   outline: -webkit-focus-ring-color auto 0px;
 }
 
+/* Price Table */
+
+.price-table {
+  text-align: center;
+  overflow: hidden;
+  background-color: #f9fafa;
+}
+
+.price-table__header {
+  padding: 20px 0px;
+  background-color: #007991;
+}
+
+.price-table__heading {
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.price-table__subheading {
+  font-size: 13px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.price-table__price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  color: #555;
+  font-weight: 800;
+  padding: 40px 0;
+  font-size: 65px;
+}
+
+.price-table__integer-part {
+  line-height: 0.8;
+}
+
+.price-table .price-table__currency {
+  display: flex;
+  align-self: flex-start;
+  line-height: 1;
+  font-size: 0.3em;
+}
+
+.price-table__features-list {
+  font-size: 14px;
+  line-height: 1;
+}
+
+ul.price-table__features-list {
+  list-style: none;
+  margin: 0;
+}
+
+.container .flex-container .price-table .icon svg {
+  position: relative;
+  width: 18px;
+  height: 18px;
+}
+
+ul.price-table__features-list li .price-table__feature-inner {
+  display: flex;
+  justify-content: center;
+}
+
+.price-table__feature-inner .icon {
+  margin-right: 15px;
+}
+
+.price-table__features-list li:not(:first-child)::before {
+  content: "";
+  display: block;
+  border: 0 solid hsla(0, 0%, 47.8%, .3);
+  margin: 10px 12.5%;
+}
+
+.price-table .price-table__features-list li::before {
+  border-top-style: solid;
+  border-top-color: #ddd;
+  border-top-width: 2px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.price-table__feature-inner {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price-table__footer {
+  padding: 30px 0;
+}
+
+.price-table__additional_info {
+  margin: 15px 30px 0px 30px;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.price-table__ribbon.elementor-ribbon-left {
+  transform: rotate(0);
+  left: 0;
+  right: auto;
+}
+
+.price-table__ribbon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: rotate(0deg);
+  width: 150px;
+  overflow: hidden;
+  height: 150px;
+}
+
+.price-table__ribbon-inner {
+  color: #ffffff;
+  text-align: center;
+  left: 0;
+  width: 200%;
+  transform: translateY(-50%) translateX(-50%) translateX(35px) rotate(-45deg);
+  margin-top: 35px;
+  font-size: 13px;
+  line-height: 2;
+  font-weight: 800;
+  text-transform: uppercase;
+  background: #000;
+}
+
 /* Helpers */
 
 a {
@@ -1059,8 +1230,20 @@ a:hover {
   position: relative;
 }
 
+.relative {
+  position: relative;
+}
+
+.pt-15 {
+  padding-top: 15px;
+}
+
 .pt-20 {
   padding-top: 20px;
+}
+
+.pt-35 {
+  padding-top: 35px;
 }
 
 .pt-50 {
@@ -1103,8 +1286,16 @@ a:hover {
   padding-bottom: 20px;
 }
 
+.pb-30 {
+  padding-bottom: 30px;
+}
+
 .pb-60 {
   padding-bottom: 60px;
+}
+
+.pb-70 {
+  padding-bottom: 70px;
 }
 
 .pb-100 {
@@ -1191,6 +1382,9 @@ a:hover {
 .mt-40 {
   margin-top: 40px;
 }
+.mt-110 {
+  margin-top: 110px;
+}
 
 .mr-10 {
   margin-right: 10px;
@@ -1204,12 +1398,20 @@ a:hover {
   margin-left: 30px;
 }
 
+.ml-40 {
+  margin-left: 40px;
+}
+
 .ml-50 {
   margin-left: 50px;
 }
 
 .mr-quarter {
   margin: 0% 25% 0% 0%;
+}
+
+.p-1 {
+  padding: 1px;
 }
 
 .p-10 {
