@@ -235,8 +235,8 @@ require(TEMPLATES_PATH . "/header.php");
     </div>
     <div class="width-66">
       <div class="toggle ml-50">
-        <div class="toggle-item">
-          <h5 class="tab-title" data-tab="1" role="button" aria-controls="tab-content-2791" aria-expanded="false">
+        <div class="toggle-item shadow mb-20">
+          <h5 class="tab-title p-20" data-tab="1" role="button" aria-controls="tab-content-2791" aria-expanded="false">
             <a class="toggle-title" tabindex="0">What is an NVQ qualification?</a>
             <div class="tab-icon">
               <span class="icon-closed">
@@ -260,8 +260,8 @@ require(TEMPLATES_PATH . "/header.php");
             </div>
           </div>
         </div>
-        <div class="toggle-item">
-          <h5 class="tab-title" data-tab="2" role="button" aria-controls="tab-content-2792" aria-expanded="false">
+        <div class="toggle-item shadow mb-20">
+          <h5 class="tab-title p-20" data-tab="2" role="button" aria-controls="tab-content-2792" aria-expanded="false">
             <a class="toggle-title" tabindex="0">Are NVQ levels similar to other qualifications?</a>
             <div class="tab-icon">
               <span class="icon-closed">
@@ -299,8 +299,8 @@ require(TEMPLATES_PATH . "/header.php");
             </div>
           </div>
         </div>
-        <div class="toggle-item">
-          <h5 class="tab-title" data-tab="3" role="button" aria-controls="tab-content-2793" aria-expanded="false">
+        <div class="toggle-item shadow mb-20">
+          <h5 class="tab-title p-20" data-tab="3" role="button" aria-controls="tab-content-2793" aria-expanded="false">
             <a class="toggle-title" tabindex="0">Can anyone sign up for any qualification?</a>
             <div class="tab-icon">
               <span class="icon-closed">
@@ -326,8 +326,8 @@ require(TEMPLATES_PATH . "/header.php");
             </div>
           </div>
         </div>
-        <div class="toggle-item">
-          <h5 class="tab-title" data-tab="4" role="button" aria-controls="tab-content-2794" aria-expanded="false">
+        <div class="toggle-item shadow mb-20">
+          <h5 class="tab-title p-20" data-tab="4" role="button" aria-controls="tab-content-2794" aria-expanded="false">
             <a class="toggle-title" tabindex="0">I am in a role related to the qualification I want to do; how do I apply?</a>
             <div class="tab-icon">
               <span class="icon-closed">
@@ -350,8 +350,8 @@ require(TEMPLATES_PATH . "/header.php");
             </div>
           </div>
         </div>
-        <div class="toggle-item">
-          <h5 class="tab-title" data-tab="5" role="button" aria-controls="tab-content-2795" aria-expanded="false">
+        <div class="toggle-item shadow mb-20">
+          <h5 class="tab-title p-20" data-tab="5" role="button" aria-controls="tab-content-2795" aria-expanded="false">
             <a class="toggle-title" tabindex="0">‘Learner led’; what does that mean?</a>
             <div class="tab-icon">
               <span class="icon-closed">
@@ -374,8 +374,8 @@ require(TEMPLATES_PATH . "/header.php");
             </div>
           </div>
         </div>
-        <div class="toggle-item">
-          <h5 class="tab-title" data-tab="6" role="button" aria-controls="tab-content-2796" aria-expanded="false">
+        <div class="toggle-item shadow mb-20">
+          <h5 class="tab-title p-20" data-tab="6" role="button" aria-controls="tab-content-2796" aria-expanded="false">
             <a class="toggle-title" tabindex="0">What are the next steps after I complete the eligibility form?</a>
             <div class="tab-icon">
               <span class="icon-closed">
@@ -398,8 +398,8 @@ require(TEMPLATES_PATH . "/header.php");
             </div>
           </div>
         </div>
-        <div class="toggle-item">
-          <h5 class="tab-title" data-tab="7" role="button" aria-controls="tab-content-2797" aria-expanded="false">
+        <div class="toggle-item shadow mb-20">
+          <h5 class="tab-title p-20" data-tab="7" role="button" aria-controls="tab-content-2797" aria-expanded="false">
             <a class="toggle-title" tabindex="0">How long does an NVQ take?</a>
             <div class="tab-icon">
               <span class="icon-closed">
@@ -429,8 +429,8 @@ require(TEMPLATES_PATH . "/header.php");
             </div>
           </div>
         </div>
-        <div class="toggle-item">
-          <h5 class="tab-title" data-tab="8" role="button" aria-controls="tab-content-2798" aria-expanded="false">
+        <div class="toggle-item shadow mb-20">
+          <h5 class="tab-title p-20" data-tab="8" role="button" aria-controls="tab-content-2798" aria-expanded="false">
             <a class="toggle-title" tabindex="0">How are the qualifications assessed?</a>
             <div class="tab-icon">
               <span class="icon-closed">
@@ -454,8 +454,8 @@ require(TEMPLATES_PATH . "/header.php");
             </div>
           </div>
         </div>
-        <div class="toggle-item">
-          <h5 class="tab-title" data-tab="9" role="button" aria-controls="tab-content-2799" aria-expanded="false">
+        <div class="toggle-item shadow mb-20">
+          <h5 class="tab-title p-20" data-tab="9" role="button" aria-controls="tab-content-2799" aria-expanded="false">
             <a class="toggle-title" tabindex="0">How soon can I get my certificate?</a>
             <div class="tab-icon">
               <span class="icon-closed">
