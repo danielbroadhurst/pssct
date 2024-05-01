@@ -247,6 +247,31 @@ ul {
   list-style: disc;
 }
 
+ul.nvqs {
+  list-style: none;
+  position: relative;
+  margin-left: 2.5em;
+  padding-left: 0;
+}
+
+ul.nvqs li {
+  position: relative;
+}
+
+ul.nvqs li::before {
+  content: '';
+  display: inline-block;
+  margin-right: 10px;
+  /* Height of the list image*/
+  height: 15px;
+  /* Width of the list image*/
+  width: 15px;
+  position: absolute;
+  left: -22px;
+  top: 6px;
+  background-image: url('/assets/img/dot-circle.svg');
+}
+
 ul {
   margin: 0 0 1.5em 3em;
 }
@@ -274,6 +299,10 @@ li > ul {
 
 .text-white {
   color: #ffffff;
+}
+
+.text-grey {
+  color: #4C4C4C;
 }
 
 .text-green {
@@ -693,6 +722,19 @@ footer .widget-three .socials .email {
 
 .icon.yellow {
   fill: #ffab5e;
+}
+
+.container .flex-container .nvqs.icon {
+  border-radius: 50%;
+  padding: 25px;
+  border: 3px solid #69727d;
+  background-color: transparent;
+  border-color: #007991;
+}
+
+.container .flex-container .nvqs.icon svg {
+  width: 49px;
+  height: 49px;
 }
 
 .container .flex-container .icon svg {
@@ -1180,6 +1222,10 @@ a:hover {
 
 .p-20 {
   padding: 20px;
+}
+
+.p-30 {
+  padding: 30px;
 }
 
 .p-50 {
