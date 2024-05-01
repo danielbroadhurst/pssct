@@ -1075,6 +1075,14 @@ a:hover {
   width: 73.421%;
 }
 
+.column {
+  flex-direction: column;
+}
+
+.italic {
+  font-style: italic;
+}
+
 @media (min-width: 768px) {
   .widget-one {
     width: 42.744%;

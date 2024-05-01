@@ -213,7 +213,8 @@ require(TEMPLATES_PATH . "/header.php");
                 </g>
               </g>
             </g>
-          </svg></span>
+          </svg>
+        </span>
         <h5 class="text-30 text-center">COURSE DELIVERY</h5>
       </div>
       <div class="text-16 mb-20">
