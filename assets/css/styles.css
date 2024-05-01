@@ -170,8 +170,28 @@ p {
   font-size: 16px;
 }
 
+h2.text-35 {
+  font-size: 35px;
+}
+
 h2.text-40 {
   font-size: 40px;
+}
+
+p.text-20 {
+  font-size: 20px;
+}
+
+h2.text-28 {
+  font-size: 28px;
+  line-height: 1.3em;
+}
+
+h2.text-29 {
+  font-size: 29px;
+  line-height: 1.3em;
+  font-weight: 900;
+  color: #000000;
 }
 
 h3.text-22 {
@@ -185,6 +205,12 @@ h3.text-22 {
 h3.text-22 a {
   color: #000000;
   font-size: 22px;
+}
+
+h4.text-25 {
+  color: #000000;
+  font-size: 25px;
+  font-weight: 900;
 }
 
 h4.text-55 {
@@ -223,6 +249,12 @@ ul {
 
 ul {
   margin: 0 0 1.5em 3em;
+}
+
+li > ol,
+li > ul {
+  margin-bottom: 0;
+  margin-left: 1.5em;
 }
 
 /* Colours */
@@ -589,6 +621,10 @@ footer .widget-three .socials .email {
   padding: 35px 35px 35px 35px;
 }
 
+.service-card:hover {
+  box-shadow: 0px 0px 55px 0px rgba(0, 0, 0, 0.29);
+}
+
 .service-card {
   padding: 35px 35px 35px 35px;
 }
@@ -603,6 +639,11 @@ footer .widget-three .socials .email {
   border: none;
   border-radius: 0;
   box-shadow: none;
+}
+
+.service-card img:hover {
+  transition-duration: 0.3s;
+  transform: scale(1.1);
 }
 
 .service-card p {
@@ -721,10 +762,12 @@ footer .widget-three .socials .email {
   justify-content: space-between;
 }
 
+.toggle .active .tab-content.border,
 .toggle .tab-title.border {
   border-width: 1px;
   border-color: #e5e5e5;
   border-bottom: 1px solid #d5d8dc;
+  transition: all 0.5s;
 }
 
 .toggle .tab-title.bold a {
@@ -764,6 +807,22 @@ footer .widget-three .socials .email {
   transition: all 0.5s;
 }
 
+.toggle .tab-content {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.6em;
+}
+
+.active .tab-title.border {
+  border: none;
+  transition: all 0.5s;
+}
+
+.active .tab-title a {
+  color: #eeae49;
+}
+
 /* Page Specific */
 
 .home .container.why-choose .icon {
@@ -801,8 +860,11 @@ footer .widget-three .socials .email {
   margin: 0px;
 }
 
-.health-safety-consultancy .text-16,
+.cdm-consultancy .text-16 p,
+.fire-safety-consultancy .text-16 p,
+.health-safety-consultancy .text-16 p,
 .course-delivery .text-16 {
+  font-size: 16px;
   text-align: left;
   color: #000000;
   font-weight: 300;
@@ -963,12 +1025,20 @@ a:hover {
   padding-top: 50px;
 }
 
+.pt-80 {
+  padding-top: 80px;
+}
+
 .pt-100 {
   padding-top: 100px;
 }
 
 .pt-130 {
   padding-top: 130px;
+}
+
+.pr-4 {
+  padding-right: 4px;
 }
 
 .pr-5 {
@@ -989,6 +1059,10 @@ a:hover {
 
 .pb-20 {
   padding-bottom: 20px;
+}
+
+.pb-60 {
+  padding-bottom: 60px;
 }
 
 .pb-100 {
@@ -1132,8 +1206,16 @@ a:hover {
   width: 33.333%;
 }
 
+.width-34 {
+  width: 34.998%;
+}
+
 .width-36 {
   width: 36.825%;
+}
+
+.width-43 {
+  width: 43.996%;
 }
 
 .width-44 {
@@ -1144,8 +1226,16 @@ a:hover {
   width: 55.227%;
 }
 
+.width-56 {
+  width: 55.613%;
+}
+
 .width-63 {
   width: 63.175%;
+}
+
+.width-64 {
+  width: 64.611%;
 }
 
 .width-73 {

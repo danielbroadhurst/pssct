@@ -28,12 +28,13 @@ window.onload = document.onload = () => {
     console.log(element);
     const iconOpened = element.querySelector('.icon-opened');
     const iconClosed = element.querySelector('.icon-closed');
+    
+    element.classList.toggle('active');
 
     const id = element.id;
     const content = document.getElementById(
       `toggle-content-${id.split('-')[1]}`,
     );
-    content.classList.toggle('active');
     const height = toggleContentHeight.get(
       `toggle-content-${id.split('-')[1]}`,
     );

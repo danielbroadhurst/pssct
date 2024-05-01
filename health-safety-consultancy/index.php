@@ -38,7 +38,7 @@ require(TEMPLATES_PATH . "/header.php");
     <h4>Health & Safety Consultancy Services we provide include:</h4>
   </div>
   <div class="flex-container pl-20 pr-20 pb-20">
-    <div class="toggle">
+    <div class="toggle text-16">
       <div class="toggle-item mb-15">
         <div class="tab-title bold border p-15" data-tab="1" role="button" aria-expanded="false">
           <a class="toggle-title" tabindex="0">Risk Assessment </a>
@@ -56,7 +56,7 @@ require(TEMPLATES_PATH . "/header.php");
           </div>
         </div>
 
-        <div class="tab-content clearfix" data-tab="1" role="region" aria-labelledby="tab-title-1581">
+        <div class="tab-content border" data-tab="1" role="region" aria-labelledby="tab-title-1581">
           <div class="p-15">
             <p>We can assist with completing a variety of&nbsp;<a href="https://www.legislation.gov.uk/uksi/1999/3242/regulation/3" target="_blank">risk assessments</a>&nbsp;such as general workplace, task specific, manual handling, CoSHH, DSEAR, DSE, etc.<br>We can also provide templates and advice on how you can do this yourself, however we do advise that if you are conducting risk assessments, you must ensure you are&nbsp;<a href="https://www.hse.gov.uk/competence/what-is-competence.htm" target="_blank">competent&nbsp;</a>to do so.</p>
           </div>
@@ -78,7 +78,7 @@ require(TEMPLATES_PATH . "/header.php");
             </span>
           </div>
         </div>
-        <div class="tab-content clearfix" data-tab="2" role="region" aria-labelledby="tab-title-1582">
+        <div class="tab-content border" data-tab="2" role="region" aria-labelledby="tab-title-1582">
           <div class="p-15">
             <p>Every employer shall make and give effect to such&nbsp;<a href="https://www.legislation.gov.uk/uksi/1999/3242/regulation/5" target="_blank" rel="noopener">arrangements&nbsp;</a>as are appropriate, having regard to the nature of his activities and the size of his undertaking, for the effective planning, organisation, control, monitoring and review of the preventive and protective measures.</p>
             <p>Where the employer employs five or more employees, he shall record the arrangements.</p>
@@ -102,7 +102,7 @@ require(TEMPLATES_PATH . "/header.php");
             </span>
           </div>
         </div>
-        <div class="tab-content clearfix" data-tab="3" role="region" aria-labelledby="tab-title-1583">
+        <div class="tab-content border" data-tab="3" role="region" aria-labelledby="tab-title-1583">
           <div class="p-15">
             <p><a href="https://www.hse.gov.uk/involvement/inspections.htm" target="_blank" rel="noopener">Safety inspections of the workplace</a> can take many forms and serve a number of purposes, for example:</p>
             <ul>
@@ -132,7 +132,7 @@ require(TEMPLATES_PATH . "/header.php");
             </span>
           </div>
         </div>
-        <div class="tab-content clearfix" data-tab="4" role="region" aria-labelledby="tab-title-1584">
+        <div class="tab-content border" data-tab="4" role="region" aria-labelledby="tab-title-1584">
           <div class="p-15">
             <p>If you have a contractor working for you, then both you and the contractor will have duties under health and safety law to ensure the <a href="https://www.hse.gov.uk/toolbox/workers/contractors.htm" target="_blank" rel="noopener" class="broken_link">contractor’s competence</a>. This also applies when a contractor employs subcontractors.</p>
             <p>If you are contracting construction work you have duties as a client under the Construction Design and Management Regulations 2015 (CDM).</p>
@@ -157,7 +157,7 @@ require(TEMPLATES_PATH . "/header.php");
             </span>
           </div>
         </div>
-        <div class="tab-content clearfix" data-tab="5" role="region" aria-labelledby="tab-title-1585">
+        <div class="tab-content border" data-tab="5" role="region" aria-labelledby="tab-title-1585">
           <div class="p-15">
             <p>Positive Safety Solutions offers in-house H&amp;S training in topics such as H&amp;S awareness, fire safety awareness, manual handling, work at height awareness, COSHH awareness, etc. We also offer regulated qualifications in a variety of topics which can be found on our&nbsp;<a href="<?= BASE_URL ?>/nvqs/" target="_blank" rel="noopener">NVQ qualifications</a>&nbsp;pages.</p>
             <p>We can provide training both at your premises, provided you have adequate space and facilities available, or can organise a venue to facilitate the training you need.</p>
@@ -180,7 +180,7 @@ require(TEMPLATES_PATH . "/header.php");
             </span>
           </div>
         </div>
-        <div class="tab-content clearfix" data-tab="6" role="region" aria-labelledby="tab-title-1586">
+        <div class="tab-content border" data-tab="6" role="region" aria-labelledby="tab-title-1586">
           <div class="p-15">
             <p>In any business or organisation things don’t always go to plan. In the unfortunate event of an incident or Accident, Health &amp; Safety&nbsp;<a href="https://www.hse.gov.uk/managing/delivering/check/investigating-accidents-incidents.htm" target="_blank" rel="noopener">investigations</a>&nbsp;form an essential part of the monitoring process that you are required to carry out. Incidents, including near misses, can tell you a lot about how things actually are in reality. An investigation can help you identify why the existing risk control measures failed and what improvements or additional measures are needed so that you can ensure they do not reoccur.</p>
             <p>The process involved in investigating serious accidents may involve:</p>
@@ -211,7 +211,7 @@ require(TEMPLATES_PATH . "/header.php");
             </span>
           </div>
         </div>
-        <div class="tab-content clearfix" data-tab="7" role="region" aria-labelledby="tab-title-1587">
+        <div class="tab-content border" data-tab="7" role="region" aria-labelledby="tab-title-1587">
           <div class="p-15">
             <p>As mentioned above, if you are engaging a contractor to carry out works for your business, you have a responsibility to ensure they are competent to do so. A process based on the requirements of PAS 91 known as&nbsp;<a href="https://www.designingbuildings.co.uk/wiki/Pre-qualification_questionnaire_PQQ_for_construction_contracts" target="_blank" rel="noopener">PQQ&nbsp;</a>and which includes a H&amp;S section, consists of the contractor completing and submitting a questionnaire and supporting documents to the organisation, where they are reviewed against a standard and if successful, the contractor is added to an approved contractor list for a certain period, but usually no longer than 12 months. The process is complicated for the client organisation due to the H&amp;S section, as the reviewer should be a H&amp;S competent person to ensure the review is suitable and sufficient. If you are not familiar with it, the process can be confusing, frustrating and time consuming.&nbsp;</p>
             <p><span style="font-style: inherit; font-weight: inherit;">Numerous large organisations that use hundreds, if not thousands of contractors, such as local authorities and private businesses, may not have the in-house resource to carry out the H&amp;S section of the PQQ review on all of the contractors on their approved list, therefore they require contractors that wish to work for them, to hold an&nbsp;<a href="https://ssip.org.uk/about-ssip/" target="_blank" rel="noopener" style="font-style: inherit; font-weight: inherit; background-color: rgb(255, 255, 255);">SSIP&nbsp;</a><span style="font-style: inherit; font-weight: inherit;">accreditation. This can be with any one of a number of SSIP providers such as Chas, SMAS, Constructionline, FASET, etc.<span style="font-style: inherit; font-weight: inherit;">&nbsp;<span style="font-style: inherit; font-weight: inherit;">A complete list of current providers can be found on the SSIP website linked above.</p>
@@ -236,7 +236,7 @@ require(TEMPLATES_PATH . "/header.php");
             </span>
           </div>
         </div>
-        <div class="tab-content clearfix" data-tab="8" role="region" aria-labelledby="tab-title-1588">
+        <div class="tab-content border" data-tab="8" role="region" aria-labelledby="tab-title-1588">
           <div class="p-15">
             <p>We offer a number of retained support packages we have developed called <a href="<?= BASE_URL ?>/simple-safety-support/">Simple Safety Support</a>. These are more suitable for organisations that might be considered a ‘low risk’ industry, such as cleaning companies, office based works, retail businesses, etc.</p>
           </div>
@@ -297,7 +297,7 @@ require(TEMPLATES_PATH . "/header.php");
           </div>
         </div>
 
-        <div class="tab-content clearfix" data-tab="1" role="region" aria-labelledby="tab-title-1581">
+        <div class="tab-content border" data-tab="1" role="region" aria-labelledby="tab-title-1581">
           <div class="p-15">
             <p>A consultant is an experienced professional with specialised knowledge in a particular field.&nbsp;</p>
             <p>Essentially, they are hired to <b>share their expertise and knowledge to help businesses reach goals and solve problems</b>. Sometimes, companies hire consultants to perform day-to-day work and augment or supplement staff, without the overhead costs associated with a full-time employee. They can also provide expert advice and guidance to clients to help them solve complex problems and make informed decisions on specific projects.&nbsp;</p>
@@ -322,7 +322,7 @@ require(TEMPLATES_PATH . "/header.php");
             </span>
           </div>
         </div>
-        <div class="tab-content clearfix" data-tab="2" role="region" aria-labelledby="tab-title-1582">
+        <div class="tab-content border" data-tab="2" role="region" aria-labelledby="tab-title-1582">
           <div class="p-15">
             <p>A Health and Safety Officer/advisor/coordinator is an employee of an organisation and is usually tasked with minimising or removing the risk of accidents, work-related illnesses and injuries in the workplace. They typically maintain the safety information of the organisation and promote safety compliance by developing new, and strengthening existing health and safety policies, procedures and safe systems of work. They may also be tasked with ensuring that their organisation adheres to occupational health and safety regulations set out by the government as a minimum, and may be required to help the organisation meet, maintain or exceed industry best practice in H&amp;S matters.</p>
             <p>At Positive Safety Solutions, we recognise the significance of comprehensive training in health and safety practices, particularly in industries that require strict adherence to regulations and industry best practices. Our <a href="/nvqs/l6-nvq-diploma-in-occupational-health-and-safety-practice/">Health &amp; Safety NVQs</a> provide individuals with a profound understanding of these requirements/guidelines, enabling them to develop the knowledge and skills necessary to excel as safety professionals and make positive impacts in their workplaces.</p>
