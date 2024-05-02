@@ -128,3 +128,8 @@
     </div>
   </div>
 </footer>
+
+<!-- Sitewide Scripts -->
+<script src="<?= BASE_URL ?>/assets/js/menu.js"></script>
+<!-- Page Closing Div -->
+</div> 

@@ -17,7 +17,7 @@ require(TEMPLATES_PATH . "/header.php");
   </div>
 </section>
 <section class="container mt-30 mb-40">
-  <div class="flex-container">
+  <div class="flex-container align-center">
     <div class="width-33">
       <h3>We support Clients to not only achieve legal compliance, but to meet industry best practice where possible.</h3>
     </div>
@@ -179,9 +179,9 @@ require(TEMPLATES_PATH . "/header.php");
     </div>
   </div>
 </section>
-<!-- This is duplicated -->
+
 <?php require(TEMPLATES_PATH . "/footer.php"); ?>
-</div>
+
 </body>
 
 </html>

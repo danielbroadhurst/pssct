@@ -44,7 +44,7 @@ require(TEMPLATES_PATH . "/header.php");
             </li>
           </ul>
         </div>
-        <div class="flex-container">
+        <div class="flex-container keep-in-touch">
           <h6 class="heading-title">Keep in Touch</h6>
           <div class="social-icons-wrapper ml-30">
             <span>
@@ -116,7 +116,6 @@ require(TEMPLATES_PATH . "/header.php");
 </section>
 
 <?php require(TEMPLATES_PATH . "/footer.php"); ?>
-</div>
 </body>
 
 </html>

@@ -333,7 +333,6 @@ require(TEMPLATES_PATH . "/header.php");
   </div>
 </section>
 <?php require(TEMPLATES_PATH . "/footer.php"); ?>
-</div>
 <!-- include toggle script -->
 <script src="<?= BASE_URL ?>/assets/js/toggle.js"></script>
 </body>

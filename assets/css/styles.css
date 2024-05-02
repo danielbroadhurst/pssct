@@ -708,6 +708,12 @@ footer .widget-three .socials .email {
   width: 100%;
 }
 
+.card-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
 .card.shadow {
   box-shadow: 0px 30px 50px -20px rgba(0, 0, 0, 0.73);
 }
@@ -826,7 +832,7 @@ footer .widget-three .socials .email {
   height: 49px;
 }
 
-.container .flex-container .icon svg {
+.container.why-choose .flex-container .icon svg {
   position: absolute;
   width: 18px;
   height: 18px;
@@ -1622,9 +1628,6 @@ a:hover {
   footer .widget-three svg {
     width: 11px;
   }
-  .container .list-item span.list-text {
-    font-size: 13px;
-  }
   .card {
     margin: 0px 5px 0px 5px;
     padding: 40px 20px 40px 20px;
@@ -1642,7 +1645,32 @@ a:hover {
   }
   .container .flex-container {
     max-width: 1024px;
-    flex-wrap: wrap;
+  }
+  .card.p-50 {
+    /* margin: 0px 0px 0px 15px; */
+    padding: 30px 30px 30px 30px;
+  }
+  .mr-quarter {
+    margin: 0px 15px 0px 0px;
+  }
+  .about-us .container.mt-30.mb-40 {
+    margin: 0;
+    padding: 0;
+  }
+  .about-us .width-63,
+  .about-us .width-36 {
+    width: 50%;
+  }
+  .container .flex-container .nvqs.icon svg {
+    width: 35px;
+    height: 35px;
+  }
+  .container .flex-container .nvqs.icon {
+    padding: 17.5px;
+    margin-right: 17px;
+  }
+  .nvqs-page .flex-container.width-50.p-30 {
+    padding: 22px;
   }
 }
 
@@ -1700,10 +1728,258 @@ a:hover {
   #menu.open .menu-grid .mobile-svg.menu-svg {
     display: none;
   }
+  h2 {
+    font-size: 32px;
+  }
+  h5 {
+    font-size: 16.416px;
+  }
+  .flex-container h3 {
+    font-size: 25px;
+  }
+  .card-title a {
+    font-size: 25px;
+  }
+  .tablet-45 {
+    width: 45%;
+  }
+  .tablet-45.pr-50 {
+    padding-right: 0px;
+  }
+  .tablet-55 {
+    width: 55%;
+  }
+  .text-16 > p,
+  .tablet-text-13 p {
+    font-size: 13.68px;
+  }
+  .home .title-padding {
+    padding: 100px 100px 100px 100px;
+  }
+  .home .section-padding {
+    padding: 50px 50px 25px 50px;
+  }
 }
 
 @media (max-width: 767px) {
   .widget {
     width: 100%;
+  }
+  footer .footer-wrapper {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 30px 30px 30px 30px;
+  }
+  .container .flex-container {
+    max-width: 767px;
+    flex-wrap: wrap;
+    flex-flow: column;
+  }
+  .flex-container {
+    flex-flow: column;
+  }
+  .flex-container.width-50 {
+    width: 100%;
+  }
+  .container .flex-container .nvqs.icon {
+    max-width: fit-content;
+  }
+  .nvqs-page > section.container.pt-35 > div {
+    padding: 10px;
+  }
+  .nvqs li,
+  p {
+    font-size: 13.68px;
+  }
+  .nvqs-page h2.text-grey {
+    font-size: 26px;
+    text-align: center;
+  }
+  .nvqs-page > section.container.pb-70 {
+    padding: 40px 10px 40px 10px;
+  }
+  .container .flex-container .nvqs.icon svg {
+    width: 28px;
+    height: 28px;
+  }
+  .container .flex-container .nvqs.icon {
+    padding: 14px;
+  }
+  .nvqs-page .flex-container.width-100.mt-30 .mt-5.p-10.ml-40 {
+    text-align: center;
+    margin-left: 0px;
+  }
+  .menu-header {
+    border-radius: 0px 0px 75px 0px;
+    padding: 100px 30px 60px 25px;
+  }
+  .header-overlay {
+    border-radius: 0px 0px 75px 0px;
+  }
+  .title h1 {
+    font-size: 32px;
+  }
+  .home .title-padding {
+    text-align: center;
+    padding: 60px 30px 0px 30px;
+  }
+  .about-us .width-63,
+  .about-us .width-36,
+  .width-56,
+  .width-43,
+  .width-26,
+  .width-33,
+  .width-44,
+  .width-66,
+  .width-55,
+  .tablet-55,
+  .tablet-45,
+  .width-73,
+  .width-34,
+  .width-64,
+  .width-50 {
+    width: 100%;
+  }
+  .width-55.pl-50,
+  .width-43.pl-20,
+  .width-64.pl-50,
+  .width-66.pl-50 {
+    padding: 0;
+  }
+  .width-33 .mr-50 {
+    margin: 0;
+  }
+  .width-66 .ml-50 {
+    margin: 0;
+  }
+  .width-63.pl-40.pr-20 {
+    padding: 0px 0px 0px 20px;
+  }
+  .flex-container h3 {
+    font-size: 20px;
+  }
+  .home .section-padding {
+    padding: 50px 30px 10px 30px;
+  }
+  .container.text {
+    border-width: 0px 0px 0px 0px;
+    margin: 20px 0px 0px 0px;
+  }
+  .home .container.text {
+    padding: 0px 0px 0px 20px;
+  }
+  .about-us .text-16 > p {
+    font-size: 16px;
+  }
+  .cdm-consultancy .text-16 p,
+  .fire-safety-consultancy .text-16 p,
+  .health-safety-consultancy .text-16 p,
+  .course-delivery .text-16 {
+    font-size: 14px;
+    padding: 0px 0px 0px 15px;
+  }
+  .text-16,
+  .text-16 > p {
+    font-size: 12px;
+  }
+  .card-title a {
+    font-size: 20px;
+  }
+  .list-item a {
+    font-size: 18px;
+  }
+  .card {
+    margin: 30px 0px 30px 0px;
+    padding: 30px 30px 30px 30px;
+  }
+  .container.pt-130,
+  .container.mt-30.mb-40,
+  .container.py-100 {
+    padding: 50px 30px 30px 30px;
+  }
+  h2 {
+    font-size: 26px;
+  }
+  .why-choose .tablet-45 {
+    padding-bottom: 20px;
+  }
+  .why-choose .tablet-55 {
+    padding: 0;
+    padding-bottom: 20px;
+  }
+  .why-choose .tablet-55 .flex {
+    flex-flow: column;
+    margin-bottom: 20px;
+  }
+  h5 {
+    font-size: 14.592px;
+    margin-top: 5px;
+  }
+  .flex-container h3 {
+    font-size: 20px;
+  }
+  .more-info {
+    margin: 30px 10px 30px 10px;
+  }
+  .nvqs .list-item a,
+  .more-info .list-item {
+    font-size: 13px;
+  }
+  .more-info .mb-10 {
+    margin-bottom: 5px;
+  }
+  .pt-130 {
+    padding-top: 0px;
+  }
+  .toggle .tab-title a {
+    font-size: 14px;
+  }
+  .contact .flex-container.keep-in-touch {
+    flex-flow: row;
+    padding-bottom: 50px;
+  }
+  h4 {
+    font-size: 16.416px;
+  }
+  .employee .head-shot {
+    display: flex;
+    justify-content: center;
+  }
+  .fire-safety .flex-container.p-20 {
+    padding: 0;
+    margin-bottom: 70px;
+  }
+  .fire-safety .flex-container.pl-20.pr-20.pb-20 {
+    padding: 0;
+  }
+  .container.cdm-services,
+  .container.health-safety,
+  .container.fire-safety {
+    padding: 50px 20px 50px 20px;
+  }
+  .flex.cards {
+    flex-flow: column;
+  }
+  .service-card {
+    margin: 25px 0px 0px 0px;
+    padding: 35px 35px 35px 35px;
+  }
+  .service-card figure {
+    width: 25%;
+    margin-bottom: 25px;
+  }
+  .service-card .description {
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: center;
+  }
+  .health-cta .text-16 p {
+    font-size: 16px;
+    padding: 0;
+  }
+  .container.cdm-cta,
+  .container.health-cta,
+  .container.fire-safety-consultancy {
+    padding: 50px 20px 50px 20px;
   }
 }

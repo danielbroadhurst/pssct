@@ -2,6 +2,7 @@
 define('SAFETORUN', TRUE);
 $mytitle = 'REPLACE';
 $myMetaDescription = 'REPLACE';
+$pageClass = 'nvqs-page level-3-nvq-diploma-in-construction-contracting-operations';
 require_once($_SERVER['DOCUMENT_ROOT'] . "/config.php");
 require_once(TEMPLATES_PATH . "/core.php");
 // HMTL Begins Here
@@ -155,7 +156,6 @@ require(TEMPLATES_PATH . "/header.php");
 </section>
 
 <?php require(TEMPLATES_PATH . "/footer.php"); ?>
-</div>
 </body>
 
 </html>

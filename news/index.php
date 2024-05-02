@@ -19,7 +19,6 @@ require(TEMPLATES_PATH . "/header.php");
 <!-- All blog posts contain Lorem Ipsum text -->
 
 <?php require(TEMPLATES_PATH . "/footer.php"); ?>
-</div>
 </body>
 
 </html>

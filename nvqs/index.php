@@ -18,7 +18,7 @@ require(TEMPLATES_PATH . "/header.php");
 </section>
 <section class="container mt-30 mb-40">
   <div class="flex-container">
-    <div class="width-33">
+    <div class="width-33 align-center">
       <h2 class="pt-130">We have NVQs with prices and Payment Plans to suit all budgets.</h2>
     </div>
     <div class="width-66 container text pl-50">
@@ -37,7 +37,7 @@ require(TEMPLATES_PATH . "/header.php");
     </div>
   </div>
 </section>
-<section class="container pt-10">
+<section class="container pt-10 more-info">
   <div class="menu-anchor" id="nvq-options"></div>
   <div class="flex-container pt-10">
     <div class="card blue-red text-white">
@@ -124,7 +124,7 @@ require(TEMPLATES_PATH . "/header.php");
     </div>
   </div>
 </section>
-<section class="container mt-20">
+<section class="container mt-20 more-info">
   <div class="flex-container">
     <div class="card shadow">
       <h3 class="card-title text-center mt-4 mb-20">Staff training</h3>
@@ -231,7 +231,7 @@ require(TEMPLATES_PATH . "/header.php");
       <div class="mr-50">
         <h6 class="mb-20">Have Any Questions?</h6>
         <h2 class="mb-20">FAQs</h2>
-        <p>If our FAQs haven’t answered your questions, you can contact us via the form on our&nbsp;<a href="<?= BASE_URL ?>/contact/" target="_blank" rel="noopener">Contact&nbsp;</a>page</p>
+        <p class="mb-20">If our FAQs haven’t answered your questions, you can contact us via the form on our&nbsp;<a href="<?= BASE_URL ?>/contact/" target="_blank" rel="noopener">Contact&nbsp;</a>page</p>
       </div>
     </div>
     <div class="width-66">
@@ -486,10 +486,10 @@ require(TEMPLATES_PATH . "/header.php");
 </section>
 
 <?php require(TEMPLATES_PATH . "/footer.php"); ?>
-</div>
 
 <!-- include toggle script -->
 <script src="<?= BASE_URL ?>/assets/js/toggle.js"></script>
+
 </body>
 
 </html>

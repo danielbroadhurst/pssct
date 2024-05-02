@@ -22,7 +22,7 @@ require(TEMPLATES_PATH . "/header.php");
       <h3 class="mb-5">We offer CDM, Fire Safety and Health & Safety Consultancy, and a range of regulated NVQ qualifications and bespoke training tailored to suit your business needs.</h3>
       <h3 class="text-blue">Get in touch to discuss how we can help you to do it better.</h3>
     </div>
-    <div class="width-50 container text border-blue pl-40 pr-20">
+    <div class="width-50 container text text-16 border-blue pl-40 pr-20">
       <p>Positive Safety Solutions provide a range of professional safety consultancy services and NVQ qualifications.</p>
       <p>Consultancy services include general Health &amp; Safety, Construction Health &amp; Safety, CDM consultancy including Principal Designer services, and Fire Safety consultancy ranging from fire risk assessment to Fire Safety Policy and Procedures Development/Review. We offer a number of Simple Safety Support retained packages for companies that want to get it right, but that operate in lower risk industries.</p>
       <p>We also provide a range of regulated qualifications (NVQs) from levels 3 to 7 in Health &amp; Safety, construction site supervision and management, construction contracting operations, mental health first aid, and teaching and training.</p>
@@ -122,11 +122,11 @@ require(TEMPLATES_PATH . "/header.php");
 </section>
 <section class="container py-100 why-choose">
   <div class="flex-container">
-    <div class="pr-50">
+    <div class="pr-50 tablet-45 tablet-text-13">
       <h2>Why Choose Us?</h2>
       <p>Positive Safety Solutions was founded by three Health & Safety professionals with an enviable list of qualifications, skills and knowledge and decades of real industry experience, ensuring that the services you require are the best that we can provide.</p>
     </div>
-    <div class="pl-50 text-black">
+    <div class="pl-50 tablet-55 tablet-text-13 text-black">
       <div class="flex width-100">
         <div class="">
           <a href="#" class="icon bg-yellow white animation-" tabindex="-1">
@@ -182,8 +182,7 @@ require(TEMPLATES_PATH . "/header.php");
 </section>
 
 <?php require(TEMPLATES_PATH . "/footer.php"); ?>
-</div>
-<script src="<?= BASE_URL ?>/assets/js/menu.js"></script>
+
 </body>
 
 </html>

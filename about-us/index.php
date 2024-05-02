@@ -21,7 +21,7 @@ require(TEMPLATES_PATH . "/header.php");
     <div class="width-36">
       <h3>We are highly qualified, extensively experienced industry professionals with proven records in doing it better. Get to know us, then get in touch to see how we can help you to do it better too.</h3>
     </div>
-    <div class="width-63 container text pl-40 pr-20 text-16">
+    <div class="width-63 container text pl-40 tablet-p-10 pr-20 text-16">
       <p>Positive Safety Solutions was founded by three Health &amp; Safety and construction professionals with over six decades (combined – we’re not that old yet!), of industry experience who wanted to provide the clear instruction, and unrivalled support needed to get learners qualified in their chosen NVQ, and on the road to an exciting career.&nbsp;</p>
       <p>At Positive Safety Solutions Ltd we pride ourselves on delivering a quality service that our Clients can trust.&nbsp;</p>
       <p>The people in our team are our strength, with experience gained in a broad array of industry sectors from the Armed Forces, education and manufacturing, to pharmaceuticals and oil &amp; gas; we are Health &amp; Safety specialists in Construction Safety, Fire Safety and CDM Consultancy.&nbsp;</p>
@@ -45,7 +45,7 @@ require(TEMPLATES_PATH . "/header.php");
         <p>Sam has an expansive knowledge of general, manufacturing, and construction Health and Safety legislation from a legal point of view, as well as the practical application of ensuring compliance.</p>
         <p>Sam is a Graduate Member of the Institution of Occupational Safety and Health (<a href="https://iosh.com/health-and-safety-professionals/become-a-member/membership-categories/" target="_blank" rel="noopener">GradIOSH</a>) and a Member of the International Institute of Risk &amp; Safety Management (<a href="https://www.iirsm.org/members" target="_blank" rel="noopener" class="broken_link">MIIRSM</a>).</p>
       </div>
-      <div class="mr-10">
+      <div class="card-wrapper">
         <div class="card blue-red text-white">
           <div class="mb-10">
             <h3 class="mb-10">Sam's Roles and Qualifications</h3>
@@ -102,7 +102,7 @@ require(TEMPLATES_PATH . "/header.php");
         <p>Kathryn has extensive experience in training and working with industry and has undertaken consultancy in Health and Safety for many different companies and delivered bespoke safety training to many different sectors in both the UK and overseas. </p>
         <p>Kathryn is a Fellow of the Institution of Mechanical Engineers (<a href="https://www.imeche.org/membership-registration/become-a-member/fellow" target="_blank" rel="noopener">FIMechE</a>) and a Chartered Member of the Institution of Occupational Safety and Health (<a href="https://iosh.com/health-and-safety-professionals/become-a-member/membership-categories/" target="_blank" rel="noopener">CMIOSH</a>).</p>
       </div>
-      <div class="mr-10">
+      <div class="card-wrapper">
         <div class="card blue-red text-white">
           <div class="mb-10">
             <h3 class="mb-10">Kathryn's Roles and Qualifications</h3>
@@ -131,7 +131,7 @@ require(TEMPLATES_PATH . "/header.php");
       </div>
     </div>
 </section>
-<section class="container mt-40">
+<section class="container mt-40 mb-20">
   <div class="flex-container employee">
     <div class="width-26 p-10">
       <div class="head-shot">
@@ -147,7 +147,7 @@ require(TEMPLATES_PATH . "/header.php");
         <p>Sam has considerable experience of SSIP schemes and the PQQ process and has extensive knowledge of CDM, fire and general and construction Health and Safety legislation and their practical application, helping clients to ensure legal compliance. </p>
         <p>Sam is a Chartered Member of the Institution of Occupational Safety and Health (<a href="https://iosh.com/health-and-safety-professionals/become-a-member/membership-categories/" target="_blank" rel="noopener">CMIOSH</a>) and an Associate of the Institution of Fire Engineers (<a href="https://www.ife.org.uk/Membership" target="_blank" rel="noopener">AIFireE</a>).</p>
       </div>
-      <div class="mr-10">
+      <div class="card-wrapper">
         <div class="card blue-red text-white">
           <div class="mb-10">
             <h3 class="mb-10">Samuel's Roles and Qualifications</h3>
@@ -176,7 +176,6 @@ require(TEMPLATES_PATH . "/header.php");
 </section>
 
 <?php require(TEMPLATES_PATH . "/footer.php"); ?>
-</div>
 </body>
 
 </html>
