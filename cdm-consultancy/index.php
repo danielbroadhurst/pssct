@@ -34,7 +34,7 @@ require(TEMPLATES_PATH . "/header.php");
     </div>
   </div>
 </section>
-<section class="container">
+<section class="container cdm-services">
   <div class="flex-container p-20 mb-20">
     <h4>CDM Consultancy Services we provide include:</h4>
   </div>
@@ -168,7 +168,7 @@ require(TEMPLATES_PATH . "/header.php");
     <p class="text-20 p-10"><strong><a href="https://pssct.co.uk/">Positive Safety Solutions</a> offers CDM consultancy services across all project types and industries. Get in touch with us today by calling our number 0800 448 0503 or fill in our <a href="https://pssct.co.uk/contact/">online form</a>.</strong></p>
   </div>
 </section>
-<section class="container pt-80 pb-100">
+<section class="container pt-80 pb-100 cdm-cta">
   <div class="flex-container column">
     <h2 class="text-29">CDM Consultancy Services UK</h2>
     <h4 class="text-25 mb-20">In addition to CDM consultancy services, we offer <a href="<?= BASE_URL ?>/fire-safety-consultancy/">Fire Safety</a> and <a href="<?= BASE_URL ?>/health-safety-consultancy/">Health &amp; Safety</a> Consultancy services to provide you with a full range of business and project needs.</h4>

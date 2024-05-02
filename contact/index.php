@@ -16,7 +16,7 @@ require(TEMPLATES_PATH . "/header.php");
     <h1 class="text-blue">Get in Touch</h1>
   </div>
 </section>
-<section class="container pt-100 pb-100">
+<section class="container py-100">
   <div class="flex-container">
     <div class="width-50">
       <div class="mr-quarter">

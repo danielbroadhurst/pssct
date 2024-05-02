@@ -34,7 +34,7 @@ require(TEMPLATES_PATH . "/header.php");
     </div>
   </div>
 </section>
-<section class="container">
+<section class="container fire-safety">
   <div class="flex-container p-20">
     <h4>Fire Safety services we provide include:</h4>
   </div>
@@ -144,7 +144,7 @@ require(TEMPLATES_PATH . "/header.php");
     </div>
   </div>
 </section>
-<section class="container pt-80 pb-100">
+<section class="container pt-80 pb-100 fire-safety-consultancy">
   <div class="flex-container column pb-60">
     <div class="text-16 p-10">
       <h2 class="text-28">Fire Safety Consultancy Services in the UK by PSSCT</h2>

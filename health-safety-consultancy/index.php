@@ -33,7 +33,7 @@ require(TEMPLATES_PATH . "/header.php");
     </div>
   </div>
 </section>
-<section class="container">
+<section class="container health-safety">
   <div class="flex-container p-20">
     <h4>Health & Safety Consultancy Services we provide include:</h4>
   </div>
@@ -245,7 +245,7 @@ require(TEMPLATES_PATH . "/header.php");
     </div>
   </div>
 </section>
-<section class="container pt-50 pb-100">
+<section class="container pt-50 pb-100 health-cta">
   <div class="flex-container column">
     <div class="text-16 mb-20">
       <p class="mb-8">If you are unsure as to what you require,&nbsp;<a href="https://www.pssct.co.uk/contact/" target="_blank" rel="noopener">book a consultation</a>&nbsp;with one of our H&amp;S professionals for a quick review of your current H&amp;S situation.&nbsp;</p>
@@ -274,7 +274,7 @@ require(TEMPLATES_PATH . "/header.php");
     </div>
   </div>
 </section>
-<section class="container">
+<section class="container health-safety">
   <div class="flex-container p-20">
     <h4>Common FAQ's about Health & Safety Consultancy</h4>
   </div>

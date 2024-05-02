@@ -183,6 +183,7 @@ require(TEMPLATES_PATH . "/header.php");
 
 <?php require(TEMPLATES_PATH . "/footer.php"); ?>
 </div>
+<script src="<?= BASE_URL ?>/assets/js/menu.js"></script>
 </body>
 
 </html>

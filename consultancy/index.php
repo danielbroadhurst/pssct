@@ -40,7 +40,7 @@ require(TEMPLATES_PATH . "/header.php");
     </h5>
   </div>
 </section>
-<section class="container mt-20 more-info">
+<section class="container mt-20 more-info mb-50">
   <div class="flex-container">
     <div class="card blue-red text-white justify-between">
       <div>
@@ -143,7 +143,7 @@ require(TEMPLATES_PATH . "/header.php");
         </ul>
       </div>
       <div class="flex justify-center mt-7">
-        <a href="<?= BASE_URL ?>/fire-safety-consultancy/" class="button more-info">More information</a>
+        <a href="<?= BASE_URL ?>/health-safety-consultancy/" class="button more-info">More information</a>
       </div>
     </div>
     <div class="card blue-red text-white justify-between">
