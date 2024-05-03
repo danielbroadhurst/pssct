@@ -1,7 +1,7 @@
 <?php
 define('SAFETORUN', TRUE);
-$mytitle = 'REPLACE';
-$myMetaDescription = 'REPLACE';
+$mytitle = 'Level 3 Certificate in Teaching, Training and Assessment - Positive Safety Solutions';
+$myMetaDescription = 'Achieve Level 3 Certificate in Teaching, Training and Assessment NVQ to get essential skills & knowledge to become an effective educator. Call 0800 448 0503';
 $pageClass = 'nvqs-page level-3-certificate-in-teaching-training-and-assessment';
 require_once($_SERVER['DOCUMENT_ROOT'] . "/config.php");
 require_once(TEMPLATES_PATH . "/core.php");
@@ -36,14 +36,14 @@ require(TEMPLATES_PATH . "/header.php");
           <ul class="nvqs">
             <li>The Level 3 Certificate in Teaching, Training and Assessment is aimed at individuals working in a learning and development role, such as assessors or trainers who are required to deliver teaching or training and assess skills, knowledge and understanding in the workplace, workshops, classrooms and other training environments</li>
             <li>It aims to equip candidates with the knowledge of how to plan and deliver learning sessions that incorporate assessment</li>
-            <li class="download"><a href="<?= BASE_URL ?>/download/3507/">Click here to download the unit overview</a></li>
+            <li class="download"><a href="#">Click here to download the unit overview</a></li>
           </ul>
         </div>
       </div>
       <div class="flex-container">
         <div class="p-10">
           <span class="nvqs icon img">
-            <img decoding="async" src="/assets/img/proqual-badge.png" title="proqual-badge" alt="proqual-badge" loading="lazy" data-src="https://pssct.co.uk/wp-content/uploads/2021/07/proqual-badge.png" class=" lazyloaded" data-eio-rwidth="900" data-eio-rheight="661">
+            <img decoding="async" src="<?= BASE_URL ?>/assets/img/proqual-badge.png" title="proqual-badge" alt="proqual-badge" loading="lazy">
           </span>
         </div>
         <div class="p-10">

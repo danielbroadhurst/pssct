@@ -1,7 +1,7 @@
 <?php
 define('SAFETORUN', TRUE);
-$mytitle = 'REPLACE';
-$myMetaDescription = 'REPLACE';
+$mytitle = 'Simple Safety Support - Positive Safety Solutions';
+$myMetaDescription = 'Simple Safety Support Welcome to Simple Safety Support, our Health and Safety Retained Services packages! Our range of Simple Safety Support retained services are designed to help you manage your health and safety obligations with minimal fuss and ensure your workplace is a safe and healthy environment for your employees and visitors.Our team of experienced';
 $pageClass = 'simple-safety-support';
 require_once($_SERVER['DOCUMENT_ROOT'] . "/config.php");
 require_once(TEMPLATES_PATH . "/core.php");
@@ -351,8 +351,8 @@ require(TEMPLATES_PATH . "/header.php");
 </section>
 
 <?php require(TEMPLATES_PATH . "/footer.php"); ?>
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<script src="/assets/js/swiper.js"></script>
+<script src="<?= BASE_URL ?>/assets/js/swiper-js.js"></script>
+<script src="<?= BASE_URL ?>/assets/js/swiper.js"></script>
 </body>
 
 </html>

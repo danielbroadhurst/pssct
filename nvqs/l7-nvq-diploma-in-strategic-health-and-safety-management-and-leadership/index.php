@@ -1,7 +1,7 @@
 <?php
 define('SAFETORUN', TRUE);
-$mytitle = 'REPLACE';
-$myMetaDescription = 'REPLACE';
+$mytitle = 'NVQ Level 7 Diploma in Strategic Health & Safety Leadership and Management';
+$myMetaDescription = 'Achieve (NVQ) Level 7 Diploma in Strategic Health & Safety Leadership and Management and gain the skills and knowledge you need. Call us on 0800 448 0503 today';
 $pageClass = 'nvqs-page l7-nvq-diploma-in-strategic-health-and-safety-management-and-leadership';
 
 require_once($_SERVER['DOCUMENT_ROOT'] . "/config.php");
@@ -37,7 +37,7 @@ require(TEMPLATES_PATH . "/header.php");
           <li>Level 7 Diploma in Strategic Health &amp; Safety Leadership and Management ( L7 NVQ ) is aimed at safety professionals who are responsible for developing and applying Health &amp; Safety procedures day-to-day in any organisation</li>
           <li>Suitable for senior managers with Health &amp; Safety responsibility at a strategic level and operating over multiple sites</li>
           <li>Is for Health and Safety Managers who want to improve their knowledge and skills</li>
-          <li class="download"><a href="<?= BASE_URL ?>/download/4171/">Click here to download unit overview</a></li>
+          <li class="download"><a href="<?= BASE_URL ?>/assets/downloads/L7-SHSML-Unit-Overview-1.pdf">Click here to download unit overview</a></li>
         </ul>
       </div>
     </div>

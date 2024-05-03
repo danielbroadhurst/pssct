@@ -1,7 +1,7 @@
 <?php
 define('SAFETORUN', TRUE);
-$mytitle = 'REPLACE';
-$myMetaDescription = 'REPLACE';
+$mytitle = 'Contact - Positive Safety Solutions';
+$myMetaDescription = 'Get in Touch Contact Us We’d love to hear from you. Choose the most convenient method and we’ll get back to you as soon as we can. enquiries@pssct.co.uk 0800 448 05 03 Keep in Touch Facebook Twitter Linkedin Have Questions? Drop us a message below and we\'ll get back to you as soon as possible!';
 $pageClass = 'contact';
 require_once($_SERVER['DOCUMENT_ROOT'] . "/config.php");
 require_once(TEMPLATES_PATH . "/core.php");
@@ -128,7 +128,7 @@ require(TEMPLATES_PATH . "/header.php");
 
 <?php require(TEMPLATES_PATH . "/footer.php"); ?>
 <!-- Form Script -->
-<script src="/assets/js/form.js"> 
+<script src="/assets/js/form.js?v=1.11" > 
 </script>
 </body>
 

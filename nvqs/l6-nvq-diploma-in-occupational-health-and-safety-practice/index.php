@@ -1,8 +1,8 @@
 <?php
 define('SAFETORUN', TRUE);
-$mytitle = 'REPLACE';
+$mytitle = 'NVQ Level 6 Diploma in Occupational Health & Safety UK';
 $myMetaDescription = 'REPLACE';
-$pageClass = 'nvqs-page l6-nvq-diploma-in-occupational-health-and-safety-practice';
+$pageClass = 'Get NVQ Level 6 Diploma in Occupational Health and Safety Practice to advance your career in the field of occupational health and safety in the UK. Learn how';
 
 require_once($_SERVER['DOCUMENT_ROOT'] . "/config.php");
 require_once(TEMPLATES_PATH . "/core.php");
@@ -45,14 +45,14 @@ require(TEMPLATES_PATH . "/header.php");
             <li>The Level 6 Diploma in Occupational Health and Safety Practice is aimed at candidates who are responsible for developing and applying health and safety procedures day-to-day in their organisation. They may be a staff member, supervisor or manager looking to improve their knowledge and skills</li>
             <li>Is the academic equivalent to a Bachelor’s Degree. See our <a href="<?= BASE_URL ?>/nvqs/#faqs" target="_blank">FAQs</a> for more information about NVQ levels and their equivalents</li>
             <li>Is accepted by the Institution of Occupational Health and Safety (IOSH) for <a href="https://iosh.com/health-and-safety-professionals/become-a-member/membership-categories/" target="_blank">Graduate Membership</a> (GradIOSH)*</li>
-            <li class="download"><a href="<?= BASE_URL ?>/download/4166/">Click here to download unit overview</a></li>
+            <li class="download"><a href="<?= BASE_URL ?>/assets/downloads/Level-6-NVQ-Diploma-in-Occupational-Health-and-Safety-Practice.pdf">Click here to download unit overview</a></li>
           </ul>
         </div>
       </div>
       <div class="flex-container">
         <div class="p-10">
           <span class="nvqs icon img">
-            <img decoding="async" src="/assets/img/proqual-badge.png" title="proqual-badge" alt="proqual-badge" loading="lazy" data-src="https://pssct.co.uk/wp-content/uploads/2021/07/proqual-badge.png" class=" lazyloaded" data-eio-rwidth="900" data-eio-rheight="661">
+            <img decoding="async" src="/assets/img/proqual-badge.png" title="proqual-badge" alt="proqual-badge" loading="lazy">
           </span>
         </div>
         <div class="p-10">

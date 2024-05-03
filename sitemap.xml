@@ -1,381 +1,151 @@
 
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- This sitemap was dynamically generated on 29/04/2024 at 6:52 am by All in One SEO v4.6.1.1 - the original SEO plugin for WordPress. -->
-
-<?xml-stylesheet type="text/xsl" href="<?= BASE_URL ?>/default-sitemap.xsl?sitemap=page"?>
+<?xml-stylesheet type="text/xsl" href="https://pssct.co.uk/default-sitemap.xsl?sitemap=page"?>
 <urlset
 	xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
 	xmlns:xhtml="http://www.w3.org/1999/xhtml"
 	xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
 >
 	<url>
-		<loc><![CDATA[<?= BASE_URL ?>/]]></loc>
+		<loc><![CDATA[https://pssct.co.uk/]]></loc>
 		<lastmod><![CDATA[2023-09-06T12:09:38+00:00]]></lastmod>
 		<changefreq><![CDATA[always]]></changefreq>
 		<priority><![CDATA[1]]></priority>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2021/07/pss-home-logo-8.svg]]></image:loc>
-		</image:image>
 	</url>
 	<url>
-		<loc><![CDATA[<?= BASE_URL ?>/health-safety-consultancy/]]></loc>
+		<loc><![CDATA[https://pssct.co.uk/health-safety-consultancy/]]></loc>
 		<lastmod><![CDATA[2023-11-18T18:10:58+00:00]]></lastmod>
 		<changefreq><![CDATA[weekly]]></changefreq>
 		<priority><![CDATA[0.7]]></priority>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2021/07/fire.svg]]></image:loc>
-		</image:image>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2021/07/office-building.svg]]></image:loc>
-		</image:image>
 	</url>
 	<url>
-		<loc><![CDATA[<?= BASE_URL ?>/cdm-consultancy/]]></loc>
+		<loc><![CDATA[https://pssct.co.uk/cdm-consultancy/]]></loc>
 		<lastmod><![CDATA[2023-10-23T15:10:53+00:00]]></lastmod>
 		<changefreq><![CDATA[weekly]]></changefreq>
 		<priority><![CDATA[0.7]]></priority>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2021/07/fire.svg]]></image:loc>
-		</image:image>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2021/07/checklist.svg]]></image:loc>
-		</image:image>
 	</url>
 	<url>
-		<loc><![CDATA[<?= BASE_URL ?>/nvqs/l6-nvq-diploma-in-occupational-health-and-safety-practice/]]></loc>
+		<loc><![CDATA[https://pssct.co.uk/nvqs/l6-nvq-diploma-in-occupational-health-and-safety-practice/]]></loc>
 		<lastmod><![CDATA[2024-03-25T07:24:16+00:00]]></lastmod>
 		<changefreq><![CDATA[weekly]]></changefreq>
 		<priority><![CDATA[0.7]]></priority>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2021/07/proqual-badge.png]]></image:loc>
-		</image:image>
 	</url>
 	<url>
-		<loc><![CDATA[<?= BASE_URL ?>/fire-safety-consultancy/]]></loc>
+		<loc><![CDATA[https://pssct.co.uk/fire-safety-consultancy/]]></loc>
 		<lastmod><![CDATA[2024-03-25T03:52:36+00:00]]></lastmod>
 		<changefreq><![CDATA[weekly]]></changefreq>
 		<priority><![CDATA[0.7]]></priority>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2021/07/checklist.svg]]></image:loc>
-		</image:image>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2021/07/office-building.svg]]></image:loc>
-		</image:image>
 	</url>
 	<url>
-		<loc><![CDATA[<?= BASE_URL ?>/nvqs/level-3-nvq-diploma-in-occupational-work-supervision/]]></loc>
+		<loc><![CDATA[https://pssct.co.uk/nvqs/level-3-nvq-diploma-in-occupational-work-supervision/]]></loc>
 		<lastmod><![CDATA[2024-02-20T06:31:26+00:00]]></lastmod>
 		<changefreq><![CDATA[weekly]]></changefreq>
 		<priority><![CDATA[0.7]]></priority>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2021/07/cscs-gold.png]]></image:loc>
-		</image:image>
 	</url>
 	<url>
-		<loc><![CDATA[<?= BASE_URL ?>/nvqs/level-6-nvq-diploma-in-construction-site-management/]]></loc>
+		<loc><![CDATA[https://pssct.co.uk/nvqs/level-6-nvq-diploma-in-construction-site-management/]]></loc>
 		<lastmod><![CDATA[2024-02-20T04:07:02+00:00]]></lastmod>
 		<changefreq><![CDATA[weekly]]></changefreq>
 		<priority><![CDATA[0.7]]></priority>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2021/07/cscs-black.png]]></image:loc>
-		</image:image>
 	</url>
 	<url>
-		<loc><![CDATA[<?= BASE_URL ?>/nvqs/l7-nvq-diploma-in-strategic-health-and-safety-management-and-leadership/]]></loc>
+		<loc><![CDATA[https://pssct.co.uk/nvqs/l7-nvq-diploma-in-strategic-health-and-safety-management-and-leadership/]]></loc>
 		<lastmod><![CDATA[2024-01-18T16:31:56+00:00]]></lastmod>
 		<changefreq><![CDATA[weekly]]></changefreq>
 		<priority><![CDATA[0.7]]></priority>
 	</url>
 	<url>
-		<loc><![CDATA[<?= BASE_URL ?>/nvqs/level-7-nvq-diploma-in-construction-senior-management/]]></loc>
+		<loc><![CDATA[https://pssct.co.uk/nvqs/level-7-nvq-diploma-in-construction-senior-management/]]></loc>
 		<lastmod><![CDATA[2023-12-17T16:14:37+00:00]]></lastmod>
 		<changefreq><![CDATA[weekly]]></changefreq>
 		<priority><![CDATA[0.7]]></priority>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2021/07/cscs-black.png]]></image:loc>
-		</image:image>
 	</url>
 	<url>
-		<loc><![CDATA[<?= BASE_URL ?>/nvqs/level-2-award-in-first-aid-for-youth-mental-health/]]></loc>
+		<loc><![CDATA[https://pssct.co.uk/nvqs/level-2-award-in-first-aid-for-youth-mental-health/]]></loc>
 		<lastmod><![CDATA[2023-11-18T17:55:58+00:00]]></lastmod>
 		<changefreq><![CDATA[weekly]]></changefreq>
 		<priority><![CDATA[0.7]]></priority>
 	</url>
 	<url>
-		<loc><![CDATA[<?= BASE_URL ?>/nvqs/level-3-certificate-in-teaching-training-and-assessment/]]></loc>
+		<loc><![CDATA[https://pssct.co.uk/nvqs/level-3-certificate-in-teaching-training-and-assessment/]]></loc>
 		<lastmod><![CDATA[2023-10-29T16:28:42+00:00]]></lastmod>
 		<changefreq><![CDATA[weekly]]></changefreq>
 		<priority><![CDATA[0.7]]></priority>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2021/07/proqual-badge.png]]></image:loc>
-		</image:image>
 	</url>
 	<url>
-		<loc><![CDATA[<?= BASE_URL ?>/nvqs/]]></loc>
+		<loc><![CDATA[https://pssct.co.uk/nvqs/]]></loc>
 		<lastmod><![CDATA[2023-10-29T16:00:04+00:00]]></lastmod>
 		<changefreq><![CDATA[weekly]]></changefreq>
 		<priority><![CDATA[0.7]]></priority>
 	</url>
 	<url>
-		<loc><![CDATA[<?= BASE_URL ?>/consultancy/]]></loc>
+		<loc><![CDATA[https://pssct.co.uk/consultancy/]]></loc>
 		<lastmod><![CDATA[2023-10-23T17:11:52+00:00]]></lastmod>
 		<changefreq><![CDATA[weekly]]></changefreq>
 		<priority><![CDATA[0.7]]></priority>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2021/07/FIFTHFLOUR-1.png]]></image:loc>
-		</image:image>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2021/07/x.venox_.png]]></image:loc>
-		</image:image>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2021/07/BOLEIR.png]]></image:loc>
-		</image:image>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2021/07/ECOCODE.png]]></image:loc>
-		</image:image>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2021/07/larozse.png]]></image:loc>
-		</image:image>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2021/07/ARMOND-1.png]]></image:loc>
-		</image:image>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2021/07/zusman.png]]></image:loc>
-		</image:image>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2021/07/darkside-1.png]]></image:loc>
-		</image:image>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2021/07/armond.png]]></image:loc>
-		</image:image>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2021/07/bastil.png]]></image:loc>
-		</image:image>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2021/07/bolier.png]]></image:loc>
-		</image:image>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2021/07/digit.png]]></image:loc>
-		</image:image>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2021/07/darkside.png]]></image:loc>
-		</image:image>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2021/07/fifthflour.png]]></image:loc>
-		</image:image>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2021/07/Modal...png]]></image:loc>
-		</image:image>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2021/07/madrin.png]]></image:loc>
-		</image:image>
 	</url>
 	<url>
-		<loc><![CDATA[<?= BASE_URL ?>/simple-safety-support/]]></loc>
+		<loc><![CDATA[https://pssct.co.uk/simple-safety-support/]]></loc>
 		<lastmod><![CDATA[2023-07-19T19:54:11+00:00]]></lastmod>
 		<changefreq><![CDATA[weekly]]></changefreq>
 		<priority><![CDATA[0.7]]></priority>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2023/06/A-bit-on-the-side-logo-e1689266545527.jpg]]></image:loc>
-		</image:image>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2023/06/Logo-3.jpg]]></image:loc>
-		</image:image>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2023/07/HLN-Group-Logo-Homepage1-1.png]]></image:loc>
-		</image:image>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2023/07/BBSM.jpeg]]></image:loc>
-		</image:image>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2023/07/LCB-e1689266735467.jpeg]]></image:loc>
-		</image:image>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2023/07/Taff-large.jpg]]></image:loc>
-		</image:image>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2023/07/EPS-2.jpg]]></image:loc>
-		</image:image>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2023/07/ACS-final-e1689270225153.jpg]]></image:loc>
-		</image:image>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2023/07/Dragon-bigger.jpg]]></image:loc>
-		</image:image>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2023/07/VK-50-e1689792014456.jpg]]></image:loc>
-		</image:image>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2023/07/HClogo.jpg]]></image:loc>
-		</image:image>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2023/07/SWC-50.jpg]]></image:loc>
-		</image:image>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2021/07/armond.png]]></image:loc>
-		</image:image>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2021/07/bastil.png]]></image:loc>
-		</image:image>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2021/07/bolier.png]]></image:loc>
-		</image:image>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2021/07/digit.png]]></image:loc>
-		</image:image>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2021/07/darkside.png]]></image:loc>
-		</image:image>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2021/07/fifthflour.png]]></image:loc>
-		</image:image>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2021/07/Modal...png]]></image:loc>
-		</image:image>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2021/07/madrin.png]]></image:loc>
-		</image:image>
 	</url>
 	<url>
-		<loc><![CDATA[<?= BASE_URL ?>/staff-training/]]></loc>
+		<loc><![CDATA[https://pssct.co.uk/staff-training/]]></loc>
 		<lastmod><![CDATA[2023-07-19T19:46:22+00:00]]></lastmod>
 		<changefreq><![CDATA[weekly]]></changefreq>
 		<priority><![CDATA[0.7]]></priority>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2023/06/L1-fire-safety-awareness.svg]]></image:loc>
-		</image:image>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2023/06/L2-Fire-marshal-.svg]]></image:loc>
-		</image:image>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2023/06/L1-HS-workplace.svg]]></image:loc>
-		</image:image>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2023/06/L2-HS-workplace.svg]]></image:loc>
-		</image:image>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2023/06/L2-MH-in-workplace-1.svg]]></image:loc>
-		</image:image>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2023/06/L2-MH-loads-workplace.svg]]></image:loc>
-		</image:image>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2023/06/L2-COSHH.svg]]></image:loc>
-		</image:image>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2023/06/L2-workplace-RA.svg]]></image:loc>
-		</image:image>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2023/06/L1-HS-Construction.svg]]></image:loc>
-		</image:image>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2023/06/L2-Asb-Awa.svg]]></image:loc>
-		</image:image>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2023/06/L1-Mental-Health-Awareness.svg]]></image:loc>
-		</image:image>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2023/06/L2-Mental-health-first-aid.svg]]></image:loc>
-		</image:image>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2023/06/L2-Mental-health-FA-youth.svg]]></image:loc>
-		</image:image>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2023/06/L3-Mental-health-FA-supervisor-1.svg]]></image:loc>
-		</image:image>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2021/07/armond.png]]></image:loc>
-		</image:image>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2021/07/bastil.png]]></image:loc>
-		</image:image>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2021/07/bolier.png]]></image:loc>
-		</image:image>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2021/07/digit.png]]></image:loc>
-		</image:image>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2021/07/darkside.png]]></image:loc>
-		</image:image>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2021/07/fifthflour.png]]></image:loc>
-		</image:image>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2021/07/Modal...png]]></image:loc>
-		</image:image>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2021/07/madrin.png]]></image:loc>
-		</image:image>
 	</url>
 	<url>
-		<loc><![CDATA[<?= BASE_URL ?>/nvqs/level-2-award-in-first-aid-for-mental-health-rqf/]]></loc>
+		<loc><![CDATA[https://pssct.co.uk/nvqs/level-2-award-in-first-aid-for-mental-health-rqf/]]></loc>
 		<lastmod><![CDATA[2023-06-12T08:50:59+00:00]]></lastmod>
 		<changefreq><![CDATA[weekly]]></changefreq>
 		<priority><![CDATA[0.7]]></priority>
 	</url>
 	<url>
-		<loc><![CDATA[<?= BASE_URL ?>/nvqs/l3-nvq-certificate-in-occupational-health-and-safety/]]></loc>
+		<loc><![CDATA[https://pssct.co.uk/nvqs/l3-nvq-certificate-in-occupational-health-and-safety/]]></loc>
 		<lastmod><![CDATA[2023-06-06T16:33:37+00:00]]></lastmod>
 		<changefreq><![CDATA[weekly]]></changefreq>
 		<priority><![CDATA[0.7]]></priority>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2021/07/proqual-badge.png]]></image:loc>
-		</image:image>
 	</url>
 	<url>
-		<loc><![CDATA[<?= BASE_URL ?>/nvqs/level-3-nvq-diploma-in-construction-contracting-operations/]]></loc>
+		<loc><![CDATA[https://pssct.co.uk/nvqs/level-3-nvq-diploma-in-construction-contracting-operations/]]></loc>
 		<lastmod><![CDATA[2023-05-11T13:58:24+00:00]]></lastmod>
 		<changefreq><![CDATA[weekly]]></changefreq>
 		<priority><![CDATA[0.7]]></priority>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2021/07/cscs-gold.png]]></image:loc>
-		</image:image>
 	</url>
 	<url>
-		<loc><![CDATA[<?= BASE_URL ?>/nvqs/level-6-nvq-diploma-in-construction-contracting-operations-management/]]></loc>
+		<loc><![CDATA[https://pssct.co.uk/nvqs/level-6-nvq-diploma-in-construction-contracting-operations-management/]]></loc>
 		<lastmod><![CDATA[2023-05-11T10:39:06+00:00]]></lastmod>
 		<changefreq><![CDATA[weekly]]></changefreq>
 		<priority><![CDATA[0.7]]></priority>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2021/07/cscs-black.png]]></image:loc>
-		</image:image>
 	</url>
 	<url>
-		<loc><![CDATA[<?= BASE_URL ?>/about-us/]]></loc>
+		<loc><![CDATA[https://pssct.co.uk/about-us/]]></loc>
 		<lastmod><![CDATA[2023-05-09T23:55:13+00:00]]></lastmod>
 		<changefreq><![CDATA[weekly]]></changefreq>
 		<priority><![CDATA[0.7]]></priority>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2021/07/sam-t.png]]></image:loc>
-		</image:image>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2021/08/kath-new.png]]></image:loc>
-		</image:image>
-		<image:image>
-			<image:loc><![CDATA[<?= BASE_URL ?>/wp-content/uploads/2021/08/nicky-circle-3.png]]></image:loc>
-		</image:image>
 	</url>
 	<url>
-		<loc><![CDATA[<?= BASE_URL ?>/nvqs/level-1-award-in-awareness-of-first-aid-mental-health/]]></loc>
+		<loc><![CDATA[https://pssct.co.uk/nvqs/level-1-award-in-awareness-of-first-aid-mental-health/]]></loc>
 		<lastmod><![CDATA[2023-04-30T22:48:26+00:00]]></lastmod>
 		<changefreq><![CDATA[weekly]]></changefreq>
 		<priority><![CDATA[0.7]]></priority>
 	</url>
 	<url>
-		<loc><![CDATA[<?= BASE_URL ?>/contact/]]></loc>
+		<loc><![CDATA[https://pssct.co.uk/contact/]]></loc>
 		<lastmod><![CDATA[2022-12-05T10:57:47+00:00]]></lastmod>
 		<changefreq><![CDATA[weekly]]></changefreq>
 		<priority><![CDATA[0.7]]></priority>
 	</url>
 	<url>
-		<loc><![CDATA[<?= BASE_URL ?>/nvqs/faa-level-3-award-in-supervising-first-aid-for-mental-health/]]></loc>
+		<loc><![CDATA[https://pssct.co.uk/nvqs/faa-level-3-award-in-supervising-first-aid-for-mental-health/]]></loc>
 		<lastmod><![CDATA[2022-09-04T14:30:34+00:00]]></lastmod>
 		<changefreq><![CDATA[weekly]]></changefreq>
 		<priority><![CDATA[0.7]]></priority>
 	</url>
 	<url>
-		<loc><![CDATA[<?= BASE_URL ?>/news/]]></loc>
+		<loc><![CDATA[https://pssct.co.uk/news/]]></loc>
 		<lastmod><![CDATA[2021-11-01T11:39:27+00:00]]></lastmod>
 		<changefreq><![CDATA[weekly]]></changefreq>
 		<priority><![CDATA[0.7]]></priority>

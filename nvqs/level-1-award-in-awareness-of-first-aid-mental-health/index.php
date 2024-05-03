@@ -1,7 +1,7 @@
 <?php
 define('SAFETORUN', TRUE);
-$mytitle = 'REPLACE';
-$myMetaDescription = 'REPLACE';
+$mytitle = 'Level 1 Award in Awareness of First Aid Mental Health UK | PSSCT';
+$myMetaDescription = 'Gain an in-depth knowledge of mental health conditions and how to recognize them with the Level 1 Award in Awareness of First Aid Mental Health! This 4-hour qualification is your ticket to becoming more aware and educated when it comes to mental wellbeing.';
 $pageClass = 'nvqs-page level-1-award-in-awareness-of-first-aid-mental-health';
 
 require_once($_SERVER['DOCUMENT_ROOT'] . "/config.php");

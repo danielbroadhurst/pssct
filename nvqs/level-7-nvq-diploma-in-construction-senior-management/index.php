@@ -43,7 +43,7 @@ require(TEMPLATES_PATH . "/header.php");
             <li>The NVQ Level 7 Diploma in Construction Senior Management is aimed at senior managers in the construction industry working in a wide range of job roles</li>
             <li>Is the academic equivalent to a Master’s Degree. See our <a href="<?= BASE_URL ?>/nvqs/#faqs" target="_blank">FAQs</a> for more information about NVQ levels and their equivalents</li>
             <li>Provides a qualification recognised by the Construction Skills Certification Scheme (CSCS)</li>
-            <li class="download"><a href="<?= BASE_URL ?>/download/4202/">Click here to download unit overview</a></li>
+            <li class="download"><a href="<?= BASE_URL ?>/assets/downloads/Level-7-NVQ-Diploma-in-Construction-Senior-Management.pdf">Click here to download unit overview</a></li>
           </ul>
           <p>Learners who complete this qualification may be eligible to apply for the following professional memberships*:</p>
           <ul>

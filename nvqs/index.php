@@ -1,7 +1,7 @@
 <?php
 define('SAFETORUN', TRUE);
-$mytitle = 'REPLACE';
-$myMetaDescription = 'REPLACE';
+$mytitle = 'Construction NVQs UK | Health & Safety NVQs UK | 08004480503';
+$myMetaDescription = 'PSSCT is a leading provider of construction NVQs and health & safety NVQs in the UK. We offer a wide range of courses for both businesses and individuals.';
 $pageClass = 'nvqs';
 require_once($_SERVER['DOCUMENT_ROOT'] . "/config.php");
 require_once(TEMPLATES_PATH . "/core.php");

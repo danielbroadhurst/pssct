@@ -1,7 +1,7 @@
 <?php
 define('SAFETORUN', TRUE);
-$mytitle = 'REPLACE';
-$myMetaDescription = 'REPLACE';
+$mytitle = 'About Us - Positive Safety Solutions';
+$myMetaDescription = 'About Us We are highly qualified, extensively experienced industry professionals with proven records in doing it better. Get to know us, then get in touch to see how we can help you to do it better too. Positive Safety Solutions was founded by three Health & Safety and construction professionals with over six decades (combined';
 $pageClass = 'about-us';
 require_once($_SERVER['DOCUMENT_ROOT'] . "/config.php");
 require_once(TEMPLATES_PATH . "/core.php");
@@ -33,7 +33,7 @@ require(TEMPLATES_PATH . "/header.php");
   <div class="flex-container employee">
     <div class="width-26 p-10">
       <div class="head-shot">
-        <img decoding="async" width="285" height="285" src="/assets/img/sam-t.png" alt="">
+        <img decoding="async" width="285" height="285" src="<?= BASE_URL ?>/assets/img/sam-t.png" alt="">
       </div>
     </div>
     <div class="width-73 p-10">

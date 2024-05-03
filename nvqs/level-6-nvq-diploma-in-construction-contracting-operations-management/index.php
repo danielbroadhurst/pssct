@@ -1,7 +1,7 @@
 <?php
 define('SAFETORUN', TRUE);
-$mytitle = 'REPLACE';
-$myMetaDescription = 'REPLACE';
+$mytitle = 'Level 6 NVQ Diploma in Construction Contracting Operations Management - Positive Safety Solutions';
+$myMetaDescription = 'Level 6 NVQ Diploma in Construction Contracting Operations Management About this Level 6 NVQ Diploma The Level 6 Diploma in Construction Contracting Operations Management provides a nationally recognised qualification for candidates working in a management role in the construction industry Is the academic equivalent to a Bachelor’s Degree. See our FAQs for more information about';
 $pageClass = 'nvqs-page level-6-nvq-diploma-in-construction-contracting-operations-management';
 
 require_once($_SERVER['DOCUMENT_ROOT'] . "/config.php");
@@ -40,7 +40,7 @@ require(TEMPLATES_PATH . "/header.php");
             <li>Designed for technical people working at senior level in a wide range of job roles</li>
             <li>Recognised by the Chartered Institute of Building (CIOB) towards Member status (MCIOB)</li>
             <li>Follows the “General” pathway – other pathways are available on request</li>
-            <li class="download"><a href="<?= BASE_URL ?>/download/4197/">Click here to download unit overview</a></li>
+            <li class="download"><a href="<?= BASE_URL ?>/assets/downloads/Level-6-NVQ-Diploma-in-Construction-Contracting-Operations-Management.pdf">Click here to download unit overview</a></li>
           </ul>
         </div>
       </div>

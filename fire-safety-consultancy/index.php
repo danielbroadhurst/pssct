@@ -1,7 +1,7 @@
 <?php
 define('SAFETORUN', TRUE);
-$mytitle = 'REPLACE';
-$myMetaDescription = 'REPLACE';
+$mytitle = 'Fire Safety Consultancy Services UK | PSSCT';
+$myMetaDescription = 'Fire Safety Consultancy Services UK: Get expert advice to keep your business compliant with the fire safety regulations. Call us today! -0800 448 0503';
 $pageClass = 'fire-safety-consultancy';
 require_once($_SERVER['DOCUMENT_ROOT'] . "/config.php");
 require_once(TEMPLATES_PATH . "/core.php");

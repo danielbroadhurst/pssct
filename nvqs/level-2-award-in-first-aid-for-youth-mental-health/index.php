@@ -1,7 +1,7 @@
 <?php
 define('SAFETORUN', TRUE);
-$mytitle = 'REPLACE';
-$myMetaDescription = 'REPLACE';
+$mytitle = 'Level 2 Award in First Aid for Youth Mental Health UK | PSSCT';
+$myMetaDescription = 'Level 2 Award in First Aid for Youth Mental Health qualification is designed for those who lead and influence children\'s development, teachers to sports coaches and beyond. Call 0800 448 0503 today and make a difference!';
 $pageClass = 'nvqs-page level-2-award-in-first-aid-for-youth-mental-health';
 
 require_once($_SERVER['DOCUMENT_ROOT'] . "/config.php");

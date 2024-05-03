@@ -1,7 +1,7 @@
 <?php
 define('SAFETORUN', TRUE);
-$mytitle = 'REPLACE';
-$myMetaDescription = 'REPLACE';
+$mytitle = 'News - Positive Safety Solutions';
+$myMetaDescription = 'News Two Minute Reads';
 require_once($_SERVER['DOCUMENT_ROOT'] . "/config.php");
 require_once(TEMPLATES_PATH . "/core.php");
 // HMTL Begins Here
@@ -10,8 +10,8 @@ require(TEMPLATES_PATH . "/header.php");
 // Header & Menu
 ?>
 
-<section class="container title">
-  <div class="flex-container justify-center">
+<section class="container title mt-30">
+  <div class="flex-container justify-center text-center">
     <h1 class="text-blue">News</h1>
   </div>
 </section>

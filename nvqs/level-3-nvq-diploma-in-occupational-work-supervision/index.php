@@ -1,7 +1,7 @@
 <?php
 define('SAFETORUN', TRUE);
-$mytitle = 'REPLACE';
-$myMetaDescription = 'REPLACE';
+$mytitle = 'NVQ Level 3 Diploma in Occupational Work Supervision UK | PSSCT';
+$myMetaDescription = 'Get NVQ Level 3 Diploma in Occupational Work Supervision in the UK. Open up new opportunities for career progression—enquire today! 0800 4480503';
 $pageClass = 'nvqs-page level-3-nvq-diploma-in-occupational-work-supervision';
 
 require_once($_SERVER['DOCUMENT_ROOT'] . "/config.php");
@@ -56,7 +56,7 @@ require(TEMPLATES_PATH . "/header.php");
                 <li>candidate provides evidence to demonstrate relevant verifiable experience and competence in their occupational area for example: qualification to N/SVQ Level 2 or SCQF Level 5 </li>
               </ul>
             </li>
-            <li class="download"><a href="<?= BASE_URL ?>/download/4546/">Click here to download unit overview</a></li>
+            <li class="download"><a href="<?= BASE_URL ?>/assets/downloads/Level-3-NVQ-Diploma-in-Occupational-Work-Supervision-Construction.pdf">Click here to download unit overview</a></li>
           </ul>
         </div>
       </div>

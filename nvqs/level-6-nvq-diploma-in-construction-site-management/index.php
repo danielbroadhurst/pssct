@@ -1,7 +1,7 @@
 <?php
 define('SAFETORUN', TRUE);
-$mytitle = 'REPLACE';
-$myMetaDescription = 'REPLACE';
+$mytitle = 'NVQ Level 6 Diploma in Construction Site Management UK';
+$myMetaDescription = 'Take NVQ Level 6 Diploma in Construction Site Management to have the skills and knowledge to be an effective Construction Site Manager. Enquire today!';
 $pageClass = 'nvqs-page level-6-nvq-diploma-in-construction-site-management';
 
 require_once($_SERVER['DOCUMENT_ROOT'] . "/config.php");
@@ -45,7 +45,7 @@ require(TEMPLATES_PATH . "/header.php");
             <li>Provides a nationally recognised qualification appropriate for those working as construction site managers in building and civil engineering.</li>
             <li>Recognised by the Chartered Institute of Building (CIOB) towards Member status (MCIOB)</li>
             <li>Follows the “Building and Civils” pathway</li>
-            <li class="download"><a href="<?= BASE_URL ?>/download/4192/">Click here to download unit overview</a></li>
+            <li class="download"><a href="<?= BASE_URL ?>/assets/downloads/Level-6-NVQ-Diploma-in-Construction-Site-Management-Construction.pdf">Click here to download unit overview</a></li>
           </ul>
         </div>
       </div>

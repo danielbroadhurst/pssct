@@ -1,7 +1,7 @@
 <?php
 define('SAFETORUN', TRUE);
-$mytitle = 'REPLACE';
-$myMetaDescription = 'REPLACE';
+$mytitle = 'CDM Consultancy Services UK | PSSCT';
+$myMetaDescription = 'PSSCT offers comprehensive CDM consultancy services in the UK. We provide CDM Consultant, Principal Designer, Compliance Inspections and more.';
 $pageClass = 'cdm-consultancy';
 require_once($_SERVER['DOCUMENT_ROOT'] . "/config.php");
 require_once(TEMPLATES_PATH . "/core.php");
@@ -165,7 +165,7 @@ require(TEMPLATES_PATH . "/header.php");
 </section>
 <section class="container">
   <div class="flex-container pt-20">
-    <p class="text-20 p-10"><strong><a href="https://pssct.co.uk/">Positive Safety Solutions</a> offers CDM consultancy services across all project types and industries. Get in touch with us today by calling our number 0800 448 0503 or fill in our <a href="https://pssct.co.uk/contact/">online form</a>.</strong></p>
+    <p class="text-20 p-10"><strong><a href="<?= BASE_URL ?>/">Positive Safety Solutions</a> offers CDM consultancy services across all project types and industries. Get in touch with us today by calling our number 0800 448 0503 or fill in our <a href="<?= BASE_URL ?>/contact/">online form</a>.</strong></p>
   </div>
 </section>
 <section class="container pt-80 pb-100 cdm-cta">

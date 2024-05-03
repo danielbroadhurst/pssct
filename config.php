@@ -5,10 +5,10 @@ if(!defined('SAFETORUN')) {
 
 $config = array(
     "urls" => array(
-        "baseUrl" => "http://localhost:8000"
+        "baseUrl" => "https://pssct.co.uk"
     ),
     "contact" => array(
-        "to" => "djdanielbroadhurst@gmail.com"
+        "to" => "enquiries@pssct.co.uk"
     )
 );
  

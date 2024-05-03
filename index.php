@@ -1,7 +1,7 @@
 <?php
 define('SAFETORUN', TRUE);
-$mytitle = 'REPLACE';
-$myMetaDescription = 'REPLACE';
+$mytitle = 'Positive Safety Solutions Consultancy & Training Services | PSSCT';
+$myMetaDescription = 'At PSSCT, we offer a wide range of consultancy services for CDM, fire safety and health & safety for clients & induvials across the UK.';
 $pageClass = 'home';
 require_once($_SERVER['DOCUMENT_ROOT'] . "/config.php");
 require_once(TEMPLATES_PATH . "/core.php");

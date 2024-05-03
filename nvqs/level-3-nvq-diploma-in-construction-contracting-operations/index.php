@@ -1,7 +1,7 @@
 <?php
 define('SAFETORUN', TRUE);
-$mytitle = 'REPLACE';
-$myMetaDescription = 'REPLACE';
+$mytitle = 'Level 3 Diploma in Construction Contracting Operations UK | PSSCT';
+$myMetaDescription = 'Gain an industry-acknowledged credential with the Level 3 Diploma in Construction Contracting Operations! This qualification provides a nationally recognised boost to those wishing to establish themselves as experts among their contemporaries in the construction and built environment industries.';
 $pageClass = 'nvqs-page level-3-nvq-diploma-in-construction-contracting-operations';
 require_once($_SERVER['DOCUMENT_ROOT'] . "/config.php");
 require_once(TEMPLATES_PATH . "/core.php");
@@ -38,7 +38,7 @@ require(TEMPLATES_PATH . "/header.php");
             <li>Candidates will develop knowledge and skills in areas such as developing and maintaining working relationships; preparing and processing invitations to tender; preparing programmes and schedules of work; operating project information systems; and operating health, safety and welfare systems in construction</li>
             <li>This qualification is recognised by the Construction Skills Certification Scheme (CSCS)</li>
             <li>Designed to confirm the learner’s occupational competence in a range of jobs in the construction sector</li>
-            <li class="download"><a href="<?= BASE_URL ?>/download/4182/">Click here to download unit overview</a></li>
+            <li class="download"><a href="<?= BASE_URL ?>/assets/downloads/Level-3-NVQ-Diploma-in-Construction-Contracting-Operations-.pdf">Click here to download unit overview</a></li>
           </ul>
         </div>
       </div>

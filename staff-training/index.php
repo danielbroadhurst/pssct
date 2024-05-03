@@ -1,7 +1,7 @@
 <?php
 define('SAFETORUN', TRUE);
-$mytitle = 'REPLACE';
-$myMetaDescription = 'REPLACE';
+$mytitle = 'Staff Training - Positive Safety Solutions';
+$myMetaDescription = 'Staff Training Training your employees helps to keep your business compliant and your employees competent. Competence can be described as the combination of training, skills, experience and knowledge that a person has, and their ability to apply them to perform a task safely. Other factors, such as attitude and physical ability, can also affect someone\'s';
 $pageClass = 'simple-safety-support';
 require_once($_SERVER['DOCUMENT_ROOT'] . "/config.php");
 require_once(TEMPLATES_PATH . "/core.php");
@@ -332,8 +332,8 @@ require(TEMPLATES_PATH . "/header.php");
 </section>
 
 <?php require(TEMPLATES_PATH . "/footer.php"); ?>
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<script src="/assets/js/swiper.js"></script>
+<script src="<?= BASE_URL ?>/assets/js/swiper-js.js"></script>
+<script src="<?= BASE_URL ?>/assets/js/swiper.js"></script>
 </body>
 
 </html>

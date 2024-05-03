@@ -1,7 +1,7 @@
 <?php
 define('SAFETORUN', TRUE);
-$mytitle = 'REPLACE';
-$myMetaDescription = 'REPLACE';
+$mytitle = 'Level 3 Certificate in Occupational Health & Safety UK | PSSCT';
+$myMetaDescription = 'Working in a health and safety role requires taking on responsibility for the wellbeing of an entire team or organization. The Level 3 Certificate in Occupational Health and Safety is designed to equip candidates with essential knowledge needed to succeed in this position, helping ensure everyone stays safe no matter where they are working!';
 $pageClass = 'nvqs-page l3-nvq-certificate-in-occupational-health-and-safety';
 
 require_once($_SERVER['DOCUMENT_ROOT'] . "/config.php");
@@ -38,14 +38,14 @@ require(TEMPLATES_PATH . "/header.php");
             <li>The Level 3 Certificate in Occupational Health and safety is aimed at candidates working as a health and safety practitioner in a position of responsibility for the health, safety and welfare of a team or organisation</li>
             <li>Is the academic equivalent of the NEBOSH General Certificate</li>
             <li>Is accepted by the Institution of Occupational Health and Safety (IOSH) for <a href="https://iosh.com/health-and-safety-professionals/become-a-member/membership-categories#technical/" target="_blank">Technical Membership</a> (TechIOSH)*</li>
-            <li class="download"><a href="<?= BASE_URL ?>/wp-content/uploads/2023/06/Level-3-NVQ-Certificate-in-Occupational-Health-and-Safety-2023.pdf">Click here to download unit overview</a></li>
+            <li class="download"><a href="<?= BASE_URL ?>/assets/downloads/Level-3-NVQ-Certificate-in-Occupational-Health-and-Safety-2023.pdf">Click here to download unit overview</a></li>
           </ul>
         </div>
       </div>
       <div class="flex-container">
         <div class="p-10">
           <span class="nvqs icon img">
-            <img decoding="async" src="/assets/img/proqual-badge.png" title="proqual-badge" alt="proqual-badge" loading="lazy" data-src="https://pssct.co.uk/wp-content/uploads/2021/07/proqual-badge.png" class=" lazyloaded" data-eio-rwidth="900" data-eio-rheight="661">
+            <img decoding="async" src="<?= BASE_URL ?>/assets/img/proqual-badge.png" title="proqual-badge" alt="proqual-badge" loading="lazy">
           </span>
         </div>
         <div class="p-10">

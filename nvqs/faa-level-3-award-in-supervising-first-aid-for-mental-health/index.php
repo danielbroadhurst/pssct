@@ -1,7 +1,7 @@
 <?php
 define('SAFETORUN', TRUE);
-$mytitle = 'REPLACE';
-$myMetaDescription = 'REPLACE';
+$mytitle = 'Level 3 Award in Supervising First Aid for Mental Health UK | PSSCT';
+$myMetaDescription = 'This 2-Day qualification offers learners the opportunity to explore a variety of mental health conditions and become knowledgeable about how professional healthcare providers can help. It\'s an invaluable way for supervisors to gain advanced guidance in promoting positive mental wellbeing within their teams!';
 $pageClass = 'nvqs-page faa-level-3-award-in-supervising-first-aid-for-mental-health';
 require_once($_SERVER['DOCUMENT_ROOT'] . "/config.php");
 require_once(TEMPLATES_PATH . "/core.php");
