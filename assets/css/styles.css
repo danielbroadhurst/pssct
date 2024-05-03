@@ -1059,6 +1059,49 @@ textarea {
   border: 1px solid #dddddd;
 }
 
+.error textarea,
+.error input {
+    border: 1px solid #cc0000;
+}
+
+.error-text {
+  display: none;
+  color: #990000;
+  font-size: 12.312px;
+  font-weight: 400;
+  line-height: 22.8651px;
+}
+
+.error .error-text {
+  display: block;
+}
+
+.form-message {
+  background-color: #fafafa;
+  padding: 10px;
+  border: #000 solid 1px;
+  border-radius: 0px;
+  margin: 10px 0;
+}
+
+.form-message p {
+  margin: 0;
+}
+
+.form-success,
+.form-failed {
+  display: none;
+}
+
+.form-message.form-failed {
+  border: #cc0000 solid 1px;
+}
+
+.form-failed.show,
+.form-success.show {
+  display: block;
+}
+
 textarea::placeholder,
 input::placeholder {
   font-family: 'Open Sans', sans-serif;

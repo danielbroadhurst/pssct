@@ -85,37 +85,51 @@ require(TEMPLATES_PATH . "/header.php");
   <div class="flex-container">
     <div class="flex-container width-100 p-10">
       <div class="width-100">
-        <form id="form" method="post" enctype="multipart/form-data" action="/contact/">
-          <div class="form-group">
+        <form id="form" method="post" enctype="multipart/form-data" action="/contact/" novalidate>
+          <div class="form-group" id="name">
             <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="Name" required>
+            <input type="text" name="name" placeholder="Name" >
+            <p class="error-text">This field is required.</p>
           </div>
-          <div class="form-group">
+          <div class="form-group" id="email">
             <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="Email Address" required>
+            <input type="email" name="email" placeholder="Email Address" spellcheck="false">
+            <p class="error-text">This field is required.</p>
           </div>
-          <div class="form-group">
+          <div class="form-group" id="phone">
             <label for="phone">Contact Number</label>
-            <input type="tel" id="phone" name="phone" placeholder="Contact Number" required>
+            <input type="tel" name="phone" placeholder="Contact Number">
+            <p class="error-text">This field is required.</p>
           </div>
-          <div class="form-group">
+          <div class="form-group" id="subject">
             <label for="subject">Subject</label>
-            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+            <input type="text" name="subject" placeholder="Subject">
+            <p class="error-text">This field is required.</p>
           </div>
-          <div class="form-group">
+          <div class="form-group" id="message">
             <label for="message">Message</label>
-            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+            <textarea name="message" placeholder="Your Message"></textarea>
+            <p class="error-text">This field is required.</p>
           </div>
           <div class="form-group">
             <button type="submit" class="button yellow">Send Message</button>
           </div>
         </form>
+        <div class="form-message form-success" id="form-success">
+          <p>Thank you for your message. We will get back to you as soon as possible.</p>
+        </div>
+        <div class="form-message form-failed" id="form-failed">
+          <p>Sorry, there was an error sending your message. Please try again later.</p>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
 <?php require(TEMPLATES_PATH . "/footer.php"); ?>
+<!-- Form Script -->
+<script src="/assets/js/form.js"> 
+</script>
 </body>
 
 </html>
