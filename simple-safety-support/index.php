@@ -240,7 +240,7 @@ require(TEMPLATES_PATH . "/header.php");
     </div>
   </div>
 </section>
-<section class="container pt-50 course-delivery">
+<section class="container pt-50 course-delivery tablet-hide">
   <div class="flex-container">
     <div class="card medium-shadow">
       <div class="mb-20">
@@ -280,65 +280,79 @@ require(TEMPLATES_PATH . "/header.php");
     </div>
   </div>
 </section>
-<section class="container title mt-30">
+<section class="container title mt-30 clients">
   <div class="flex-container">
-    <h2>Some of our Clients</h4>
+    <h2>Some of our Clients</h2>
   </div>
 </section>
 <!-- https://swiperjs.com/get-started -->
-<section class="container">
+<section class="container client-swiper">
   <div class="flex-container">
-    <div class="swiper-wrapper">
-      <div>
-        <img class="swiper-slide" src="<?= BASE_URL ?>/wp-content/uploads/2023/07/VK-50-e1689792014456.jpg" alt="VK 50">
-      </div>
-      <div>
-        <img class="swiper-slide" src="<?= BASE_URL ?>/wp-content/uploads/2023/07/HClogo.jpg" alt="HClogo">
-      </div>
-      <div class="swiper-slide">
-        <img class="swiper-slide" src="<?= BASE_URL ?>/wp-content/uploads/2023/07/SWC-50.jpg" alt="SWC 50">
-      </div>
-      <div class="swiper-slide">
-        <img class="swiper-slide" src="<?= BASE_URL ?>/wp-content/uploads/2023/06/A-bit-on-the-side-logo-e1689266545527.jpg" alt="A bit on the side logo">
-      </div>
-      <div class="swiper-slide">
-        <img class="swiper-slide" src="<?= BASE_URL ?>/wp-content/uploads/2023/06/Logo-3.jpg" alt="Logo 3">
-      </div>
-      <div class="swiper-slide">
-        <img class="swiper-slide" src="<?= BASE_URL ?>/wp-content/uploads/2023/07/HLN-Group-Logo-Homepage1-1.png" alt="HLN-Group-Logo-Homepage1">
-      </div>
-      <div class="swiper-slide">
-        <img class="swiper-slide" src="<?= BASE_URL ?>/wp-content/uploads/2023/07/BBSM.jpeg" alt="BBSM">
-      </div>
-      <div class="swiper-slide">
-        <img class="swiper-slide" src="<?= BASE_URL ?>/wp-content/uploads/2023/07/LCB-e1689266735467.jpeg" alt="LCB">
-      </div>
-      <div class="swiper-slide">
-        <img class="swiper-slide" src="<?= BASE_URL ?>/wp-content/uploads/2023/07/Taff-large.jpg" alt="Taff large">
-      </div>
-      <div class="swiper-slide">
-        <img class="swiper-slide" src="<?= BASE_URL ?>/wp-content/uploads/2023/07/EPS-2.jpg" alt="EPS 2">
-      </div>
-      <div class="swiper-slide">
-        <img class="swiper-slide" src="<?= BASE_URL ?>/wp-content/uploads/2023/07/HClogo.jpg" alt="HClogo">
-      </div>
-      <div class="swiper-slide">
-        <img class="swiper-slide" src="<?= BASE_URL ?>/wp-content/uploads/2023/07/SWC-50.jpg" alt="SWC 50">
-      </div>
-      <div class="swiper-slide">
-        <img class="swiper-slide" src="<?= BASE_URL ?>/wp-content/uploads/2023/06/A-bit-on-the-side-logo-e1689266545527.jpg" alt="A bit on the side logo">
-      </div>
-      <div class="swiper-slide">
-        <img class="swiper-slide" src="<?= BASE_URL ?>/wp-content/uploads/2023/06/Logo-3.jpg" alt="Logo 3">
-      </div>
-      <div class="swiper-slide">
-        <img class="swiper-slide" src="<?= BASE_URL ?>/wp-content/uploads/2023/07/HLN-Group-Logo-Homepage1-1.png" alt="HLN-Group-Logo-Homepage1">
+    <div class="wrapper">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="flex justify-center">
+              <img src="<?= BASE_URL ?>/assets/img/clients/Logo-3.jpeg" alt="Logo 3">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="flex justify-center">
+              <img src="<?= BASE_URL ?>/assets/img/clients/HLN-Group-Logo-Homepage1-1.png" alt="HLN-Group-Logo-Homepage1">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="flex justify-center">
+              <img src="<?= BASE_URL ?>/assets/img/clients/BBSM.jpeg" alt="BBSM">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="flex justify-center">
+              <img src="<?= BASE_URL ?>/assets/img/clients/LCB-e1689266735467.jpeg" alt="LCB">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="flex justify-center">
+              <img src="<?= BASE_URL ?>/assets/img/clients/Taff-large.jpeg" alt="Taff large">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="flex justify-center">
+              <img src="<?= BASE_URL ?>/assets/img/clients/EPS-2.jpeg" alt="EPS 2">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="flex justify-center">
+              <img src="<?= BASE_URL ?>/assets/img/clients/VK-50-e1689792014456.jpeg" alt="VK 50">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="flex justify-center">
+              <img src="<?= BASE_URL ?>/assets/img/clients/HClogo.jpeg" alt="HClogo">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="flex justify-center">
+              <img src="<?= BASE_URL ?>/assets/img/clients/SWC-50.jpeg" alt="SWC 50">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="flex justify-center">
+              <img src="<?= BASE_URL ?>/assets/img/clients/A-bit-on-the-side-logo-e1689266545527.jpeg" alt="A bit on the side logo">
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
       </div>
     </div>
   </div>
 </section>
 
 <?php require(TEMPLATES_PATH . "/footer.php"); ?>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="/assets/js/swiper.js"></script>
 </body>
 
 </html>

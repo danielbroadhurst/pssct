@@ -9,7 +9,9 @@
     <title><?= $mytitle ?></title>
     <meta name="Description" content="<?= $myMetaDescription ?>" />
 
-    <link rel="stylesheet" href="<?= BASE_URL, '/' , $mycss ?>?v=1.23">
+    <link rel="stylesheet" href="<?= BASE_URL, '/', $mycss ?>?v=1.23">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
 <body>

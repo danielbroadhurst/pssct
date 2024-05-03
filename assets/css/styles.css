@@ -1061,7 +1061,7 @@ textarea {
 
 .error textarea,
 .error input {
-    border: 1px solid #cc0000;
+  border: 1px solid #cc0000;
 }
 
 .error-text {
@@ -1615,6 +1615,70 @@ a:hover {
   transition: opacity 2s;
 }
 
+.swiper {
+  margin-top: 50px;
+  height: 250px;
+}
+
+.simple-safety-support .swiper {
+  height: 540px;
+}
+
+.client-swiper .flex-container .wrapper {
+  width: 100%;
+  padding: 0px 10px 20px 10px;
+}
+
+.client-swiper .flex-container .wrapper .swiper-pagination-bullet {
+  width: 6px;
+  height: 6px;
+  margin: 0px 8px;
+}
+
+.client-swiper .swiper-pagination-bullet-active {
+  background-color: #000000;
+}
+
+.swiper-slide img {
+  display: flex;
+  align-items: center;
+  height: auto;
+  max-width: 100%;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.client-swiper .swiper-button-next,
+.client-swiper .swiper-button-prev {
+  position: absolute;
+  display: inline-flex;
+  z-index: 1;
+  cursor: pointer;
+  font-size: 25px;
+  color: hsla(0, 0%, 93.3%, 0.9);
+  top: 50%;
+  transform: translateY(-50%);
+  width: 25px;
+}
+
+.client-swiper .swiper-button-next:after,
+.client-swiper .swiper-button-prev:after {
+  font-family: swiper-icons;
+  font-size: 25px;
+  text-transform: none !important;
+  letter-spacing: 0;
+  font-variant: initial;
+  line-height: 1;
+  left: -10px;
+}
+
+.clients .flex-container h2 {
+  position: relative;
+  max-width: 1155px;
+  left: -20px;
+}
+
 @media (min-width: 768px) {
   .widget-one {
     width: 42.744%;
@@ -1643,6 +1707,15 @@ a:hover {
 }
 
 @media (max-width: 1024px) {
+  .clients {
+    margin-top: 31px;
+    margin-bottom: 23px;
+    padding: 0px 46px 0px 31px;
+    z-index: 0;
+  }
+  .tablet-hide {
+    display: none;
+  }
   .container .flex-container {
     max-width: 1024px;
   }
@@ -1723,6 +1796,9 @@ a:hover {
   }
   .nvqs-page .flex-container.width-50.p-30 {
     padding: 22px;
+  }
+  .client-swiper .flex-container .wrapper {
+    padding: 0px 40px 20px 40px;
   }
 }
 

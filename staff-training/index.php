@@ -154,7 +154,7 @@ require(TEMPLATES_PATH . "/header.php");
     </div>
   </div>
 </section>
-<section class="container pt-50 course-delivery">
+<section class="container pt-50 course-delivery tablet-hide">
   <div class="flex-container">
     <div class="card medium-shadow">
       <div class="mb-20">
@@ -247,74 +247,93 @@ require(TEMPLATES_PATH . "/header.php");
     <h4 class="text-55">Course overviews</h4>
   </div>
 </section>
-<section class="container">
+<section class="container client-swiper">
   <div class="flex-container">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide">
-        <img class="swiper-slide-image" src="<?= BASE_URL ?>/wp-content/uploads/2023/06/L2-Mental-health-first-aid.svg" alt="L2 First Aid for Mental Health">
-      </div>
-      <div class="swiper-slide">
-        <img class="swiper-slide-image" src="<?= BASE_URL ?>/wp-content/uploads/2023/06/L2-Mental-health-FA-youth.svg" alt="L2 First Aid for Youth Mental Health">
-      </div>
-      <div class="swiper-slide">
-        <img class="swiper-slide-image" src="<?= BASE_URL ?>/wp-content/uploads/2023/06/L3-Mental-health-FA-supervisor-1.svg" alt="L3 Supervising First Aid for Mental Health">
-      </div>
-      <div class="swiper-slide">
-        <img class="swiper-slide-image" src="<?= BASE_URL ?>/wp-content/uploads/2023/06/L1-fire-safety-awareness.svg" alt="L1 Fire Safety Awareness">
-      </div>
-      <div class="swiper-slide">
-        <img class="swiper-slide-image" src="<?= BASE_URL ?>/wp-content/uploads/2023/06/L2-Fire-marshal-.svg" alt="L2 Fire Marshal Training">
-      </div>
-      <div class="swiper-slide">
-        <img class="swiper-slide-image" src="<?= BASE_URL ?>/wp-content/uploads/2023/06/L1-HS-workplace.svg" alt="L1 H&amp;S in the Workplace">
-      </div>
-      <div class="swiper-slide">
-        <img class="swiper-slide-image" src="<?= BASE_URL ?>/wp-content/uploads/2023/06/L2-HS-workplace.svg" alt="L2 H&amp;S in the Workplace">
-      </div>
-      <div class="swiper-slide">
-        <img class="swiper-slide-image" src="<?= BASE_URL ?>/wp-content/uploads/2023/06/L2-MH-in-workplace-1.svg" alt="L2 Manual Handling in the Workplace">
-      </div>
-      <div class="swiper-slide">
-        <img class="swiper-slide-image" src="<?= BASE_URL ?>/wp-content/uploads/2023/06/L2-MH-loads-workplace.svg" alt="L2 Manual Handling of Loads in the Workplace">
-      </div>
-      <div class="swiper-slide">
-        <img class="swiper-slide-image" src="<?= BASE_URL ?>/wp-content/uploads/2023/06/L2-COSHH.svg" alt="L2 Principles of COSHH">
-      </div>
-      <div class="swiper-slide">
-        <img class="swiper-slide-image" src="<?= BASE_URL ?>/wp-content/uploads/2023/06/L2-workplace-RA.svg" alt="L1 Principles of Workplace Risk Assessment">
-      </div>
-      <div class="swiper-slide">
-        <img class="swiper-slide-image" src="<?= BASE_URL ?>/wp-content/uploads/2023/06/L1-HS-Construction.svg" alt="L1 H&amp;S in the Construction Environment">
-      </div>
-      <div class="swiper-slide">
-        <img class="swiper-slide-image" src="<?= BASE_URL ?>/wp-content/uploads/2023/06/L2-Asb-Awa.svg" alt="L2 Asbestos Awareness">
-      </div>
-      <div class="swiper-slide">
-        <img class="swiper-slide-image" src="<?= BASE_URL ?>/wp-content/uploads/2023/06/L1-Mental-Health-Awareness.svg" alt="L1 Awareness of First Iad for Mental Health">
-      </div>
-      <div class="swiper-slide">
-        <img class="swiper-slide-image" src="<?= BASE_URL ?>/wp-content/uploads/2023/06/L2-Mental-health-first-aid.svg" alt="L2 First Aid for Mental Health">
-      </div>
-      <div class="swiper-slide">
-        <img class="swiper-slide-image" src="<?= BASE_URL ?>/wp-content/uploads/2023/06/L2-Mental-health-FA-youth.svg" alt="L2 First Aid for Youth Mental Health">
-      </div>
-      <div class="swiper-slide">
-        <img class="swiper-slide-image" src="<?= BASE_URL ?>/wp-content/uploads/2023/06/L3-Mental-health-FA-supervisor-1.svg" alt="L3 Supervising First Aid for Mental Health">
-      </div>
-      <div class="swiper-slide">
-        <img class="swiper-slide-image" src="<?= BASE_URL ?>/wp-content/uploads/2023/06/L1-fire-safety-awareness.svg" alt="L1 Fire Safety Awareness">
-      </div>
-      <div class="swiper-slide">
-        <img class="swiper-slide-image" src="<?= BASE_URL ?>/wp-content/uploads/2023/06/L2-Fire-marshal-.svg" alt="L2 Fire Marshal Training">
-      </div>
-      <div class="swiper-slide">
-        <img class="swiper-slide-image" src="<?= BASE_URL ?>/wp-content/uploads/2023/06/L1-HS-workplace.svg" alt="L1 H&amp;S in the Workplace">
+    <div class="wrapper">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="flex justify-center">
+              <img src="<?= BASE_URL ?>/assets/img/staff-training/L2-Mental-health-first-aid.svg" alt="L2 First Aid for Mental Health">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="flex justify-center">
+              <img src="<?= BASE_URL ?>/assets/img/staff-training/L2-Mental-health-FA-youth.svg" alt="L2 First Aid for Youth Mental Health">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="flex justify-center">
+              <img src="<?= BASE_URL ?>/assets/img/staff-training/L3-Mental-health-FA-supervisor-1.svg" alt="L3 Supervising First Aid for Mental Health">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="flex justify-center">
+              <img src="<?= BASE_URL ?>/assets/img/staff-training/L1-fire-safety-awareness.svg" alt="L1 Fire Safety Awareness">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="flex justify-center">
+              <img src="<?= BASE_URL ?>/assets/img/staff-training/L2-Fire-marshal-.svg" alt="L2 Fire Marshal Training">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="flex justify-center">
+              <img src="<?= BASE_URL ?>/assets/img/staff-training/L1-HS-workplace.svg" alt="L1 H&amp;S in the Workplace">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="flex justify-center">
+              <img src="<?= BASE_URL ?>/assets/img/staff-training/L2-HS-workplace.svg" alt="L2 H&amp;S in the Workplace">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="flex justify-center">
+              <img src="<?= BASE_URL ?>/assets/img/staff-training/L2-MH-in-workplace-1.svg" alt="L2 Manual Handling in the Workplace">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="flex justify-center">
+              <img src="<?= BASE_URL ?>/assets/img/staff-training/L2-MH-loads-workplace.svg" alt="L2 Manual Handling of Loads in the Workplace">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="flex justify-center">
+              <img src="<?= BASE_URL ?>/assets/img/staff-training/L2-COSHH.svg" alt="L2 Principles of COSHH">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="flex justify-center">
+              <img src="<?= BASE_URL ?>/assets/img/staff-training/L2-workplace-RA.svg" alt="L1 Principles of Workplace Risk Assessment">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="flex justify-center">
+              <img src="<?= BASE_URL ?>/assets/img/staff-training/L1-HS-Construction.svg" alt="L1 H&amp;S in the Construction Environment">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="flex justify-center">
+              <img src="<?= BASE_URL ?>/assets/img/staff-training/L2-Asb-Awa.svg" alt="L2 Asbestos Awareness">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="flex justify-center">
+              <img src="<?= BASE_URL ?>/assets/img/staff-training/L1-Mental-Health-Awareness.svg" alt="L1 Awareness of First Iad for Mental Health">
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
       </div>
     </div>
   </div>
 </section>
 
 <?php require(TEMPLATES_PATH . "/footer.php"); ?>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="/assets/js/swiper.js"></script>
 </body>
 
 </html>
