@@ -94,7 +94,7 @@ require(TEMPLATES_PATH . "/header.php");
           <div class="form-group" id="email">
             <label for="email">Email</label>
             <input type="email" name="email" placeholder="Email Address" spellcheck="false">
-            <p class="error-text">This field is required.</p>
+            <p class="error-text">Please enter a valid email address.</p>
           </div>
           <div class="form-group" id="phone">
             <label for="phone">Contact Number</label>

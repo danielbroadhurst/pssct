@@ -1,5 +1,7 @@
 <?php
 
+require_once($_SERVER['DOCUMENT_ROOT'] . "/config.php");
+
 // Accept Post Request
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   // Get the data from the request

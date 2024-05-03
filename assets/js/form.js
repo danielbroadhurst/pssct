@@ -1,46 +1,9 @@
 document.getElementById('form').addEventListener('submit', function (e) {
-  console.log('Form Submitted');
   document.getElementById('form-success').classList.remove('show');
   document.getElementById('form-failed').classList.remove('show');
+
   e.preventDefault();
-  var name = document.querySelector("[name='name']").value;
-  var email = document.querySelector("[name='email']").value;
-  var phone = document.querySelector("[name='phone']").value;
-  var subject = document.querySelector("[name='subject']").value;
-  var message = document.querySelector("[name='message']").value;
-  var data = {
-    name: name,
-    email: email,
-    phone: phone,
-    subject: subject,
-    message: message,
-  };
-  // validate each item and add error class to the form group
-  if (!name || name === '') {
-    document.getElementById('name').classList.add('error');
-  } else {
-    document.getElementById('name').classList.remove('error');
-  }
-  if (!email || email === '') {
-    document.getElementById('email').classList.add('error');
-  } else {
-    document.getElementById('email').classList.remove('error');
-  }
-  if (!phone || phone === '') {
-    document.getElementById('phone').classList.add('error');
-  } else {
-    document.getElementById('phone').classList.remove('error');
-  }
-  if (!subject || subject === '') {
-    document.getElementById('subject').classList.add('error');
-  } else {
-    document.getElementById('subject').classList.remove('error');
-  }
-  if (!message || message === '') {
-    document.getElementById('message').classList.add('error');
-  } else {
-    document.getElementById('message').classList.remove('error');
-  }
+  const { name, email, phone, subject, message, data } = validateForm();
   // if any of the fields are empty, return
   if (
     name === '' ||
@@ -51,7 +14,7 @@ document.getElementById('form').addEventListener('submit', function (e) {
   ) {
     return;
   }
-  fetch('/pssct/submit-form/', {
+  fetch('/submit-form/', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -79,3 +42,54 @@ document.getElementById('form').addEventListener('submit', function (e) {
       document.getElementById('form-failed').classList.add('show');
     });
 });
+
+// add event listener to remove error class when input is focused
+document.querySelectorAll('input, textarea').forEach(function (input) {
+  input.addEventListener('focusout', function () {
+    validateForm();
+  });
+});
+
+function validateForm() {
+  const name = document.querySelector("[name='name']").value;
+  const email = document.querySelector("[name='email']").value;
+  const phone = document.querySelector("[name='phone']").value;
+  const subject = document.querySelector("[name='subject']").value;
+  const message = document.querySelector("[name='message']").value;
+  const data = {
+    name: name,
+    email: email,
+    phone: phone,
+    subject: subject,
+    message: message,
+  };
+  // validate each item and add error class to the form group
+  if (!name || name === '') {
+    document.getElementById('name').classList.add('error');
+  } else {
+    document.getElementById('name').classList.remove('error');
+  }
+  // validate email with regex
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  if (!email || email === '' || !email.match(emailRegex)) {
+    document.getElementById('email').classList.add('error');
+  } else {
+    document.getElementById('email').classList.remove('error');
+  }
+  if (!phone || phone === '') {
+    document.getElementById('phone').classList.add('error');
+  } else {
+    document.getElementById('phone').classList.remove('error');
+  }
+  if (!subject || subject === '') {
+    document.getElementById('subject').classList.add('error');
+  } else {
+    document.getElementById('subject').classList.remove('error');
+  }
+  if (!message || message === '') {
+    document.getElementById('message').classList.add('error');
+  } else {
+    document.getElementById('message').classList.remove('error');
+  }
+  return { name, email, phone, subject, message, data };
+}
