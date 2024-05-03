@@ -4,7 +4,7 @@ $mytitle = 'NVQ Level 6 Diploma in Occupational Health & Safety UK';
 $myMetaDescription = 'REPLACE';
 $pageClass = 'Get NVQ Level 6 Diploma in Occupational Health and Safety Practice to advance your career in the field of occupational health and safety in the UK. Learn how';
 
-require_once($_SERVER['DOCUMENT_ROOT'] . "/config.php");
+require_once($_SERVER['DOCUMENT_ROOT'] . "/pssct/config.php");
 require_once(TEMPLATES_PATH . "/core.php");
 // HMTL Begins Here
 require(TEMPLATES_PATH . "/header.php");
@@ -52,7 +52,7 @@ require(TEMPLATES_PATH . "/header.php");
       <div class="flex-container">
         <div class="p-10">
           <span class="nvqs icon img">
-            <img decoding="async" src="/assets/img/proqual-badge.png" title="proqual-badge" alt="proqual-badge" loading="lazy">
+            <img decoding="async" src="<?= BASE_URL ?>/assets/img/proqual-badge.png" title="proqual-badge" alt="proqual-badge" loading="lazy">
           </span>
         </div>
         <div class="p-10">

@@ -21,7 +21,7 @@
     <meta property="twitter:description" content="<?= $myMetaDescription ?>">
 
     <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/swiper.css" />
-    <link rel="stylesheet" href="<?= BASE_URL, '/' , $mycss ?>?v=1.233">
+    <link rel="stylesheet" href="<?= BASE_URL, '/' , $mycss ?>?v=1.301">
 </head>
 
 <body>

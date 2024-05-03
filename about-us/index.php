@@ -135,7 +135,7 @@ require(TEMPLATES_PATH . "/header.php");
   <div class="flex-container employee">
     <div class="width-26 p-10">
       <div class="head-shot">
-        <img loading="lazy" decoding="async" width="2048" height="2048" src="/assets/img/nicky-circle-3-768x768.png" alt="">
+        <img loading="lazy" decoding="async" width="2048" height="2048" src="<?= BASE_URL ?>/assets/img/nicky-circle-3-768x768.png" alt="">
       </div>
     </div>
     <div class="width-73 p-10">
