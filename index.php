@@ -34,7 +34,7 @@ require(TEMPLATES_PATH . "/header.php");
   <div class="flex-container">
     <div class="card blue-red text-white">
       <h3 class="card-title text-center mb-10"><a href="<?= BASE_URL ?>/consultancy/">Consultancy</a></h3>
-      <ul class="list-items">
+      <ul class="list-items animate">
         <li class="list-item">
           <a href="<?= BASE_URL ?>/cdm-consultancy/" target="_blank">
             <span class="icon white">
@@ -75,7 +75,7 @@ require(TEMPLATES_PATH . "/header.php");
     </div>
     <div class="card shadow">
       <h3 class="card-title text-center text-black mb-10"><a href="<?= BASE_URL ?>/nvqs/">NVQs &amp; Training</a></h3>
-      <ul class="list-items text-blue">
+      <ul class="list-items text-blue animate">
         <li class="list-item">
           <a href="<?= BASE_URL ?>/nvqs/#nvq-options">
 
@@ -182,7 +182,8 @@ require(TEMPLATES_PATH . "/header.php");
 </section>
 
 <?php require(TEMPLATES_PATH . "/footer.php"); ?>
-
+<!-- Animate Script -->
+<script src="<?= BASE_URL ?>/assets/js/animate.js"></script>
 </body>
 
 </html>

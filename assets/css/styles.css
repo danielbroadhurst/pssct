@@ -1563,6 +1563,31 @@ a:hover {
   display: block;
 }
 
+.animate {
+  opacity: 0;
+}
+
+.animate.fadeIn {
+  opacity: 1;
+  transition: opacity 2s;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0
+  }
+
+  to {
+      opacity: 1
+  }
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+  animation-delay: 100ms;
+  animation-duration: 2s;
+}
+
 @media (min-width: 768px) {
   .widget-one {
     width: 42.744%;
