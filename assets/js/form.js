@@ -1,5 +1,7 @@
 document.getElementById('form').addEventListener('submit', function (e) {
   console.log('Form Submitted');
+  document.getElementById('form-success').classList.remove('show');
+  document.getElementById('form-failed').classList.remove('show');
   e.preventDefault();
   var name = document.querySelector("[name='name']").value;
   var email = document.querySelector("[name='email']").value;
@@ -49,7 +51,7 @@ document.getElementById('form').addEventListener('submit', function (e) {
   ) {
     return;
   }
-  fetch('/submit-form/', {
+  fetch('/pssct/submit-form/', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -74,5 +76,6 @@ document.getElementById('form').addEventListener('submit', function (e) {
     })
     .catch((error) => {
       console.error('Error:', error);
+      document.getElementById('form-failed').classList.add('show');
     });
 });

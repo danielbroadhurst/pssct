@@ -11,21 +11,24 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     exit;
   }
   // Send the email
-  $to = 'djdanielbroadhurst@gmail.com';
+  $to = $config['contact']['to'];
   $subject = $data['subject'];
-  // Create a table which includes the name, email, phone, subject and message
-  $message = '<table>';
-  $message .= '<tr><td>Name</td><td>' . $data['name'] . '</td></tr>';
-  $message .= '<tr><td>Email</td><td>' . $data['email'] . '</td></tr>';
-  $message .= '<tr><td>Phone</td><td>' . $data['phone'] . '</td></tr>';
-  $message .= '<tr><td>Subject</td><td>' . $data['subject'] . '</td></tr>';
-  $message .= '<tr><td>Message</td><td>' . $data['message'] . '</td></tr>';
-  $message .= '</table>';
+
+  $message = '<p><strong>Name: </strong> ' . $data['name'] . '</p>';
+  $message .= '<p><strong>Email: </strong> ' . $data['email'] . '</p>';
+  $message .= '<p><strong>Phone: </strong> ' . $data['phone'] . '</p>';
+  $message .= '<p><strong>Message: </strong> ' . $data['message'] . '</p>';
+  
   // Send the email
   $headers = 'From: ' . $data['name'] . ' <' . $data['email'] . '>';
-  if (mail($to, $subject, $message, $headers)) {
+  // set content type to html
+  $headers .= "\r\n" . "MIME-Version: 1.0";
+  $headers .= "\r\n" . "Content-type:text/html;charset=UTF-8";
+
+  try {
+    mail($to, $subject, $message, $headers);
     echo json_encode(['success' => 'Message Sent Successfully']);
-  } else {
+  } catch (\Throwable $th) {
     http_response_code(500);
     echo json_encode(['error' => 'Message Failed to Send']);
   }

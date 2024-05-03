@@ -6,6 +6,9 @@ if(!defined('SAFETORUN')) {
 $config = array(
     "urls" => array(
         "baseUrl" => "http://localhost:8000"
+    ),
+    "contact" => array(
+        "to" => "djdanielbroadhurst@gmail.com"
     )
 );
  
